@@ -1,11 +1,14 @@
 # Ghi Janicr 个人主页
 
+线上地址：https://90yu.kdns.fr
+
 推广远程线上工作与 AI 技能项目的静态个人主页，纯 HTML / CSS / JS，无需构建。
 
 ## 目录
 
 - `site/` 网站文件（`index.html`、`style.css`、`script.js` 等）
-- `.github/workflows/deploy.yml` 推送到 `main` 后自动部署到 Cloudflare Pages
+- `wrangler.jsonc` Cloudflare Workers 静态网站配置（绑定 90yu.kdns.fr）
+- `.github/workflows/deploy.yml` 推送到 `main` 后自动部署到 Cloudflare Workers
 
 ## 自动部署
 

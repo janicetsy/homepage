@@ -1,0 +1,15 @@
+{
+  // Cloudflare Workers 静态网站配置
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ghi-janicr",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./site",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "90yu.kdns.fr", "custom_domain": true }
+  ],
+  "workers_dev": false,
+  "preview_urls": false
+}
