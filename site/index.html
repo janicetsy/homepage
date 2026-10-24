@@ -24,6 +24,7 @@
         <span class="brand-text">Ghi Janicr</span>
       </a>
       <nav class="nav-links" id="navLinks">
+        <a href="/daily">每日机会</a>
         <a href="#jobs">线上工作</a>
         <a href="#skills">AI 技能项目</a>
         <a href="#roadmap">入门路线</a>
@@ -49,7 +50,7 @@
             模型评测平台，以及可以动手实践的 AI 技能项目，帮你少走弯路、稳步起步。
           </p>
           <div class="hero-cta">
-            <a href="#jobs" class="btn btn-primary">浏览线上工作 →</a>
+            <a href="/daily" class="btn btn-primary">今日 AI 机会 →</a>
             <a href="#skills" class="btn btn-ghost">学习 AI 技能</a>
           </div>
           <ul class="hero-stats">
@@ -74,6 +75,21 @@
       </div>
     </section>
 
+    <!-- 每日机会预览 -->
+    <section class="section daily-preview" id="daily">
+      <div class="container">
+        <div class="daily-preview-head reveal">
+          <div>
+            <span class="eyebrow">Daily Picks · 每天中午更新</span>
+            <h2>今日 AI 机会 <small id="dailyDate"></small></h2>
+            <p id="dailySummary"></p>
+          </div>
+          <a href="/daily" class="btn btn-ghost" id="dailyCount">查看全部 →</a>
+        </div>
+        <div class="grid opp-grid three" id="dailyPreview"></div>
+      </div>
+    </section>
+
     <!-- 线上工作 -->
     <section class="section" id="jobs">
       <div class="container">
@@ -83,7 +99,7 @@
           <p>以 AI 训练数据、模型评测和自由职业为主。全部免费注册，请认准官网，警惕任何要求先付费的“招聘”。</p>
         </div>
 
-        <div class="filters reveal" role="tablist">
+        <div class="filters reveal" id="jobFilters" role="tablist">
           <button class="chip active" data-filter="all">全部</button>
           <button class="chip" data-filter="annotation">AI 标注 / 评测</button>
           <button class="chip" data-filter="research">线上调研</button>
@@ -323,5 +339,6 @@
   </footer>
 
   <script src="/script.js"></script>
+  <script src="/daily.js"></script>
 </body>
 </html>

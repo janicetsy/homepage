@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>每日 AI 机会 · Ghi Janicr</title>
+  <meta name="description" content="每天中午更新：香港可申请或全球远程的 AI 职位、AI 标注与评测任务，只收录已核实的原始页面。" />
+  <meta property="og:title" content="每日 AI 机会 · Ghi Janicr" />
+  <meta property="og:description" content="每天更新的香港 / 远程 AI 职位与 AI 训练任务，附原页面链接。" />
+  <meta name="theme-color" content="#4f46e5" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="nav" id="top">
+    <div class="container nav-inner">
+      <a href="/" class="brand">
+        <span class="brand-mark">G</span>
+        <span class="brand-text">Ghi Janicr</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="/daily" class="current">每日机会</a>
+        <a href="/#jobs">线上工作</a>
+        <a href="/#skills">AI 技能项目</a>
+        <a href="/#faq">常见问题</a>
+        <a href="/#contact" class="btn btn-sm btn-primary">联系我</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container">
+        <span class="pill"><span class="dot"></span> 每天中午更新</span>
+        <h1>每日 <span class="grad">AI 机会</span></h1>
+        <p class="lead">香港可申请或全球远程的 AI 职位、AI 标注与评测任务。每条都附原页面链接，薪酬、地区和截止日期以原页面为准。</p>
+      </div>
+    </section>
+
+    <section class="section daily-section" id="dayTop">
+      <div class="container">
+        <div class="day-head">
+          <div>
+            <span class="eyebrow">Daily Picks</span>
+            <h2 id="dayDate">加载中…</h2>
+            <p id="daySummary" class="day-summary"></p>
+          </div>
+        </div>
+
+        <div class="filters left" id="dayFilters">
+          <button class="chip active" data-filter="all">全部</button>
+          <button class="chip" data-filter="job">香港职位</button>
+          <button class="chip" data-filter="remote">远程 AI 任务</button>
+          <button class="chip" data-filter="freelance">自由职业</button>
+          <button class="chip" data-filter="followup">持续跟进</button>
+        </div>
+
+        <div class="grid opp-grid" id="dailyGrid"></div>
+        <p class="empty-hint" id="emptyHint" hidden>这一天没有这一类机会。</p>
+
+        <div class="excluded" id="excluded" hidden></div>
+
+        <div class="legend">
+          <span class="hk hk-yes">香港可申请</span> 职位在香港或原页面明确开放香港
+          <span class="hk hk-unknown">香港资格待确认</span> 原页面未说明
+          <span class="hk hk-no">不含香港</span> 原页面明确不含香港
+        </div>
+
+        <div class="notice">
+          <strong>防骗提醒：</strong>正规招聘不会收取入职费、培训费或押金，也不会要求你“刷单”、垫付资金或下载不明 App。
+          请只通过原页面或官网申请，不向任何人透露银行密码和验证码。本页信息仅供参考，不构成任何收入承诺。
+        </div>
+
+        <div class="archive-box">
+          <h3>往期机会</h3>
+          <div class="filters left" id="archive"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="brand">
+        <span class="brand-mark">G</span>
+        <span class="brand-text">Ghi Janicr</span>
+      </div>
+      <p>© <span id="year"></span> Ghi Janicr · 本站内容仅供参考，不构成任何收入承诺。</p>
+      <a href="#top" class="to-top">回到顶部 ↑</a>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+  <script src="/daily.js"></script>
+</body>
+</html>

@@ -17,6 +17,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Validate daily data (site/data/daily.json)
+        run: python3 scripts/daily.py validate
+
       - name: Deploy site/ to Cloudflare Workers (90yu.kdns.fr)
         uses: cloudflare/wrangler-action@v3
         with:

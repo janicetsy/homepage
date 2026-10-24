@@ -1,5 +1,5 @@
 // 年份
-document.getElementById('year').textContent = new Date().getFullYear();
+const y = document.getElementById('year'); if (y) y.textContent = new Date().getFullYear();
 
 // 导航阴影
 const nav = document.querySelector('.nav');
@@ -20,7 +20,7 @@ links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
 }));
 
 // 平台筛选
-const chips = document.querySelectorAll('.chip');
+const chips = document.querySelectorAll('#jobFilters .chip');
 const jobs = document.querySelectorAll('.job');
 chips.forEach(chip => chip.addEventListener('click', () => {
   chips.forEach(c => c.classList.remove('active'));

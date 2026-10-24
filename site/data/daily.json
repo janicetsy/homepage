@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "updated": "2026-10-24",
+  "days": [
+    {
+      "date": "2026-10-24",
+      "summary": "今天 JobsDB 上有 4 个香港 AI 职位在近两天内刊登，其中两个公开了薪酬范围；另有 1 个远程 AI 评估合同（不含香港）和 1 个持续跟进的项目。发布时间按 10 月 24 日查看时页面显示的相对时间记录。",
+      "items": [
+        {
+          "title": "AI / Forward Deployed Engineer — FinTech",
+          "org": "DJRecruit Asia（猎头）",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "申请时会询问是否有香港工作权利，未提签证担保",
+          "location": "香港中西区 · 全职",
+          "pay": "HKD$ 40–80K（页面未注明周期）",
+          "requirements": [
+            "计算机、量化金融或数据科学学士／硕士",
+            "在银行、资管、交易或金融科技部署过 ML／DL",
+            "Python、PyTorch／TensorFlow、SQL；LLM、RAG、金融文档 NLP",
+            "云平台、Docker／Kubernetes、MLOps；了解香港金融监管更佳"
+          ],
+          "posted": "查看时显示 14 小时前",
+          "deadline": "",
+          "note": "Quick apply 需提交简历及现薪／期望薪酬；申请页需登录，后续表单未核实。",
+          "url": "https://hk.jobsdb.com/job/95467690",
+          "source": "JobsDB"
+        },
+        {
+          "title": "AI Solution Engineer / Architect",
+          "org": "iKas International (Asia)",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "",
+          "location": "香港中西区 · 全职",
+          "pay": "页面原文 30000 – 80000（币种和周期均未注明）",
+          "requirements": [
+            "有 AI／生成式 AI 方案交付经验，至少上线过一个生产级 LLM 应用或智能自动化平台",
+            "Python、智能体架构、RAG、向量数据库、API 集成",
+            "AWS／Azure／GCP、CI/CD；项目全周期及上线后支持",
+            "粤语和英语流利"
+          ],
+          "posted": "查看时显示 1 天前",
+          "deadline": "",
+          "note": "提供 Quick apply；申请页需登录，后续表单未核实。",
+          "url": "https://hk.jobsdb.com/job/95454269",
+          "source": "JobsDB"
+        },
+        {
+          "title": "Assistant Manager – AI & Digital Solutions（Ref: 2600010M）",
+          "org": "港铁 MTR",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "",
+          "location": "香港九龙湾 · 全职",
+          "pay": "未披露",
+          "requirements": [
+            "工商管理、IT、计算机或相关学位",
+            "至少 5 年业务分析、数字转型、PMO、治理、咨询或 CoE 经验",
+            "理解 AI／生成式 AI、交付治理和效益管理",
+            "熟悉 Power BI、Azure DevOps 或 Jira；中英文能力佳"
+          ],
+          "posted": "查看时显示 21 小时前",
+          "deadline": "2026-11-05",
+          "note": "职责是 AI 卓越中心、AI 用例治理和交付标准。经验较少者，页面建议考虑 Senior Application Developer – AI & Digital Solutions。也可按页面说明邮寄注明职位名称和编号的简历。港铁官网职位列表中暂未核实到此职位。",
+          "url": "https://hk.jobsdb.com/job/95461689",
+          "source": "JobsDB"
+        },
+        {
+          "title": "Engineer, AI (Information Technology)",
+          "org": "Tradelink 贸易通",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "",
+          "location": "香港葵涌 · 全职 · 初中级",
+          "pay": "未披露（申请需注明现薪及期望月薪）",
+          "requirements": [
+            "相关学士或文凭；1–3 年软件开发、Python 或 AI 应用经验",
+            "Dify 编排、工具调用、RAG 及工作流部署",
+            "FastAPI／Flask、向量检索、embedding；熟悉 Qwen、OpenAI、Anthropic、DeepSeek 或本地开源模型之一",
+            "Docker、Git、SQL、云基础；英语和粤语流利，普通话加分"
+          ],
+          "posted": "查看时显示 2 天前",
+          "deadline": "",
+          "note": "提供 Quick apply，或按页面地址邮寄申请。",
+          "url": "https://hk.jobsdb.com/job/95407431",
+          "source": "JobsDB"
+        },
+        {
+          "title": "Data Science Methodology SME",
+          "org": "OpenTrain",
+          "category": "remote",
+          "hk": "no",
+          "hk_note": "只开放页面列明的 52 个国家／地区，名单不含香港",
+          "location": "远程 · 兼职 AI 评估合同",
+          "pay": "页面列 $60–$100／小时（未注明币种代码，不保证工时或收入）",
+          "requirements": [
+            "有将 LLM 集成进复杂数据或分析流程的经验",
+            "规模化分析；了解评估指标、自动化失效模式及基准设计",
+            "英语写作强"
+          ],
+          "posted": "2026-10-23",
+          "deadline": "",
+          "note": "工作内容是编写测试案例、给模型回应评分并记录方法问题。需先在 OpenTrain 提交简历，再转到招聘平台。",
+          "url": "https://www.opentrain.ai/jobs/data-science-and-analytic-methodology-sme--cmvk80r1i001508l6eno04dpw/",
+          "source": "OpenTrain"
+        },
+        {
+          "title": "AI Conversation Context Evaluation Specialist",
+          "org": "OpenTrain",
+          "category": "followup",
+          "hk": "yes",
+          "hk_note": "开放地区明确包括香港",
+          "location": "远程 · 按任务付费",
+          "pay": "按任务付费，单价未公开",
+          "requirements": [],
+          "posted": "2026-10-21",
+          "deadline": "",
+          "note": "10 月 24 日复查时，申请链接只跳回原职位页，没有进入招聘方的申请表，申请状态无法确认。",
+          "url": "https://www.opentrain.ai/jobs/ai-conversation-context-evaluation-specialist--cmvhyd0ml001c08l8ibl8p5l1/",
+          "source": "OpenTrain"
+        }
+      ],
+      "excluded": []
+    }
+  ]
+}
