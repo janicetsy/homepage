@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ghi Janicr · 线上工作与 AI 技能</title>
+  <meta name="description" content="Ghi Janicr 的个人主页：分享远程线上工作机会、AI 数据标注与评测平台、AI 技能变现项目与入门路线。" />
+  <meta property="og:title" content="Ghi Janicr · 线上工作与 AI 技能" />
+  <meta property="og:description" content="远程线上工作机会、AI 标注与评测平台、AI 技能变现项目，一站整理。" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#4f46e5" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <!-- 导航 -->
+  <header class="nav" id="top">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">
+        <span class="brand-mark">G</span>
+        <span class="brand-text">Ghi Janicr</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#jobs">线上工作</a>
+        <a href="#skills">AI 技能项目</a>
+        <a href="#roadmap">入门路线</a>
+        <a href="#faq">常见问题</a>
+        <a href="#contact" class="btn btn-sm btn-primary">联系我</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <span class="pill"><span class="dot"></span> 远程 · 灵活 · 可从香港开始</span>
+          <h1>用 <span class="grad">AI 技能</span>，<br />开启你的线上收入</h1>
+          <p class="lead">
+            我是 Ghi，长期关注远程线上工作与 AI 变现机会。这里整理了靠谱的 AI 数据标注、
+            模型评测平台，以及可以动手实践的 AI 技能项目，帮你少走弯路、稳步起步。
+          </p>
+          <div class="hero-cta">
+            <a href="#jobs" class="btn btn-primary">浏览线上工作 →</a>
+            <a href="#skills" class="btn btn-ghost">学习 AI 技能</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>10+</strong><span>精选远程平台</span></li>
+            <li><strong>6</strong><span>AI 变现方向</span></li>
+            <li><strong>0</strong><span>入门费用</span></li>
+          </ul>
+        </div>
+        <div class="hero-card reveal">
+          <div class="mock">
+            <div class="mock-head">
+              <span></span><span></span><span></span>
+              <em>今日机会速览</em>
+            </div>
+            <div class="mock-row"><i class="tag t-indigo">标注</i><b>AI 数据标注 · 远程</b><small>按任务计费</small></div>
+            <div class="mock-row"><i class="tag t-teal">评测</i><b>大模型回答评估</b><small>按小时计费</small></div>
+            <div class="mock-row"><i class="tag t-amber">翻译</i><b>多语言本地化（粤/普/英）</b><small>项目制</small></div>
+            <div class="mock-row"><i class="tag t-rose">自由职业</i><b>AI 自动化工作流搭建</b><small>按项目报价</small></div>
+            <div class="mock-foot">每日更新 · 只推荐可远程或适用香港的机会</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 线上工作 -->
+    <section class="section" id="jobs">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Online Jobs</span>
+          <h2>精选远程线上工作平台</h2>
+          <p>以 AI 训练数据、模型评测和自由职业为主。全部免费注册，请认准官网，警惕任何要求先付费的“招聘”。</p>
+        </div>
+
+        <div class="filters reveal" role="tablist">
+          <button class="chip active" data-filter="all">全部</button>
+          <button class="chip" data-filter="annotation">AI 标注 / 评测</button>
+          <button class="chip" data-filter="research">线上调研</button>
+          <button class="chip" data-filter="freelance">自由职业</button>
+        </div>
+
+        <div class="grid cards" id="jobGrid">
+          <article class="card job reveal" data-cat="annotation">
+            <div class="job-top"><span class="logo l1">O</span><span class="tag t-indigo">AI 标注</span></div>
+            <h3>OneForma</h3>
+            <p>多语言数据采集、转写、标注与翻译任务，常有粤语、普通话相关项目。</p>
+            <ul class="meta"><li>适合：语言能力强</li><li>门槛：低</li></ul>
+            <a href="https://www.oneforma.com/" target="_blank" rel="noopener" class="link">访问官网 ↗</a>
+          </article>
+          <article class="card job reveal" data-cat="annotation">
+            <div class="job-top"><span class="logo l2">W</span><span class="tag t-indigo">AI 评测</span></div>
+            <h3>Welo Data</h3>
+            <p>搜索与 AI 结果评估、数据标注项目，按项目招募远程评估员。</p>
+            <ul class="meta"><li>适合：细心、有耐心</li><li>门槛：需通过测试</li></ul>
+            <a href="https://welodata.ai/" target="_blank" rel="noopener" class="link">访问官网 ↗</a>
+          </article>
+          <article class="card job reveal" data-cat="annotation">
+            <div class="job-top"><span class="logo l3">T</span><span class="tag t-indigo">AI 训练</span></div>
+            <h3>OpenTrain</h3>
+            <p>连接 AI 团队与数据标注自由职业者的平台，可直接接触项目方。</p>
+            <ul class="meta"><li>适合：有标注经验</li><li>门槛：中</li></ul>
+            <a href="https://www.opentrain.ai/" target="_blank" rel="noopener" class="link">访问官网 ↗</a>
+          </article>
+          <article class="card job reveal" data-cat="annotation">
+            <div class="job-top"><span class="logo l4">O</span><span class="tag t-indigo">大模型</span></div>
+            <h3>Outlier</h3>
+            <p>为大模型撰写、评估和改进回答，常招募编程、数学与多语言专家。</p>
+            <ul class="meta"><li>适合：有专业背景</li><li>门槛：中到高</li></ul>
+            <a href="https://outlier.ai/" target="_blank" rel="noopener" class="link">访问官网 ↗</a>
+          </article>
+          <article class="card job reveal" data-cat="annotation">
+            <div class="job-top"><span class="logo l5">D</span><span class="tag t-indigo">大模型</span></div>
+            <h3>DataAnnotation</h3>
+            <p>聊天机器人对话评估、写作与编程类任务，时间自由安排。</p>
+            <ul class="meta"><li>适合：英文写作好</li><li>门槛：需通过评估</li></ul>
+            <a href="https://www.dataannotation.tech/" target="_blank" rel="noopener" class="link">访问官网 ↗</a>
+          </article>
+          <article class="card job reveal" data-cat="annotation">
+            <div class="job-top"><span class="logo l6">T</span><span class="tag t-indigo">AI 评测</span></div>
+            <h3>TELUS Digital</h3>
+            <p>原 TELUS International AI，提供搜索评估、地图评估、数据标注等兼职。</p>
+            <ul class="meta"><li>适合：本地文化熟悉</li><li>门槛：需考试</li></ul>
+            <a href="https://www.telusdigital.com/careers" target="_blank" rel="noopener" class="link">访问官网 ↗</a>
+          </article>
+          <article class="card job reveal" data-cat="research">
+            <div class="job-top"><span class="logo l7">P</span><span class="tag t-teal">调研</span></div>
+            <h3>Prolific</h3>
+            <p>参与学术研究与 AI 训练相关问卷和实验，按完成的研究付费。</p>
+            <ul class="meta"><li>适合：碎片时间</li><li>门槛：低</li></ul>
+            <a href="https://www.prolific.com/" target="_blank" rel="noopener" class="link">访问官网 ↗</a>
+          </article>
+          <article class="card job reveal" data-cat="annotation">
+            <div class="job-top"><span class="logo l8">A</span><span class="tag t-indigo">AI 数据</span></div>
+            <h3>Appen</h3>
+            <p>老牌 AI 训练数据公司，项目类型多，包括语音、图像与文本标注。</p>
+            <ul class="meta"><li>适合：新手入门</li><li>门槛：低到中</li></ul>
+            <a href="https://www.appen.com/" target="_blank" rel="noopener" class="link">访问官网 ↗</a>
+          </article>
+          <article class="card job reveal" data-cat="freelance">
+            <div class="job-top"><span class="logo l9">U</span><span class="tag t-amber">自由职业</span></div>
+            <h3>Upwork</h3>
+            <p>全球最大的自由职业平台之一，AI 写作、自动化、数据处理需求旺盛。</p>
+            <ul class="meta"><li>适合：有一技之长</li><li>门槛：需作品集</li></ul>
+            <a href="https://www.upwork.com/" target="_blank" rel="noopener" class="link">访问官网 ↗</a>
+          </article>
+          <article class="card job reveal" data-cat="freelance">
+            <div class="job-top"><span class="logo l10">F</span><span class="tag t-amber">自由职业</span></div>
+            <h3>Fiverr</h3>
+            <p>把技能打包成服务出售，例如 AI 绘图、AI 视频剪辑、提示词定制。</p>
+            <ul class="meta"><li>适合：创意型技能</li><li>门槛：低</li></ul>
+            <a href="https://www.fiverr.com/" target="_blank" rel="noopener" class="link">访问官网 ↗</a>
+          </article>
+        </div>
+
+        <div class="notice reveal">
+          <strong>防骗提醒：</strong>正规平台不会收取入职费、培训费或押金，也不会要求你“刷单”或垫付资金。
+          薪资与项目可用性因地区和时间而变化，以官网信息为准。
+        </div>
+      </div>
+    </section>
+
+    <!-- AI 技能项目 -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">AI Skills</span>
+          <h2>值得投入的 AI 技能项目</h2>
+          <p>与其只做零散任务，不如把 AI 变成你的核心技能。以下方向都可以从零开始，边学边接单。</p>
+        </div>
+
+        <div class="grid skills">
+          <article class="card skill reveal">
+            <div class="icon i1">✍️</div>
+            <h3>提示词工程与 AI 写作</h3>
+            <p>用 ChatGPT、Claude 等工具高效产出文案、脚本、产品描述，并为客户定制提示词模板。</p>
+            <div class="skill-foot"><span class="lv">入门友好</span><span>变现：写作外包 / 模板售卖</span></div>
+          </article>
+          <article class="card skill reveal">
+            <div class="icon i2">🎨</div>
+            <h3>AI 绘图与设计</h3>
+            <p>掌握 Midjourney、Stable Diffusion 等工具，制作海报、头像、电商图与品牌素材。</p>
+            <div class="skill-foot"><span class="lv">入门友好</span><span>变现：设计接单 / 素材包</span></div>
+          </article>
+          <article class="card skill reveal">
+            <div class="icon i3">🎬</div>
+            <h3>AI 短视频制作</h3>
+            <p>结合 AI 配音、字幕和剪辑工具，批量制作知识类、带货类短视频内容。</p>
+            <div class="skill-foot"><span class="lv">中级</span><span>变现：代剪辑 / 自媒体</span></div>
+          </article>
+          <article class="card skill reveal">
+            <div class="icon i4">⚙️</div>
+            <h3>AI 自动化工作流</h3>
+            <p>用 n8n、Make、Zapier 串联 AI 与表格、邮件、社媒，帮小企业节省人力。</p>
+            <div class="skill-foot"><span class="lv">中级</span><span>变现：项目制搭建 / 维护</span></div>
+          </article>
+          <article class="card skill reveal">
+            <div class="icon i5">🧑‍💻</div>
+            <h3>GitHub 开源 AI 工具实践</h3>
+            <p>追踪 GitHub Trending 上的热门 AI 项目，部署并二次开发，打造个人作品集。</p>
+            <div class="skill-foot"><span class="lv">进阶</span><span>变现：技术服务 / 教程</span></div>
+          </article>
+          <article class="card skill reveal">
+            <div class="icon i6">🤖</div>
+            <h3>AI 客服与知识库机器人</h3>
+            <p>基于企业资料搭建问答机器人，接入网站或 WhatsApp，适合本地中小商户。</p>
+            <div class="skill-foot"><span class="lv">进阶</span><span>变现：定制开发 / 月费</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 入门路线 -->
+    <section class="section" id="roadmap">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Roadmap</span>
+          <h2>四步开始你的线上收入</h2>
+          <p>从零到稳定接单，一条清晰、可执行的路线。</p>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="num">01</span>
+            <h3>打好基础</h3>
+            <p>准备好简历与 PayPal / Payoneer 等收款方式，熟悉常用 AI 工具的基本操作。</p>
+          </li>
+          <li class="step reveal">
+            <span class="num">02</span>
+            <h3>注册 2–3 个平台</h3>
+            <p>从门槛较低的标注、调研平台开始，认真完成资格测试，积累首批经验。</p>
+          </li>
+          <li class="step reveal">
+            <span class="num">03</span>
+            <h3>选定一个技能深耕</h3>
+            <p>在上面的 AI 技能中挑一个方向，每周练习并产出 1–2 个作品放进作品集。</p>
+          </li>
+          <li class="step reveal">
+            <span class="num">04</span>
+            <h3>接单与复利</h3>
+            <p>在自由职业平台接单，积累好评；把经验整理成教程或模板，形成被动收入。</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt" id="faq">
+      <div class="container narrow">
+        <div class="section-head reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2>常见问题</h2>
+        </div>
+        <div class="faq">
+          <details class="reveal" open>
+            <summary>没有技术背景可以做吗？</summary>
+            <p>可以。AI 数据标注、搜索评估、线上调研等工作主要看细心程度和语言能力，非常适合作为起点。</p>
+          </details>
+          <details class="reveal">
+            <summary>在香港可以参与这些平台吗？</summary>
+            <p>许多平台支持香港或全球远程，但具体项目会按地区和语言开放。建议多注册几个平台，留意粤语、繁体中文相关的项目。</p>
+          </details>
+          <details class="reveal">
+            <summary>一个月能赚多少？</summary>
+            <p>收入因平台、项目量和投入时间差异很大，前期建议把它当作副业和技能积累，不要轻信“轻松月入过万”的宣传。</p>
+          </details>
+          <details class="reveal">
+            <summary>怎么分辨骗局？</summary>
+            <p>凡是要求先交钱、刷单、垫付或下载不明 App 的“工作”基本都是骗局。只通过官网注册，不向任何人透露银行密码和验证码。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="cta-box reveal">
+          <div>
+            <h2>一起探索线上赚钱的新可能</h2>
+            <p>有问题、想交流经验，或希望获取每日 AI 机会速报？欢迎联系我。</p>
+          </div>
+          <div class="cta-actions">
+            <a href="mailto:hello@example.com" class="btn btn-light" id="emailBtn">✉️ 发送邮件</a>
+            <a href="https://github.com/" target="_blank" rel="noopener" class="btn btn-outline-light" id="githubBtn">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="brand">
+        <span class="brand-mark">G</span>
+        <span class="brand-text">Ghi Janicr</span>
+      </div>
+      <p>© <span id="year"></span> Ghi Janicr · 本站内容仅供参考，不构成任何收入承诺。</p>
+      <a href="#top" class="to-top">回到顶部 ↑</a>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
