@@ -26,7 +26,7 @@ chips.forEach(chip => chip.addEventListener('click', () => {
   chips.forEach(c => c.classList.remove('active'));
   chip.classList.add('active');
   const f = chip.dataset.filter;
-  jobs.forEach(j => j.classList.toggle('hide', f !== 'all' && j.dataset.cat !== f));
+  jobs.forEach(j => j.classList.toggle('hide', f !== 'all' && j.dataset.cat !== f && j.dataset.cat !== 'all'));
 }));
 
 // 滚动渐显
