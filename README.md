@@ -16,4 +16,4 @@
 
 - 文字与平台列表：`site/index.html`
 - 样式与配色：`site/style.css`（顶部 `:root` 变量）
-- 联系邮箱：在 `site/index.html` 搜索 `hello@example.com` 替换
+- 联系邮箱：在 `site/index.html` 搜索 `mailto:` 修改
