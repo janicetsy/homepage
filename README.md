@@ -1,4 +1,4 @@
-# Ghi Janicr 个人主页
+# Job and Skills（90yu.kdns.fr）
 
 线上地址：https://90yu.kdns.fr
 
