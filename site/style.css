@@ -343,3 +343,118 @@ img { max-width: 100%; display: block; }
 @media (max-width: 980px) {
   .news-grid, .np-grid { grid-template-columns: 1fr; }
 }
+
+/* =====================================================================
+   科技感主题（深色顶部横幅 + 浅色易读正文）
+   ===================================================================== */
+:root {
+  --bg: #f4f6fb;
+  --bg-alt: rgba(232, 236, 248, .6);
+  --line: #e2e7f1;
+  --muted: #586179;
+  --ink: #070b1a;
+  --ink-2: #0c1530;
+  --neon: #22d3ee;
+  --neon-2: #818cf8;
+}
+/* 全站淡网格底纹 */
+body { background: var(--bg); }
+body::before {
+  content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(900px 500px at 100% 0%, rgba(34, 211, 238, .07), transparent 70%),
+    radial-gradient(800px 500px at 0% 100%, rgba(129, 140, 248, .08), transparent 70%),
+    linear-gradient(rgba(79, 70, 229, .045) 1px, transparent 1px) 0 0 / 44px 44px,
+    linear-gradient(90deg, rgba(79, 70, 229, .045) 1px, transparent 1px) 0 0 / 44px 44px;
+}
+.section-alt { background: var(--bg-alt); border-top: 1px solid rgba(226, 231, 241, .8); border-bottom: 1px solid rgba(226, 231, 241, .8); }
+
+/* 导航：深色玻璃 */
+.nav { background: rgba(7, 11, 26, .78); border-bottom: 1px solid rgba(255, 255, 255, .06); }
+.nav.scrolled { border-bottom-color: rgba(34, 211, 238, .18); box-shadow: 0 8px 30px rgba(7, 11, 26, .25); }
+.nav .brand { color: #fff; }
+.brand-mark { background: linear-gradient(135deg, #6366f1, #06b6d4); box-shadow: 0 0 0 1px rgba(255,255,255,.12) inset, 0 0 18px rgba(34, 211, 238, .45); }
+.nav-links { color: #c3cbe0; }
+.nav-links a:not(.btn):hover { color: #fff; }
+.nav-links a.current { color: var(--neon); }
+.nav-toggle span { background: #e6ebf7; }
+
+/* 顶部横幅：深色科技背景 */
+.hero, .page-hero { isolation: isolate; color: #e8ecf8; background: var(--ink); }
+.hero-bg {
+  z-index: -1; overflow: hidden;
+  background:
+    linear-gradient(90deg, rgba(7, 11, 26, .92) 0%, rgba(7, 11, 26, .55) 45%, rgba(7, 11, 26, .1) 100%),
+    url("/tech-net.svg") right center / cover no-repeat,
+    radial-gradient(700px 420px at 85% 15%, rgba(34, 211, 238, .22), transparent 70%),
+    radial-gradient(800px 480px at 5% 0%, rgba(99, 102, 241, .32), transparent 70%),
+    linear-gradient(160deg, #070b1a 0%, #0c1530 55%, #071a2b 100%);
+}
+.hero-bg::before {
+  content: ""; position: absolute; inset: 0;
+  background:
+    linear-gradient(rgba(129, 140, 248, .13) 1px, transparent 1px) 0 0 / 40px 40px,
+    linear-gradient(90deg, rgba(129, 140, 248, .13) 1px, transparent 1px) 0 0 / 40px 40px;
+  -webkit-mask-image: radial-gradient(ellipse 80% 90% at 70% 40%, #000 30%, transparent 85%);
+          mask-image: radial-gradient(ellipse 80% 90% at 70% 40%, #000 30%, transparent 85%);
+}
+.hero-bg::after {
+  content: ""; position: absolute; left: 0; right: 0; top: -30%; height: 30%;
+  background: linear-gradient(180deg, transparent, rgba(34, 211, 238, .10) 70%, rgba(34, 211, 238, .28) 99%, transparent);
+  animation: scan 7s linear infinite;
+}
+@keyframes scan { to { transform: translateY(440%); } }
+.hero::after, .page-hero::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; z-index: 1;
+  background: linear-gradient(90deg, transparent, rgba(34, 211, 238, .7), rgba(129, 140, 248, .7), transparent);
+}
+.hero h1, .page-hero h1 { color: #fff; text-shadow: 0 2px 24px rgba(7, 11, 26, .6); }
+.hero .grad, .page-hero .grad { background-image: linear-gradient(120deg, #a5b4fc, #67e8f9); filter: drop-shadow(0 0 18px rgba(34, 211, 238, .35)); }
+.hero .lead, .page-hero .lead { color: #c3cbe0; }
+.hero .pill, .page-hero .pill { background: rgba(255, 255, 255, .06); border-color: rgba(129, 140, 248, .35); color: #dbe2f3; box-shadow: none; backdrop-filter: blur(6px); }
+.hero .btn-ghost { background: rgba(255, 255, 255, .06); border-color: rgba(255, 255, 255, .22); color: #fff; }
+.hero .btn-ghost:hover { border-color: var(--neon); }
+.btn-primary { background: linear-gradient(135deg, #6366f1, #06b6d4); box-shadow: 0 8px 24px rgba(34, 211, 238, .28); }
+.btn-primary:hover { box-shadow: 0 12px 30px rgba(34, 211, 238, .4); }
+.hero-stats strong { color: #fff; font-family: "Inter", ui-monospace, monospace; }
+.hero-stats span { color: #9aa6c4; }
+.hero-stats li { padding-left: .9rem; border-left: 2px solid rgba(34, 211, 238, .55); }
+.mock { border-color: rgba(129, 140, 248, .3); box-shadow: 0 0 0 1px rgba(34, 211, 238, .12), 0 24px 60px rgba(0, 0, 0, .45), 0 0 50px rgba(34, 211, 238, .12); }
+.page-hero { padding: 72px 0 56px; }
+
+/* 卡片：细边框 + 悬停霓虹描边 */
+.card { background: rgba(255, 255, 255, .94); border-color: var(--line); }
+.card:hover { border-color: rgba(99, 102, 241, .45); box-shadow: 0 0 0 3px rgba(99, 102, 241, .07), 0 14px 34px rgba(30, 40, 90, .10); }
+.section-head h2, .daily-preview-head h2, .day-head h2 { color: #0c1226; }
+
+/* 页脚：深色 */
+.footer { background: var(--ink); color: #9aa6c4; border-top: 1px solid rgba(34, 211, 238, .25); }
+.footer .brand { color: #fff; }
+
+@media (max-width: 760px) {
+  .nav-links { background: rgba(7, 11, 26, .97); border-bottom-color: rgba(255, 255, 255, .08); }
+  .nav-links a { border-bottom-color: rgba(255, 255, 255, .08); }
+  .hero-bg {
+    background:
+      linear-gradient(180deg, rgba(7, 11, 26, .55) 0%, rgba(7, 11, 26, .82) 100%),
+      url("/tech-net.svg") 70% 0 / auto 100% no-repeat,
+      radial-gradient(500px 300px at 90% 0%, rgba(34, 211, 238, .22), transparent 70%),
+      radial-gradient(500px 360px at 0% 0%, rgba(99, 102, 241, .32), transparent 70%),
+      linear-gradient(160deg, #070b1a 0%, #0c1530 60%, #071a2b 100%);
+  }
+  .hero-bg::before { background-size: 28px 28px, 28px 28px; }
+  .page-hero { padding: 48px 0 40px; }
+  .hero-stats li { padding-left: .7rem; }
+}
+@media (prefers-reduced-motion: reduce) { .hero-bg::after { animation: none; display: none; } }
+/* 细节修正 */
+.nav { background: rgba(7, 11, 26, .94); }
+.hero .mock, .hero .hero-card { color: var(--text); text-shadow: none; }
+.hero .grad, .page-hero .grad { text-shadow: none; filter: none; background-image: linear-gradient(120deg, #a5b4fc 0%, #7dd3fc 50%, #5eead4 100%); }
+.hero-bg::after {
+  height: 22%;
+  background: linear-gradient(180deg, transparent 0%, rgba(34, 211, 238, .035) 60%, rgba(34, 211, 238, .12) 97%, rgba(103, 232, 249, .35) 99.5%, transparent 100%);
+}
+/* 手机端防止长文本（网址、英文长词）撑宽卡片 */
+.grid > *, .opp, .card { min-width: 0; }
+.opp, .card, .opp-rows .v, .opp-req, .opp-note { overflow-wrap: anywhere; word-break: normal; }
