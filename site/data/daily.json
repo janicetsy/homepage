@@ -1,7 +1,190 @@
 {
   "schema": 1,
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "days": [
+    {
+      "date": "2026-10-25",
+      "summary": "今天核实到 8 项机会：两项明确香港居民可做的远程付费任务（RWS 繁中搜索评估、Welo 粤语录音），四个香港 AI 职位或实习（含富途应届生岗位，公开 HK$25,000–45,000/年），以及两项远程繁中／粤语 AI 评估合同。",
+      "items": [
+        {
+          "title": "Search Engine Evaluator - Chinese Traditional (Hong Kong)",
+          "org": "RWS TrainAI",
+          "category": "remote",
+          "hk": "yes",
+          "hk_note": "原页面要求目前居住香港，居家远程",
+          "location": "香港 · 远程兼职合同",
+          "pay": "最高 USD 8/hour（最高金额，非保证时薪）",
+          "requirements": [
+            "英语和繁体中文熟练，熟悉香港本地流行文化",
+            "年满 18 岁，签署保密协议",
+            "智能手机、电脑及稳定网络",
+            "须通过培训模块和测试；无需经验",
+            "职位页写每周约 8–20 小时，申请表问 5–40 小时，以招聘方说明为准"
+          ],
+          "posted": "页面未披露",
+          "deadline": "",
+          "note": "在 Lever 岗位专属表单上传简历并提交。",
+          "url": "https://jobs.lever.co/rws/e26a9ead-b4d9-4d5e-ac14-9eb06915350d",
+          "source": "RWS 招聘页（Lever）"
+        },
+        {
+          "title": "Audio Recording Project - Cantonese (Hong Kong)",
+          "org": "Welo Data（Welocalize）",
+          "category": "remote",
+          "hk": "yes",
+          "hk_note": "职位地点标香港、远程；申请表居住地可选香港",
+          "location": "香港 · 远程短期项目",
+          "pay": "$18，按完成任务计（币种未注明）",
+          "requirements": [
+            "香港粤语专业熟练",
+            "英语足以阅读指南",
+            "能清晰录音的电脑及手机",
+            "按脚本录制对话，总录音约 50 分钟"
+          ],
+          "posted": "页面未披露",
+          "deadline": "",
+          "note": "在 Lever 岗位专属表单提交简历及语言资料。",
+          "url": "https://jobs.lever.co/weloglobal/5395c3ce-9493-44e1-b26b-e74ba62463bd",
+          "source": "Welo Data 招聘页（Lever）"
+        },
+        {
+          "title": "2027 Fresh Grad Hire - AI Agent Engineer",
+          "org": "富途 Futu（moomoo）",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "香港现场办公；未说明签证安排",
+          "location": "香港 · 全职（应届生）",
+          "pay": "HK$25,000.00/yr–HK$45,000.00/yr（LinkedIn 原文）",
+          "requirements": [
+            "计算机、软件工程、AI 或相关本科及以上",
+            "2026 年 1 月至 2027 年 8 月毕业",
+            "Python 及数据结构、算法、后端基础",
+            "对 LLM、RAG、AI Agent 有项目或实习经历更佳",
+            "中英文良好"
+          ],
+          "posted": "2026-10-22",
+          "deadline": "",
+          "note": "官方 Workable 页面有岗位专属申请入口；表单字段未核实。",
+          "url": "https://apply.workable.com/moomoo/j/6DFF218F5E",
+          "source": "moomoo 官方招聘（Workable）／LinkedIn"
+        },
+        {
+          "title": "AI Engineer (LLM / Chatbot)",
+          "org": "Pantheon Lab",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "地点为香港；未说明远程或签证",
+          "location": "香港 · 全职（中高级）",
+          "pay": "未披露（申请需写期望薪酬）",
+          "requirements": [
+            "至少 2 年 LLM 应用或聊天机器人开发经验",
+            "有生产级 LLM 应用及本地模型部署经验",
+            "Python（async）、RAG、FastAPI、向量数据库、Docker",
+            "英语沟通及中文阅读能力"
+          ],
+          "posted": "查看时显示 3 天前",
+          "deadline": "",
+          "note": "LinkedIn 点 Apply，或把简历、可入职时间和期望薪酬发至 jobs@pantheonlab.ai。",
+          "url": "https://hk.linkedin.com/jobs/view/ai-engineer-llm-chatbot-at-pantheon-lab-limited-4444897383",
+          "source": "LinkedIn"
+        },
+        {
+          "title": "Research Intern (6 months or above)",
+          "org": "华为香港研究中心（HKRC）",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "地点为香港；未说明签证或居住要求",
+          "location": "香港 · 全职实习，至少 6 个月",
+          "pay": "未披露（只写 competitive）",
+          "requirements": [
+            "优先 MPhil、PhD 或研究型硕士（计算机、电子工程、数学等）",
+            "优秀本科生或授课型硕士可个案考虑，需展示 C++／Python 实力",
+            "方向含 AI Agent、NLP、视觉、多模态、数据科学等"
+          ],
+          "posted": "查看时显示 2 天前",
+          "deadline": "",
+          "note": "把简历发至 hkrcrecruit@huawei.com，或在 LinkedIn 申请。",
+          "url": "https://hk.linkedin.com/jobs/view/research-intern-6-months-or-above-at-huawei-hong-kong-research-center-hkrc-4354325193",
+          "source": "LinkedIn／城大计算学院职位页"
+        },
+        {
+          "title": "Research Intern",
+          "org": "Microsoft",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "地点为香港；未说明签证或居住要求",
+          "location": "香港 · 研究实习",
+          "pay": "未披露",
+          "requirements": [
+            "相关本科、硕士或博士在读，实习后至少还剩一个学期",
+            "Python、C/C++ 等，以及 PyTorch／TensorFlow",
+            "机器学习、NLP、视觉、优化或数据科学经验"
+          ],
+          "posted": "查看时显示 1 周前",
+          "deadline": "",
+          "note": "页面写持续接受申请直至额满；在 LinkedIn 点 Apply。",
+          "url": "https://hk.linkedin.com/jobs/view/research-intern-at-microsoft-4462188381",
+          "source": "LinkedIn"
+        },
+        {
+          "title": "Traditional Chinese - AI Product Evaluator",
+          "org": "Productive Playhouse",
+          "category": "remote",
+          "hk": "unknown",
+          "hk_note": "开放美国以外的自由职业者，但未点名香港，可先电邮 recruitment@productiveplayhouse.com 确认",
+          "location": "远程 · 项目制合同",
+          "pay": "$11.00 USD per hour（按任务／项目，工作分批，可能停顿）",
+          "requirements": [
+            "台湾繁体中文母语或 C2 水平",
+            "英语读写强，有 AI／LLM 使用经验",
+            "能做文字及语音对话测试，需通过评估",
+            "能在 48 小时内开始"
+          ],
+          "posted": "页面未披露",
+          "deadline": "",
+          "note": "人才池招募，在岗位专属表单提交；录用需通过身份验证。",
+          "url": "https://productiveplayhouse.applytojob.com/apply/eyuH7qq2kN/Traditional-Chinese-AI-Product-Evaluator",
+          "source": "Productive Playhouse 招聘页"
+        },
+        {
+          "title": "Quality Assurance Lead (Cantonese)",
+          "org": "OpenTrain AI（经 SME Careers）",
+          "category": "remote",
+          "hk": "yes",
+          "hk_note": "原页面明确开放香港，申请端列香港为必需地点",
+          "location": "香港 · 远程兼职合同，约 1–3 个月",
+          "pay": "最高 $40/hour（币种未注明），项目总额最高 $7,200，非保证报价",
+          "requirements": [
+            "香港繁中读写流利、粤语判断力强、英语良好",
+            "相关本科或硕士，至少 3 年语言、翻译、本地化、内容 QA 或标注经验",
+            "每周 20 小时以上"
+          ],
+          "posted": "2026-07-08",
+          "deadline": "",
+          "note": "旧帖，仍有申请入口。需先建 OpenTrain 账户，后续在 SME Careers 完成；最终条款以外部平台为准。",
+          "url": "https://www.opentrain.ai/jobs/cantonese-quality-assurance-lead--cmrcm4csd0004pw3l2gdu5l7t/",
+          "source": "OpenTrain"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "OpenTrain Cantonese Evaluator",
+          "reason": "开放地区名单不含香港"
+        },
+        {
+          "title": "Prolific 新加坡岗位",
+          "reason": "只明确开放新加坡"
+        },
+        {
+          "title": "Sigma.AI 粤语项目",
+          "reason": "原页面显示已失效"
+        },
+        {
+          "title": "Upwork 短期项目",
+          "reason": "已有受雇及面试者，时效存疑"
+        }
+      ]
+    },
     {
       "date": "2026-10-24",
       "summary": "今天 JobsDB 上有 4 个香港 AI 职位在近两天内刊登，其中两个公开了薪酬范围；另有 1 个远程 AI 评估合同（不含香港）和 1 个持续跟进的项目。发布时间按 10 月 24 日查看时页面显示的相对时间记录。",
