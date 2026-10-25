@@ -8,7 +8,7 @@
 ## 每天的步骤
 
 1. 把当天的机会写成一个 day 对象，保存为临时文件，例如 `/tmp/day.json`（格式见下）。
-2. 在仓库根目录运行：`python3 scripts/daily.py add /tmp/day.json`
+2. 先同步（下午的资讯任务也会推送）：`git pull --ff-only origin main`（带上与推送相同的 `-c http...extraheader` 参数），再在仓库根目录运行：`python3 scripts/daily.py add /tmp/day.json`
    - 同一日期会被替换（可以重跑），自动按日期从新到旧排序、更新 `updated`、只保留最近 60 天，并做校验。
 3. 提交并推送 `site/data/daily.json`：
    ```bash

@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "updated": "2026-10-24",
+  "days": [
+    {
+      "date": "2026-10-24",
+      "summary": "Claude API 现在可以通过 Google Cloud 项目调用；NVIDIA 推出面向大型 AI 集群的运维平台 Minerva；Claude Duet 主动式助手开始研究预览。GitHub 上 Cloudflare 的代码安全审计 Skill 新增 Star 最多。",
+      "software": [
+        {
+          "title": "Claude API 可通过 Google Cloud 项目调用",
+          "desc": "可以在 Google Cloud 项目里使用 Claude API，访问权限由 Google Cloud IAM 管理，账单由 Google Cloud Marketplace 处理。",
+          "note": "这是接入渠道的更新，不是新模型发布。",
+          "date": "",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "source": "Claude 平台更新日志"
+        },
+        {
+          "title": "NVIDIA Minerva：大型 AI 集群的 AIOps 平台",
+          "desc": "关联 GPU、网络、存储和工作负载数据，协助运维团队发现异常、定位根因。",
+          "note": "面向大型 AI 集群运营者，不是个人助手。",
+          "date": "",
+          "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+          "source": "NVIDIA 博客"
+        },
+        {
+          "title": "Claude Duet 研究预览：主动式助手",
+          "desc": "会主动帮你处理事务；发送消息、付款或删除内容之前会先征求你的批准。",
+          "note": "目前从美国的 Pro、Max 用户候补名单开始开放。",
+          "date": "",
+          "url": "https://claude.com/resources/articles/claude-duet",
+          "source": "Claude 官网"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "desc": "分阶段做代码安全审计，并对发现的问题进行复核。",
+          "note": "不能替代人工安全审查。",
+          "stars_today": 2716
+        },
+        {
+          "repo": "NVIDIA/OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "desc": "为自主 AI Agent 提供沙盒运行环境和访问策略控制。",
+          "note": "需要 Linux、Apple Silicon macOS，或实验性的 WSL2。",
+          "stars_today": 1119
+        },
+        {
+          "repo": "anthropics/knowledge-work-plugins",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "desc": "面向销售、数据、法律等知识型工作的插件模板。",
+          "note": "连接外部工具仍需要你自己授权。",
+          "stars_today": 635
+        },
+        {
+          "repo": "OpenBMB/VoxCPM",
+          "url": "https://github.com/OpenBMB/VoxCPM",
+          "desc": "开源多语言语音合成与声音克隆，支持中文和粤语。",
+          "note": "本地运行对硬件要求较高；克隆他人声音应先取得本人许可。",
+          "stars_today": 150
+        }
+      ]
+    }
+  ]
+}

@@ -25,9 +25,9 @@
       </a>
       <nav class="nav-links" id="navLinks">
         <a href="/daily">每日机会</a>
+        <a href="/news">AI 资讯</a>
         <a href="#jobs">线上工作</a>
         <a href="#skills">AI 技能项目</a>
-        <a href="#roadmap">入门路线</a>
         <a href="#faq">常见问题</a>
         <a href="#contact" class="btn btn-sm btn-primary">联系我</a>
       </nav>
@@ -87,6 +87,30 @@
           <a href="/daily" class="btn btn-ghost" id="dailyCount">查看全部 →</a>
         </div>
         <div class="grid opp-grid three" id="dailyPreview"></div>
+      </div>
+    </section>
+
+    <!-- AI 资讯预览 -->
+    <section class="section section-alt news-preview" id="news">
+      <div class="container">
+        <div class="daily-preview-head reveal">
+          <div>
+            <span class="eyebrow">AI News · 每天下午更新</span>
+            <h2>AI 资讯与 GitHub 热门 <small id="newsDate"></small></h2>
+            <p id="newsSummary"></p>
+          </div>
+          <a href="/news" class="btn btn-ghost">查看完整资讯 →</a>
+        </div>
+        <div class="np-grid">
+          <div class="card np-panel">
+            <h3>🧠 AI 软件动态</h3>
+            <ul class="np-list" id="newsPreviewSoftware"></ul>
+          </div>
+          <div class="card np-panel">
+            <h3>⭐ GitHub 今日热门 <span class="np-hint">今日新增 Star</span></h3>
+            <ul class="np-list np-repos" id="newsPreviewGithub"></ul>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -340,5 +364,6 @@
 
   <script src="/script.js"></script>
   <script src="/daily.js"></script>
+  <script src="/news.js"></script>
 </body>
 </html>
