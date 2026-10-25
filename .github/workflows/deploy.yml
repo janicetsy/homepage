@@ -23,6 +23,9 @@ jobs:
       - name: Validate AI news data (site/data/news.json)
         run: python3 scripts/news.py validate
 
+      - name: Build sitemap.xml
+        run: python3 scripts/seo.py sitemap
+
       - name: Deploy site/ to Cloudflare Workers (90yu.kdns.fr)
         uses: cloudflare/wrangler-action@v3
         with:
@@ -30,3 +33,7 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           wranglerVersion: "4"
           command: deploy
+
+      - name: Notify search engines (IndexNow → Bing etc.)
+        continue-on-error: true
+        run: python3 scripts/seo.py indexnow

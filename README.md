@@ -11,6 +11,7 @@
 - `scripts/daily.py` 每日数据合并与校验；`docs/DAILY_UPDATE.md` 每日更新说明
 - `site/data/news.json` AI 资讯与 GitHub 热门数据（首页预览和 /news 页面读取它）
 - `scripts/news.py` 资讯数据合并与校验；`docs/NEWS_UPDATE.md` 资讯更新说明
+- `scripts/seo.py` 生成 `site/sitemap.xml`、部署后向 IndexNow（Bing）提交网址；`site/robots.txt` 指向 sitemap
 - `wrangler.jsonc` Cloudflare Workers 静态网站配置（绑定 90yu.kdns.fr）
 - `.github/workflows/deploy.yml` 推送到 `main` 后自动部署到 Cloudflare Workers
 
