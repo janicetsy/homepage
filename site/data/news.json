@@ -1,7 +1,74 @@
 {
   "schema": 1,
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "days": [
+    {
+      "date": "2026-10-26",
+      "summary": "OpenAI 正式开放 Decisions API，主打快速、低价的分类与路由判断；OpenAI 模型和 Codex 将进入 Google Cloud。GitHub 上代码安全审计技能、本地语音工具和前端设计技能热度最高。",
+      "software": [
+        {
+          "title": "OpenAI Decisions API 正式开放",
+          "desc": "基于 GPT-6 Luna 的专用接口，用来做“二选一、多选一、打分”这类有限答案的判断，例如分类、路由和决定 Agent 下一步动作；官方称比通过 Responses API 调用 Luna 快最多 10 倍，并可与 GPT-Live 实时语音结合。",
+          "note": "仅按输入计费：每百万输入 token 0.10 美元、缓存输入 0.01 美元，不收输出费；速度和客户案例数据来自官方。",
+          "date": "2026-10-22",
+          "url": "https://openai.com/index/decisions-api/",
+          "source": "OpenAI 官方"
+        },
+        {
+          "title": "OpenAI 模型与 Codex 将进入 Google Cloud",
+          "desc": "OpenAI 前沿模型和 Codex 工作流将上架 Google Cloud Model Garden，可经 Google Cloud Marketplace 购买并抵扣云承诺额度；之后也会加入 Google Antigravity 和 Gemini Agent。",
+          "note": "尚未全面开放，官方称“未来几周”正式可用，目前需申请访问；主要面向企业客户。",
+          "date": "2026-10-21",
+          "url": "https://openai.com/index/openai-models-google-cloud/",
+          "source": "OpenAI 官方"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "desc": "让编程 Agent 分阶段做代码安全审计，并对发现的问题独立复核、输出机器可读结果。",
+          "note": "不能替代人工安全审查，也不保证项目没有漏洞。",
+          "stars_today": 2878
+        },
+        {
+          "repo": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "desc": "可在本机运行的开源语音工具，支持声音克隆、声音设计、视频配音、听写、转录和有声书制作，并提供本地 API 和 MCP 给 Agent 调用。",
+          "note": "NVIDIA 显卡或 Apple Silicon 可加速，纯 CPU 可用但较慢；Intel Mac 只能当界面连远程后端。仅可在获得许可时克隆他人声音，模型权重另有授权条件。",
+          "stars_today": 1592
+        },
+        {
+          "repo": "Nutlope/hallmark",
+          "url": "https://github.com/Nutlope/hallmark",
+          "desc": "供 Claude Code、Codex、Cursor 等使用的网页设计技能，提供 48 套主题并在浏览器里检查“AI 味”设计问题。",
+          "note": "需要 Node 18+；浏览器检查还需 Chrome 与 puppeteer-core。",
+          "stars_today": 1317
+        },
+        {
+          "repo": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "desc": "给 AI 编程 Agent 用的前端设计技能，提供 24 个设计命令和 62 条检测规则，减少模板化界面。",
+          "note": "检测规则可离线运行、不需 API Key；设计点评仍依赖所用 AI 工具。",
+          "stars_today": 1092
+        },
+        {
+          "repo": "makecindy/cindy",
+          "url": "https://github.com/makecindy/cindy",
+          "desc": "开源 AI Agent 桌面与手机客户端，可在本机调用 Claude Code、Codex 或本地模型处理文件和应用任务。",
+          "note": "客户端免费开源，但模型需自带订阅、API Key 或本地模型；托管服务另收费，官方发行版含使用统计。",
+          "stars_today": 675
+        },
+        {
+          "repo": "TauricResearch/TradingAgents",
+          "url": "https://github.com/TauricResearch/TradingAgents",
+          "desc": "多智能体金融交易研究框架，让基本面、情绪、新闻、技术分析和风控等 AI 角色讨论后给出交易决策，并在模拟交易所执行。",
+          "note": "官方明确仅供研究，不构成投资建议；需 Python 3.11+ 和大模型 API Key（或 ChatGPT 订阅）。",
+          "stars_today": 381
+        }
+      ]
+    },
     {
       "date": "2026-10-25",
       "summary": "月之暗面发布 Kimi K3.1 Pro，已在 Kimi 应用、Kimi Code 和 API 上线，完整权重承诺 11 月 4 日前开放；GitHub 上 Agent 安全审计、沙盒与前端设计技能继续走热。",
