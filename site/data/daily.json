@@ -1,7 +1,71 @@
 {
   "schema": 1,
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "days": [
+    {
+      "date": "2026-10-26",
+      "summary": "今天新核实到 1 个香港 AI 职位：Fano Labs 一年合约的 AI 数据项目专员。Welo Data 香港粤语录音项目仍在招，另有几条香港 AI 标注／工程线索，但还未能确认申请入口，暂不列入。",
+      "items": [
+        {
+          "title": "AI Data Project Specialist (One-Year Contract)",
+          "org": "Fano Labs",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "香港混合办公，可能需到客户现场；未说明签证要求",
+          "location": "香港 · 一年合约",
+          "pay": "未披露（原页只写 competitive）",
+          "requirements": [
+            "本科或以上，至少 1 年工作经验，科技行业优先",
+            "语音识别数据采集或标注经验加分",
+            "英语读写和口语良好",
+            "负责标注／采集项目交付、质量检查、兼职团队招募培训"
+          ],
+          "posted": "查看时显示 2 天前",
+          "deadline": "",
+          "note": "在 LinkedIn 点 Apply；简历文件名须以 AD_ 开头（例如 AD_Resume_名字 姓氏）。公司官网职位列表暂未列出此岗位。",
+          "url": "https://hk.linkedin.com/jobs/view/ai-data-project-specialist-one-year-contract-at-fano-fano-labs-4482850763",
+          "source": "LinkedIn"
+        },
+        {
+          "title": "Audio Recording Project - Cantonese (Hong Kong)",
+          "org": "Welo Data（Welocalize）",
+          "category": "followup",
+          "hk": "yes",
+          "hk_note": "地点标香港、远程；申请表居住地可选香港",
+          "location": "香港 · 远程短期项目",
+          "pay": "$18，按完成任务计（币种未注明）",
+          "requirements": [
+            "香港粤语专业熟练",
+            "英语足以阅读指南",
+            "能清晰录音的电脑及手机",
+            "按脚本录制对话，总录音约 50 分钟"
+          ],
+          "posted": "LinkedIn 查看时显示 6 天前",
+          "deadline": "",
+          "note": "昨日已列出，今天仍可申请；在 Lever 岗位专属表单提交。",
+          "url": "https://jobs.lever.co/weloglobal/5395c3ce-9493-44e1-b26b-e74ba62463bd",
+          "source": "Welo Data 招聘页（Lever）／LinkedIn"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "TaskUs 繁体中文（香港）AI 数据标注员",
+          "reason": "原页仍显示 Apply（2 周前），但未能确认岗位专属申请入口"
+        },
+        {
+          "title": "Prolific AI Trainer - Hong Kong",
+          "reason": "原页仍显示 Apply（2 周前），但只找到通用候补登记，未能确认岗位入口"
+        },
+        {
+          "title": "SleekFlow AI Engineer（LLM/RAG）",
+          "reason": "原页仍显示 Apply（1 周前），官网只导向通用职位列表，申请状态未确认"
+        },
+        {
+          "title": "Nex ML Researcher",
+          "reason": "官方招聘链接已退回总列表，当前职位清单未列此岗位"
+        }
+      ]
+    },
     {
       "date": "2026-10-25",
       "summary": "今天核实到 8 项机会：两项明确香港居民可做的远程付费任务（RWS 繁中搜索评估、Welo 粤语录音），四个香港 AI 职位或实习（含富途应届生岗位，公开 HK$25,000–45,000/年），以及两项远程繁中／粤语 AI 评估合同。",
