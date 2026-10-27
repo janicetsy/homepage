@@ -1,7 +1,86 @@
 {
   "schema": 1,
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "days": [
+    {
+      "date": "2026-10-27",
+      "summary": "今天新核实到 3 项香港相关远程任务：Welo 粤语广告评分、Centific 地图搜索评估、Chemin 粤语转录审核。注意 Centific 薪酬字段与正文冲突，Chemin 的地域描述也有不一致；申请前须确认。今天发现不等于今天发布。",
+      "items": [
+        {
+          "title": "Ads Quality Rater – Cantonese (Hong Kong)",
+          "org": "Welo Data / Welo Global",
+          "category": "remote",
+          "hk": "yes",
+          "hk_note": "必须居住香港，并能合法从事香港自由职业项目；招聘会核验居住地",
+          "location": "香港 · 远程自由职业合同",
+          "pay": "按任务计酬，最多约 USD 13/hour；非保证时薪",
+          "requirements": [
+            "粤语流利，英语理解良好",
+            "熟悉流行文化、搜索引擎与在线研究",
+            "自备可靠电脑及网络，签署 NDA 和 SLA",
+            "每周至少 5 小时，最多约 20 小时；任务供应受项目需求影响"
+          ],
+          "posted": "Jobicy 标示 2026-10-24；官方未列日期",
+          "deadline": "2026-11-24",
+          "note": "截止日期来自 Jobicy，官方未列截止日。官方 Lever 专属表单可访问，上传简历并回答资格与计酬问题；居住地核验时不要使用 VPN/IP masking。此为广告评分，不是录音项目。",
+          "url": "https://jobs.lever.co/weloglobal/e2f42ff3-3d00-468c-8be4-e00b33e3eccd",
+          "source": "Welo 官方 Lever 职位及申请表；Jobicy 日期"
+        },
+        {
+          "title": "AI Data Analyst – Milky Way Maps Evaluation",
+          "org": "Centific",
+          "category": "remote",
+          "hk": "yes",
+          "hk_note": "必须实际身处香港；境外不可据此申请",
+          "location": "香港 · 远程兼职／自由工作",
+          "pay": "存在冲突：Indeed 薪酬栏 $75/小时，正文 US$10/小时；尚未核定，须向雇主确认",
+          "requirements": [
+            "香港繁体中文，英语能阅读指南并沟通",
+            "基本电脑技能，熟悉 Office 365 和 Teams",
+            "工作为地图搜索查询及结果评估"
+          ],
+          "posted": "未披露",
+          "deadline": "",
+          "note": "岗位专属 Indeed Apply 入口存在，需登录后继续；后续表单未核实。正文称有带薪 orientation，但时长及费率未披露。不能把冲突薪酬的任一数值当作保证收入。",
+          "url": "https://hk.indeed.com/rc/clk?jk=f381f347afd3e250",
+          "source": "Indeed 原职位页及岗位专属 Apply 入口"
+        },
+        {
+          "title": "Transcription Reviewer – Cantonese and Mandarin",
+          "org": "Chemin / Kaya",
+          "category": "remote",
+          "hk": "unknown",
+          "hk_note": "结构化职位数据列香港，但正文称 anywhere，地区资格须向招聘方核实",
+          "location": "远程 · 约 2 个月合同；GMT+8 时段培训",
+          "pay": "最高 USD 4.8/hour accepted tasks；仅按被接受任务口径，非保证有效时薪",
+          "requirements": [
+            "粤语流利，繁中读写及英语良好，熟悉香港粤语口音",
+            "熟悉粤拼键盘，能审阅粤英夹杂内容",
+            "自备电脑、耳机和稳定网络",
+            "每批约 2 小时，需通过强制预评估；转录／字幕审核经验加分"
+          ],
+          "posted": "2026-10-23（Workable JobPosting）",
+          "deadline": "",
+          "note": "职位页附专属预评估：https://forms.gle/D7kUzwkSgVWW7MvQ7 。表单显示开始入口，但未核实最终提交；说明仅一次机会、最多 12 题，先读指南。",
+          "url": "https://jobs.workable.com/view/jU1S3jtSscXuKcKFi7nCbU/transcription-reviewer---cantonese-and-mandarin-(remote-job)-in-hong-kong-at-chemin",
+          "source": "Workable 职位页及专属预评估表"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "城大兼职研究助理（粤语标注／语料库）",
+          "reason": "官网仍列出，9 月 4 日起审理至招满，但未取得岗位专属在线申请入口；开放状态未确认"
+        },
+        {
+          "title": "Cartesia 香港粤语录音（Upwork）",
+          "reason": "固定价 US$700 的旧帖已有受雇者，未确认岗位专属投递入口，不能当作当前可申请机会"
+        },
+        {
+          "title": "APJ Software AI Engineer",
+          "reason": "职位页仍列 HK$35,000–45,000/月，但专属申请链接只返回通用页，申请状态未确认"
+        }
+      ]
+    },
     {
       "date": "2026-10-26",
       "summary": "今天新核实到 1 个香港 AI 职位：Fano Labs 一年合约的 AI 数据项目专员。Welo Data 香港粤语录音项目仍在招，另有几条香港 AI 标注／工程线索，但还未能确认申请入口，暂不列入。",
