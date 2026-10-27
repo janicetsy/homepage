@@ -1,7 +1,74 @@
 {
   "schema": 1,
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "days": [
+    {
+      "date": "2026-10-27",
+      "summary": "Apple Siri AI 随 27.2 更新新增法、日、韩、葡、西五种语言；Anthropic 把 Agent Skills 标准交给 Linux 基金会旗下的 AAIF。GitHub 上本地语音、前端设计技能和 JetBrains 新 Agent IDE 走热。",
+      "software": [
+        {
+          "title": "Siri AI 新增五种语言",
+          "desc": "随 iOS、iPadOS、macOS、watchOS、visionOS 27.2 更新，Siri AI 除英语外新增法语、日语、韩语、葡萄牙语和西班牙语，可结合个人信息、屏幕内容和跨应用操作完成任务。",
+          "note": "仍为测试版，需支持 Apple Intelligence 的设备；繁体中文等将于年底前推出，暂不支持简体中文；欧盟的 iPhone、iPad、Apple Watch 暂不可用，13 岁以下不可用；部分功能有每日用量上限，官方称扩展用量未来将收费。",
+          "date": "2026-10-26",
+          "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/",
+          "source": "Apple Newsroom"
+        },
+        {
+          "title": "Agent Skills 标准捐赠给 AAIF",
+          "desc": "Anthropic 将 Agent Skills（用 SKILL.md 文件教 AI Agent 完成特定任务的开放标准）连同名称、GitHub 组织和 agentskills.io 域名，捐赠给 Linux 基金会旗下的 Agentic AI Foundation，由多家公司工程师共同维护。",
+          "note": "对普通用户的使用方式暂无变化；后续路线图包括版本化发布、提案流程和技能安全指引。官方称已有 70 多个平台接入。",
+          "date": "2026-10-22",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "source": "Anthropic 官方"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "desc": "可在本机运行的开源语音工具，支持声音克隆、声音设计、视频配音、听写、转录和有声书制作，并提供本地 API 和 MCP。",
+          "note": "NVIDIA 显卡或 Apple Silicon 可加速，纯 CPU 较慢；仅可在获得许可时克隆他人声音，模型权重另有授权条件。",
+          "stars_today": 2297
+        },
+        {
+          "repo": "Nutlope/hallmark",
+          "url": "https://github.com/Nutlope/hallmark",
+          "desc": "供 Claude Code、Codex、Cursor 等使用的网页设计技能，提供 48 套主题并检查“AI 味”设计问题。",
+          "note": "需要 Node 18+；浏览器检查还需 Chrome 与 puppeteer-core。",
+          "stars_today": 2244
+        },
+        {
+          "repo": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "desc": "给 AI 编程 Agent 用的前端设计技能，提供 24 个设计命令和 62 条检测规则。",
+          "note": "检测规则可离线运行、不需 API Key；设计点评仍依赖所用 AI 工具。",
+          "stars_today": 1506
+        },
+        {
+          "repo": "TauricResearch/TradingAgents",
+          "url": "https://github.com/TauricResearch/TradingAgents",
+          "desc": "多智能体金融交易研究框架，让多个 AI 分析、风控角色讨论后给出交易决策，在模拟交易所执行。",
+          "note": "官方明确仅供研究，不构成投资建议；需 Python 3.11+ 和大模型 API Key（或 ChatGPT 订阅）。",
+          "stars_today": 1395
+        },
+        {
+          "repo": "JetBrains/thinkrail",
+          "url": "https://github.com/JetBrains/thinkrail",
+          "desc": "JetBrains 孵化的开源 Agent IDE，围绕 pi 编程 Agent 提供编辑器、终端、隔离的 git worktree 工作区、SPEC.md 项目规格和 MCP 支持，可多会话并行。",
+          "note": "孵化项目；本身没有账户体系，需自行配置 pi 的模型提供商（可能产生模型费用）。",
+          "stars_today": 1173
+        },
+        {
+          "repo": "NVIDIA/SkillSpector",
+          "url": "https://github.com/NVIDIA/SkillSpector",
+          "desc": "在安装前扫描 AI Agent 技能和 MCP 技能的安全风险，覆盖提示注入、数据外泄、权限提升、供应链等 17 类 71 种模式，输出 0–100 风险分。",
+          "note": "静态扫描可不连大模型（--no-llm）；语义分析需自备 API Key。扫描通过不等于绝对安全。",
+          "stars_today": 214
+        }
+      ]
+    },
     {
       "date": "2026-10-26",
       "summary": "OpenAI 正式开放 Decisions API，主打快速、低价的分类与路由判断；OpenAI 模型和 Codex 将进入 Google Cloud。GitHub 上代码安全审计技能、本地语音工具和前端设计技能热度最高。",
