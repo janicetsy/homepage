@@ -1,7 +1,57 @@
 {
   "schema": 1,
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "days": [
+    {
+      "date": "2026-10-28",
+      "summary": "本日未找到可由官方来源确认的重磅 AI 软件新发布；ChatGPT 官方更新记录最新仍是 10 月 20 日。GitHub 热门项目集中在 AI 家教、编程 Agent 工作区和网页设计技能。",
+      "software": [],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "HKUDS/DeepTutor",
+          "url": "https://github.com/HKUDS/DeepTutor",
+          "desc": "个性化 AI 家教项目，强调持续学习与适应学习者；适合关注 AI 辅助学习的人。",
+          "note": "榜单描述为 lifelong personalized tutoring；具体部署与模型要求应看项目文档。",
+          "stars_today": 1598
+        },
+        {
+          "repo": "makecindy/cindy",
+          "url": "https://github.com/makecindy/cindy",
+          "desc": "开源 AI Agent 桌面和手机客户端，可在本机调用 Claude Code、Codex 或本地模型处理任务。",
+          "note": "客户端免费开源，模型需自带订阅、API Key 或本地模型；托管服务另收费。",
+          "stars_today": 1465
+        },
+        {
+          "repo": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "desc": "给 AI 编程 Agent 用的前端设计技能，提供 24 个设计命令和 62 条检测规则，帮助减少模板化界面。",
+          "note": "检测规则可离线运行、不需 API Key；设计点评仍依赖所用 AI 工具。",
+          "stars_today": 1449
+        },
+        {
+          "repo": "elayadesign/ai-design-skills",
+          "url": "https://github.com/elayadesign/ai-design-skills",
+          "desc": "一组可复制到 Claude Code、Cursor、Codex 等 AI 编程工具的设计技能；当前包含从零构建落地页的工作流。",
+          "note": "MIT 许可，目前技能集规模较小；项目 README 提供手动复制安装步骤。",
+          "stars_today": 1395
+        },
+        {
+          "repo": "JetBrains/thinkrail",
+          "url": "https://github.com/JetBrains/thinkrail",
+          "desc": "JetBrains 孵化的开源 Agent IDE，围绕 pi 编程 Agent 提供编辑器、终端、隔离 git worktree 工作区、项目规格和 MCP 支持。",
+          "note": "需自行配置 pi 模型提供商，可能产生模型费用；项目使用 Bun 与 Node 环境。",
+          "stars_today": 1204
+        },
+        {
+          "repo": "nightly-labs/openbot",
+          "url": "https://github.com/nightly-labs/openbot",
+          "desc": "本地优先的桌面 AI 同事工作区，可运行 Codex、Claude 和 Grok，提供任务队列、文件共享、浏览器控制与 Agent 协作。",
+          "note": "榜单简介所述功能；使用各模型可能需自有账户或 API 权限。",
+          "stars_today": 777
+        }
+      ]
+    },
     {
       "date": "2026-10-27",
       "summary": "Apple Siri AI 随 27.2 更新新增法、日、韩、葡、西五种语言；Anthropic 把 Agent Skills 标准交给 Linux 基金会旗下的 AAIF。GitHub 上本地语音、前端设计技能和 JetBrains 新 Agent IDE 走热。",
