@@ -1,7 +1,67 @@
 {
   "schema": 1,
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "days": [
+    {
+      "date": "2026-10-28",
+      "summary": "今天新增核实 1 个香港资深 AI 工程职位，以及 1 条面向实体商户经营者的全球远程 AI 评估合同旧帖。后者仅核实招聘平台页面与专属入口，雇主端当前名额未确认；没有找到证据充分的新香港入门付费任务。",
+      "items": [
+        {
+          "title": "AI Solutions Engineer, Office of the Group CEO",
+          "org": "The Caravel Group",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "岗位所在地香港；未说明远程安排、工作许可或签证担保",
+          "location": "香港 · 全职",
+          "pay": "未披露",
+          "requirements": [
+            "6 年以上软件、平台、AI 或数据工程经验，具备生产级交付经验",
+            "真实系统中部署和运维 LLM、Agent、RAG、向量库及工具编排",
+            "Python、API、后端、数据管道和云端生产部署",
+            "CI/CD、测试、基础设施自动化及 MLOps／LLMOps；相关技术学位"
+          ],
+          "posted": "查看时显示 1 day ago（未核实绝对日期）",
+          "deadline": "",
+          "note": "在该 LinkedIn 职位页点 Apply／Join to apply。已确认专属页面及申请入口；后续表单和提交未验证，不保证名额。",
+          "url": "https://hk.linkedin.com/jobs/view/ai-solutions-engineer-office-of-the-group-ceo-at-the-caravel-group-4482936659",
+          "source": "LinkedIn 具体职位页"
+        },
+        {
+          "title": "Business Owners – Freelance AI Trainer Project（旧帖）",
+          "org": "Invisible（招聘平台所列）",
+          "category": "freelance",
+          "hk": "unknown",
+          "hk_note": "平台标 Remote, open worldwide；未独立确认雇主对香港的具体准入条件",
+          "location": "全球远程 · 独立承包合同",
+          "pay": "原页 $25–$100/hr；最终报价依经验、专业度和地区。正文币种未单独写明，问卷期望时薪以 USD 填写，申请前确认币种",
+          "requirements": [
+            "食品饮料、住宿、本地服务或零售业的现任业主、经营者或主要经理",
+            "积极管理企业关联的已验证 Google Business Profile",
+            "能测试商户工具，评估 AI 商户摘要和本地搜索结果并提供结构化反馈",
+            "自备安全电脑和高速网络"
+          ],
+          "posted": "平台显示 Posted 5mo ago，非新发布",
+          "deadline": "",
+          "note": "平台的岗位专属 Apply 及 13 项问卷区仍可见，涉及 CV、LinkedIn、居住国、工时、报价和商户信息。未独立核实雇主官网或后续提交，不保证当前名额或录用。",
+          "url": "https://aitraining.jobs/jobs/business-owners-freelance-ai-trainer-project-649c2e1109b9",
+          "source": "AITraining.jobs 具体职位页及专属 Apply 链接"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "micro1 粤语评估",
+          "reason": "具体职位页面已关闭"
+        },
+        {
+          "title": "micro1 视频标注、Terac 标注",
+          "reason": "页面明确排除香港"
+        },
+        {
+          "title": "TELUS 全球项目",
+          "reason": "所需招募语言未包括粤语或繁中，未作为香港语言任务推荐"
+        }
+      ]
+    },
     {
       "date": "2026-10-27",
       "summary": "今天新核实到 3 项香港相关远程任务：Welo 粤语广告评分、Centific 地图搜索评估、Chemin 粤语转录审核。注意 Centific 薪酬字段与正文冲突，Chemin 的地域描述也有不一致；申请前须确认。今天发现不等于今天发布。",
