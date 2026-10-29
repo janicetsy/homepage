@@ -1,7 +1,147 @@
 {
   "schema": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "days": [
+    {
+      "date": "2026-10-29",
+      "summary": "今天核实 6 项仍在列的香港相关机会：TaskUs 繁中标注、Prolific 自雇 AI 任务，以及 Nex、港铁、HKT、中国移动香港的技术招聘。均标明实际页面日期，不把旧帖当作新发布；多数未披露薪酬，申请入口存在不保证名额。",
+      "items": [
+        {
+          "title": "AI Data Annotator with Traditional Chinese (Hong Kong)",
+          "org": "TaskUs",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "职位页列 Hong Kong SAR；未说明远程安排或工作许可条件",
+          "location": "香港 · Contract 合同；未确认兼职",
+          "pay": "未披露",
+          "requirements": [
+            "繁体中文和英语流利，语法和理解能力良好",
+            "熟悉数字标注工具，细心且能保持重复任务准确度",
+            "具备时间管理与组织能力；标注或转录经验加分",
+            "文本和语音内容可能敏感或具有挑战性，须能客观专业处理"
+          ],
+          "posted": "查看时显示 3 weeks ago，非本日新发",
+          "deadline": "",
+          "note": "从 LinkedIn 具体职位页点 Apply；正文要求 CV 和申请表，入围后做标注测试，成功者加入 TaskVerse。专属入口仍在列，动态表单直链及提交未确认。",
+          "url": "https://hk.linkedin.com/jobs/view/ai-data-annotator-with-traditional-chinese-hong-kong-at-taskus-4438741812",
+          "source": "LinkedIn 具体职位页"
+        },
+        {
+          "title": "AI Trainer – Hong Kong",
+          "org": "Prolific",
+          "category": "remote",
+          "hk": "yes",
+          "hk_note": "正文要求 based in Hong Kong；自雇参与者模式",
+          "location": "香港居家 · 按任务参与",
+          "pay": "原文称研究者通常按每完成 AI 任务约 $20/hr 支付；币种未注明，任务量和收入不保证",
+          "requirements": [
+            "细心，能专注复杂任务至多一小时",
+            "自备电脑和可靠高速网络",
+            "需 PayPal 收款，并自行申报自雇收入",
+            "先通过技能／适配测试，之后才可能获邀成为参与者"
+          ],
+          "posted": "查看时显示 2 weeks ago，非本日新发",
+          "deadline": "",
+          "note": "从具体职位页 Apply 开始。专属入口在列，但跳转表单及提交未确认。页面 Full-time 标签与正文的按任务参与模式不同，不应当作固定全职工资或保证工时。",
+          "url": "https://hk.linkedin.com/jobs/view/ai-trainer-hong-kong-at-prolific-4405250931",
+          "source": "LinkedIn 具体职位页"
+        },
+        {
+          "title": "ML Researcher",
+          "org": "Nex",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "原文 Hong Kong or Remote；远程可工作的其他国家未说明",
+          "location": "香港或远程 · 全职",
+          "pay": "仅称 Competitive compensation package；未披露金额、币种或周期",
+          "requirements": [
+            "至少 2 年业界、学界或实验室 ML 实践研究经验",
+            "能设计实验，从假设做到验证，训练和评估真实数据集模型",
+            "Python、PyTorch 或 TensorFlow",
+            "熟悉评估指标、统计验证及数据预处理／增强／管理，能展示研究结果"
+          ],
+          "posted": "查看时显示 6 days ago",
+          "deadline": "",
+          "note": "在 LinkedIn 职位专页点 Apply；后续需登录／加入 LinkedIn，表单和提交未确认。未说明签证条件。",
+          "url": "https://hk.linkedin.com/jobs/view/ml-researcher-at-nex-4482812706",
+          "source": "LinkedIn 具体职位页"
+        },
+        {
+          "title": "Manager – AI & Digital Solutions（Ref: 2600010O）",
+          "org": "MTR Corporation Limited 香港铁路有限公司",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "香港全职；未说明境外远程或签证条件",
+          "location": "香港 · 全职",
+          "pay": "未披露",
+          "requirements": [
+            "计算机、AI、数据科学、工程、IT 等相关学位",
+            "至少 8 年相关开发／AI 应用工程／交付经验，其中 2 年管理级经验",
+            "AI 软件工程、全栈／平台工程、AI 应用与自动化中至少两项实操",
+            "中英文沟通、演示及利益相关方管理能力"
+          ],
+          "posted": "原文 Job Posting: 22/Oct/26 4:16:11 PM",
+          "deadline": "2026-11-05",
+          "note": "原文截止 05/Nov/26 11:59:00 PM，时区未另注明。LinkedIn 专属 Apply 仍显示；也可按职位说明经 https://www.mtr.com.hk/mtr_job_en 或在截止前邮寄注明职位及编号的 CV 至 MTR Human Resource Management Department, G.P.O. Box 9916, Hong Kong。官方动态专属表单及后续提交未确认。",
+          "url": "https://hk.linkedin.com/jobs/view/manager-%E2%80%93-ai-digital-solutions-ref-2600010o-at-mtr-corporation-limited-%E9%A6%99%E6%B8%AF%E9%90%B5%E8%B7%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4480037437",
+          "source": "LinkedIn 职位原文；MTR 官方招聘入口"
+        },
+        {
+          "title": "Assistant Vice President, AI Solutions",
+          "org": "HKT",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "香港全职；未说明远程或签证安排",
+          "location": "香港 · 全职",
+          "pay": "未披露",
+          "requirements": [
+            "相关学士或硕士；8 年以上软件工程经验",
+            "至少 3 年 AI／ML 方案经验及 2 年以上高级技术领导经验",
+            "企业客户多职能交付；熟悉 React、Next.js、Python、Node.js",
+            "LLM、生成式 AI、LangChain／LlamaIndex／Hugging Face 或定制微调与 AI CI/CD"
+          ],
+          "posted": "查看时显示 2 days ago",
+          "deadline": "",
+          "note": "从该 LinkedIn 职位页点 Apply；专属入口仍在列，动态表单及提交未确认。AI 辅助开发工具经验亦是要求的一部分，AI／ML 认证为加分项。",
+          "url": "https://hk.linkedin.com/jobs/view/assistant-vice-president-ai-solutions-at-hkt-4483281647",
+          "source": "LinkedIn 具体职位页"
+        },
+        {
+          "title": "Intelligent Agent & Model Development Manager",
+          "org": "China Mobile Hong Kong Company Limited",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "葵兴、葵青区；未说明境外远程资格或签证政策",
+          "location": "香港葵兴 · 全职",
+          "pay": "未披露",
+          "requirements": [
+            "相关本科及以上学历，至少 5 年相关经验",
+            "高并发和微服务架构，熟悉至少一种工作流或规则引擎",
+            "LLM API、SSE、Function Calling",
+            "开源 LLM 部署与推理加速实操；Kubernetes／GPU 调度及 vLLM／TensorRT-LLM 加分"
+          ],
+          "posted": "查看时显示 Posted 2d ago",
+          "deadline": "",
+          "note": "在 JobsDB 职位页点 APPLY NOW，提交完整 CV、可到职时间、现薪和期望薪酬。专属申请 URL 存在，但动态表单未提取到，提交未确认；8 周未获联系视为未成功的说明不是截止日期。",
+          "url": "https://hk.jobsdb.com/job/95513494?type=standard&ref=search-standalone",
+          "source": "JobsDB 具体职位页及申请链接"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "OpenTrain Cantonese Quality Assurance Lead",
+          "reason": "7 月 8 日发布且先前已报；本次未发现重要更新，不重复作为新增机会"
+        },
+        {
+          "title": "Invisible 越南粤语岗位／LILT 项目",
+          "reason": "所查岗位地点或地区名单未包含香港，不作香港适用推荐"
+        },
+        {
+          "title": "地区准入不明的 DataAnnotation 页面及可用性不明的 Upwork 旧项目",
+          "reason": "无法充分确认香港资格或当前具体申请状态"
+        }
+      ]
+    },
     {
       "date": "2026-10-28",
       "summary": "今天新增核实 1 个香港资深 AI 工程职位，以及 1 条面向实体商户经营者的全球远程 AI 评估合同旧帖。后者仅核实招聘平台页面与专属入口，雇主端当前名额未确认；没有找到证据充分的新香港入门付费任务。",
