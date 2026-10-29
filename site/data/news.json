@@ -1,7 +1,82 @@
 {
   "schema": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "days": [
+    {
+      "date": "2026-10-29",
+      "summary": "Apple 宣布 Creator Studio 将在 11 月加入 AI 助手和 MCP 自动化能力；OpenAI 上周发布 GPT-6.1 Terra，主打低成本视觉理解与电脑操作，并将 Oracle 企业应用接入 ChatGPT。GitHub 今日项目聚焦 AI 家教、设计技能和 Agent 工作区。",
+      "software": [
+        {
+          "title": "Apple Creator Studio 将加入 AI 助手与 MCP 自动化",
+          "desc": "Apple 宣布 Keynote、Pages 和 Numbers 将加入理解文档上下文的 AI 助手：可协助制作和修改演示文稿、起草与润色文字、分析和整理表格。还新增 MCP 支持，让外部 AI Agent 在授权下读取和编辑这些应用中的内容。Logic Pro 也将加入 AI 音乐制作助手。",
+          "note": "更新预计 11 月上线。AI 助手目前为测试版，要求支持 Apple Intelligence 的设备，且仅支持美国英语；MCP 要求 macOS 27 或更新版本。新订阅者月费 12.99 美元或年费 129 美元，提供一个月免费试用，之后自动续费，需自行取消；现有订阅者免费获得更新。",
+          "date": "2026-10-27",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
+          "source": "Apple Newsroom"
+        },
+        {
+          "title": "OpenAI 发布 GPT-6.1 Terra",
+          "desc": "面向高频专业工作优化的模型，强调视觉推理和电脑操作，可协助处理表单、技术图纸和视频编辑等任务。已开放给 Plus、Pro、Enterprise、Edu 用户使用于 ChatGPT Work 和 Codex，也可通过 API 调用。",
+          "note": "API 每百万输入 token 1 美元、缓存输入 0.05 美元、输出 5 美元。模型跑分与“更快、更低成本”等比较数据来自 OpenAI 自测。",
+          "date": "2026-10-26",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "source": "OpenAI 官方"
+        },
+        {
+          "title": "OpenAI 与 Oracle 合作，将企业应用接入 ChatGPT",
+          "desc": "计划把 Oracle 企业应用和数据带入 ChatGPT，并推出 Oracle AI Workspace、AI Security Mesh、SMB Bundle 和 App Composer 等合作方案，目标是让企业员工在组织权限内查询数据并完成业务流程。",
+          "note": "多数集成功能仍属计划中的产品；Oracle 美国客户可通过 Oracle Marketplace 购买 OpenAI API、Codex 和 ChatGPT Work。",
+          "date": "2026-10-27",
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt/",
+          "source": "OpenAI 官方"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "HKUDS/DeepTutor",
+          "url": "https://github.com/HKUDS/DeepTutor",
+          "desc": "AI 学习工作台，包含辅导问答、解题、测验生成、研究、可视化和学习掌握度练习；可连接知识库、视频和多个 Agent。",
+          "note": "Docker 可试跑，完整使用需在设置中配置模型提供商；可接入多种知识库，建议先查看其运行方式和隐私设置。",
+          "stars_today": 2371
+        },
+        {
+          "repo": "elayadesign/ai-design-skills",
+          "url": "https://github.com/elayadesign/ai-design-skills",
+          "desc": "供 Claude Code、Cursor、Codex 等使用的设计技能集合，目前主打从零构建落地页，包括页面结构、转化文案与视觉系统。",
+          "note": "MIT 许可，目前技能集合较小，按 README 手动复制安装。",
+          "stars_today": 2139
+        },
+        {
+          "repo": "Nutlope/hallmark",
+          "url": "https://github.com/Nutlope/hallmark",
+          "desc": "给 Claude Code、Cursor、Codex 等使用的网页设计技能，提供 48 套主题并检查模板化的“AI 味”界面。",
+          "note": "需要 Node 18+；浏览器检查还需 Chrome 与 puppeteer-core。",
+          "stars_today": 2110
+        },
+        {
+          "repo": "hmjz100/LinkSwift",
+          "url": "https://github.com/hmjz100/LinkSwift",
+          "desc": "浏览器扩展工具，可获取百度网盘、阿里云盘、夸克等多个网盘的直链下载地址。",
+          "note": "这是下载辅助工具，不是 AI 项目；使用前请留意各网盘的服务条款和下载权限。",
+          "stars_today": 1616
+        },
+        {
+          "repo": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "desc": "给 AI 编程 Agent 用的前端设计技能，有 24 个设计命令和 62 条检测规则，帮助优化界面并减少常见模板化风格。",
+          "note": "检测规则可离线运行且不需 API Key；设计点评仍取决于所用 AI 工具。",
+          "stars_today": 1472
+        },
+        {
+          "repo": "nightly-labs/openbot",
+          "url": "https://github.com/nightly-labs/openbot",
+          "desc": "本地优先的桌面 Agent 工作区，可运行 Codex、Claude、Grok 等，支持独立工作区、任务队列、文件传递和 Agent 间协作。",
+          "note": "开发预览版。Agent 获得广泛的文件、命令、网络和浏览器权限；首次授权后不会逐项确认，官方建议仅运行可信的 Agent 和任务。",
+          "stars_today": 1054
+        }
+      ]
+    },
     {
       "date": "2026-10-28",
       "summary": "本日未找到可由官方来源确认的重磅 AI 软件新发布；ChatGPT 官方更新记录最新仍是 10 月 20 日。GitHub 热门项目集中在 AI 家教、编程 Agent 工作区和网页设计技能。",
