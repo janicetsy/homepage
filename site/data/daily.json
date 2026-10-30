@@ -1,7 +1,67 @@
 {
   "schema": 1,
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "days": [
+    {
+      "date": "2026-10-30",
+      "summary": "今天新核实 2 条在列机会：Alignerr 中文 AI 语言评估合同、Millennium 香港 AI Analyst。两页均显示约一周前，并非今天新发布；Alignerr 的香港准入与薪酬币种仍需确认。另有粤语心理学 AI 合同未列香港，不作为香港可申请项目推荐。",
+      "items": [
+        {
+          "title": "AI Language Expert – Chinese",
+          "org": "Alignerr",
+          "category": "freelance",
+          "hk": "unknown",
+          "hk_note": "LinkedIn 标 Hong Kong SAR；官方写远程、work from anywhere，但未独立明确香港准入及地区限制",
+          "location": "远程 · 按小时合同；每周至少投入 15 小时",
+          "pay": "原文 $25–30/hr，币种未注明；实际报价依技能与经验，不保证任务量",
+          "requirements": [
+            "中文母语级，并有中文教学或学习者语言评估经验",
+            "英语达到 C1／C2，熟悉学习者语言特点及 CEFR",
+            "本科或以上在读／已毕业，细心且评估保持一致",
+            "无需既往 AI 经验；语言测评、课程设计或标准化测试经验加分"
+          ],
+          "posted": "LinkedIn 查看时显示 1 week ago；官方未列日期",
+          "deadline": "",
+          "note": "官方岗位页的 Apply now 进入带此岗位 ID 的 Alignerr 登录页。需先登录，再完成筛选；后续提交未确认。申请前确认香港资格及币种；最低工时投入并非保证有同等付费任务。",
+          "url": "https://www.alignerr.com/jobs/b7a7d4a7-2ac3-4c66-8d55-4d78066a2738",
+          "source": "Alignerr 官方具体岗位页；LinkedIn 岗位地区及相对日期"
+        },
+        {
+          "title": "AI Analyst",
+          "org": "Millennium",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "职位所在地香港；未说明远程、签证或工作许可条件",
+          "location": "香港 · 全职",
+          "pay": "未披露",
+          "requirements": [
+            "至少 5 年买方基本面股票分析经验，理解完整投研流程",
+            "熟悉 LLM、RAG、向量检索、AI Agent 及 AI 在基本面研究中的应用",
+            "能评估可靠性、幻觉、隐私、安全与治理，并与技术团队合作",
+            "英语及普通话专业流利；Python、SQL、API 和生产级 AI 项目经验为加分项"
+          ],
+          "posted": "查看时显示 1 week ago，非本日新发",
+          "deadline": "",
+          "note": "从该 LinkedIn 职位页点 Apply，需要登录或加入 LinkedIn。已确认专属入口，后续表单及提交未确认；不保证名额。此岗位要求买方投研经验，不是一般入门 AI 助理。",
+          "url": "https://hk.linkedin.com/jobs/view/ai-analyst-at-millennium-4480460390",
+          "source": "LinkedIn 具体职位页及岗位专属登录申请弹窗"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "OpenTrain Psychologist for AI Training (Cantonese)",
+          "reason": "10 月 3 日旧帖；列出的 52 个开放国家／地区不含香港，不能作为香港明确可申请机会推荐"
+        },
+        {
+          "title": "Tarmack 旧岗位",
+          "reason": "原页显示 9 个月前并已停止接受申请"
+        },
+        {
+          "title": "Welo、Chemin、Fano 等已报项目",
+          "reason": "没有确认重要更新，不重复凑数"
+        }
+      ]
+    },
     {
       "date": "2026-10-29",
       "summary": "今天核实 6 项仍在列的香港相关机会：TaskUs 繁中标注、Prolific 自雇 AI 任务，以及 Nex、港铁、HKT、中国移动香港的技术招聘。均标明实际页面日期，不把旧帖当作新发布；多数未披露薪酬，申请入口存在不保证名额。",
