@@ -1,7 +1,76 @@
 {
   "schema": 1,
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "days": [
+    {
+      "date": "2026-10-30",
+      "summary": "近几日值得关注的 AI 软件更新包括 OpenAI 与 ServiceNow 将 ChatGPT 接入企业工作流、Apple 为 Creator Studio 增加 AI 助手与 MCP 支持，以及 GPT-6.1 Terra 开放使用。GitHub 热门项目聚焦 AI 设计检查、个性化学习和 Agent IDE。",
+      "software": [
+        {
+          "title": "OpenAI 与 ServiceNow 扩大合作，ServiceNow MCP 插件已上线",
+          "desc": "双方将把 ServiceNow 工作流接入 ChatGPT 和 Codex，并计划扩展 AI 应用开发、安全和语音能力。ServiceNow MCP 插件已在 OpenAI Marketplace 上架，用户可连接自有 ServiceNow 实例，在权限和业务规则约束下查找事件、评估变更并更新记录。",
+          "note": "插件已可用；更广泛的安全、语音和开发集成分阶段推出，部分预计到 2027 年。",
+          "date": "2026-10-28",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion/",
+          "source": "OpenAI 官方"
+        },
+        {
+          "title": "Apple Creator Studio 将加入 AI 助手与 MCP 自动化",
+          "desc": "Keynote、Pages 和 Numbers 将加入理解文档上下文的 AI 助手，协助设计演示文稿、起草文字和整理数据；MCP 支持让外部 AI Agent 在授权下读取或编辑这些应用的内容。Logic Pro 也将加入 AI 音乐制作助手。",
+          "note": "更新预计 11 月上线；AI 助手目前为测试版，要求支持 Apple Intelligence 的设备，且仅支持美国英语。MCP 要求 macOS 27 或更新版本。新订阅者可获一个月免费试用；符合条件的新 Mac/iPad 购买者可获三个月优惠，后者会自动续订，直到取消。",
+          "date": "2026-10-27",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
+          "source": "Apple Newsroom"
+        },
+        {
+          "title": "OpenAI 发布 GPT-6.1 Terra",
+          "desc": "面向高频专业工作优化的模型，强化视觉推理和电脑操作，可用于表单、技术图纸和视频等任务。已向 Plus、Pro、Enterprise 和 Edu 用户开放于 ChatGPT Work 和 Codex，也可通过 API 调用。",
+          "note": "API 每百万输入 token 1 美元、缓存输入 0.05 美元、输出 5 美元。性能比较数据来自 OpenAI 自测。",
+          "date": "2026-10-26",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "source": "OpenAI 官方"
+        },
+        {
+          "title": "Visual Studio 2026 十月更新加入 Agent 调试能力",
+          "desc": "十月功能更新为 Copilot 带来 Agentic Bug Resolution 工作流：可从问题描述或 GitHub/Azure DevOps issue 出发，复现错误、检查运行时信息并验证修复；还新增 Copilot 文本自动解码和 C++ Agent Mode 代码编辑工具。",
+          "note": "最新 18.11.3 版本于 10 月 29 日发布，主要是安全修复；上述 AI 功能属于 10 月 13 日发布的 18.11.0 功能更新。",
+          "date": "2026-10-29",
+          "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes",
+          "source": "Microsoft Learn"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "desc": "给 AI 编程 Agent 用的网页设计技能，包括 24 个命令和 62 条确定性规则，可检查常见模板化设计和部分界面质量问题。",
+          "note": "支持多种编程 Agent；确定性规则可在本地检测，不需要 LLM 或 API Key。Apache-2.0 许可。",
+          "stars_today": 2870
+        },
+        {
+          "repo": "HKUDS/DeepTutor",
+          "url": "https://github.com/HKUDS/DeepTutor",
+          "desc": "AI 学习工作台，整合辅导问答、解题、测验、研究、可视化和学习练习，也可连接视频、知识库及其他 Agent。",
+          "note": "可用 Docker 试跑；完整功能需配置模型提供商。支持多种知识库与本地工作区，部署前宜检查数据存储和模型设置。",
+          "stars_today": 1930
+        },
+        {
+          "repo": "milind-soni/OpenMausBot",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "desc": "开源、本地优先的桌面 AI Agent 聊天应用，可让不同 Agent 使用各自的模型、记忆和计算机环境，并可通过 Composio 连接外部应用。",
+          "note": "需要本机安装的 Claude、Codex 或 Grok CLI；连接 Composio、云端电脑等功能可能需要第三方账户或付费。Agent 高风险操作通过授权卡确认。",
+          "stars_today": 1199
+        },
+        {
+          "repo": "JetBrains/thinkrail",
+          "url": "https://github.com/JetBrains/thinkrail",
+          "desc": "围绕 pi 编程 Agent 构建的 IDE，支持隔离 Git worktree、并行 Agent 会话、项目规格文件、技能和 MCP 工具。",
+          "note": "可使用已有 pi 模型提供商账户；每个会话显示 token 和费用。仓库采用 Apache-2.0 许可，桌面版支持 macOS、Windows 和 Linux。",
+          "stars_today": 1117
+        }
+      ]
+    },
     {
       "date": "2026-10-29",
       "summary": "Apple 宣布 Creator Studio 将在 11 月加入 AI 助手和 MCP 自动化能力；OpenAI 上周发布 GPT-6.1 Terra，主打低成本视觉理解与电脑操作，并将 Oracle 企业应用接入 ChatGPT。GitHub 今日项目聚焦 AI 家教、设计技能和 Agent 工作区。",
