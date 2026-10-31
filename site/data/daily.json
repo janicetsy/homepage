@@ -1,7 +1,47 @@
 {
   "schema": 1,
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "days": [
+    {
+      "date": "2026-10-31",
+      "summary": "今天没有核实到 10 月 30–31 日新发布或更新、且明确适用香港的机会。另核实一条仍在列的普通话 AI 评估与本地化合同，原页明确包含香港，但它是 7 月 9 日旧帖，不是今天新发；薪酬币种和实际名额未确认。",
+      "items": [
+        {
+          "title": "AI Evaluation and Localization Expert (Mandarin)",
+          "org": "OpenTrain AI（平台刊载）",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "具体职位原页将 Hong Kong 列入可申请地区；未说明签证或工作授权条件",
+          "location": "远程 · 兼职按小时合同；原页列每周 20+ 小时",
+          "pay": "原文 $40 per hour／$40/hr，未注明币种；工时和实际任务量不保证",
+          "requirements": [
+            "普通话中文及英语流利，具备翻译、本地化、语言 QA 或相关专业背景",
+            "有 MQM／LQA 语言质量判断经验，熟悉 CAT 工具、翻译记忆库、术语库及自动化 QA 流程",
+            "具备编辑判断、事实核查、稳定产出和清晰文档能力",
+            "相关本科以上学历、5 年以上专业翻译／本地化、多语言和术语管理经验为加分项；AI 训练、标注或评估经验为 preferred"
+          ],
+          "posted": "2026-07-09（旧帖；未发现 10 月 30–31 日更新证据）",
+          "deadline": "",
+          "note": "工作是评估 AI 回复、事实核查本地化内容、比较答案并撰写示范解答。通过原职位页专属 Apply 创建免费账户、添加简历再申请。入口及专属目标页标题已核实，登录后流程、提交和项目名额未确认。",
+          "url": "https://www.opentrain.ai/jobs/chinese-mandarin-ai-evaluation-and-localization-expert--cmrd8w0w10014nj3l5prza4qz/",
+          "source": "OpenTrain 具体职位原页及该职位专属申请入口"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "Millennium 2027 Applied AI Engineer Intern",
+          "reason": "所查香港职位公开页显示约两个月前发布，且已停止接受申请"
+        },
+        {
+          "title": "OpenTrain Earth Science Domain Expert",
+          "reason": "所查具体页面仅接受美国申请者，不作为香港适用机会推荐"
+        },
+        {
+          "title": "Prolific 香港项目及其他已报线索",
+          "reason": "未发现重要更新，不重复当作新机会"
+        }
+      ]
+    },
     {
       "date": "2026-10-30",
       "summary": "今天新核实 2 条在列机会：Alignerr 中文 AI 语言评估合同、Millennium 香港 AI Analyst。两页均显示约一周前，并非今天新发布；Alignerr 的香港准入与薪酬币种仍需确认。另有粤语心理学 AI 合同未列香港，不作为香港可申请项目推荐。",
