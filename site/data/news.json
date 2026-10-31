@@ -1,7 +1,68 @@
 {
   "schema": 1,
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "days": [
+    {
+      "date": "2026-10-31",
+      "summary": "ChatGPT 本周新增 iCloud 邮件与日历连接，并开始在美国向部分 Pro 用户测试通过短信联系 dot；Pro 与 Business Premium 也调整了 Work/Codex 使用额度。GitHub 今日热门包括 AI 设计检查、个人 Agent 记忆、学习助手和 Agent 聊天平台。",
+      "software": [
+        {
+          "title": "ChatGPT dot 开始支持通过 iMessage 或 RCS 收发短信",
+          "desc": "OpenAI 于 10 月 28 日开始向美国 Pro 用户测试与 dot 的短信功能：用户可以通过 iMessage 或 RCS 给自己的 dot 发消息，dot 也可主动发送相关更新。它使用与 ChatGPT 中 dot 相同的记忆和插件。",
+          "note": "仅美国 Pro 用户测试版；官方称该功能只访问用户与 dot 的短信，不会读取其他对话。短信服务经第三方 Linq 提供。",
+          "date": "2026-10-28",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source": "OpenAI ChatGPT 发布说明"
+        },
+        {
+          "title": "ChatGPT 可连接 iCloud Mail 和 Calendar",
+          "desc": "用户可连接 iCloud 邮件和日历，在 ChatGPT 中查找邮件、整理收件箱、查看日程并更新日历事件。",
+          "note": "10 月 27 日起向所有 ChatGPT 方案开放，支持网页、桌面应用和 iOS。",
+          "date": "2026-10-27",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source": "OpenAI ChatGPT 发布说明"
+        },
+        {
+          "title": "OpenAI 提高 Pro 和 Business Premium 的 Work/Codex 使用额度",
+          "desc": "OpenAI 于 10 月 29 日宣布增加 Pro 和 Business Premium 方案所含的 ChatGPT Work 与 Codex 用量。Pro 100 和 Pro 500 的额度翻倍；此前处于较低额度的 Pro 200 用户也获得翻倍额度。",
+          "note": "属于订阅额度调整，不是新的 AI 模型或功能；Business Premium 的具体增幅未在发布说明中列明。",
+          "date": "2026-10-29",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source": "OpenAI ChatGPT 发布说明"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "desc": "供 AI 编程 Agent 使用的网页设计技能，提供 24 个命令和 62 条确定性检查规则，帮助审查界面并发现模板化设计问题。",
+          "note": "本地检测规则不需要 LLM 或 API Key；Apache-2.0 许可。",
+          "stars_today": 2300
+        },
+        {
+          "repo": "HKUDS/DeepTutor",
+          "url": "https://github.com/HKUDS/DeepTutor",
+          "desc": "AI 学习工作台，提供辅导问答、解题、测验、研究、可视化和学习练习，可连接知识库、视频及其他 Agent。",
+          "note": "可用 Docker 试跑；完整功能需配置模型提供商。使用前应检查模型设置和数据存储选项。",
+          "stars_today": 2282
+        },
+        {
+          "repo": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "desc": "为 Claude Code 等编程 Agent 提供跨会话记忆：记录工具使用观察、生成摘要，并在后续会话中检索上下文。",
+          "note": "默认安装流程含登录并可使用托管记忆观察服务；支持选择本地或其他模型提供商。可能记录开发过程，云同步需单独开启，敏感内容可用 private 标记排除。",
+          "stars_today": 1140
+        },
+        {
+          "repo": "milind-soni/OpenMausBot",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "desc": "开源、本地优先的桌面 AI Agent 聊天应用，可让不同 Agent 使用各自模型、记忆和计算环境，并通过应用连接工具。",
+          "note": "需要本机安装相应 Agent CLI；部分第三方连接或云端电脑可能需账户或付费。Agent 高风险操作通过授权卡确认。",
+          "stars_today": 895
+        }
+      ]
+    },
     {
       "date": "2026-10-30",
       "summary": "近几日值得关注的 AI 软件更新包括 OpenAI 与 ServiceNow 将 ChatGPT 接入企业工作流、Apple 为 Creator Studio 增加 AI 助手与 MCP 支持，以及 GPT-6.1 Terra 开放使用。GitHub 热门项目聚焦 AI 设计检查、个性化学习和 Agent IDE。",
