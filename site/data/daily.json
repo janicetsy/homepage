@@ -1,7 +1,43 @@
 {
   "schema": 1,
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "days": [
+    {
+      "date": "2026-11-01",
+      "summary": "今天没有核实到 10 月 31 日至 11 月 1 日新发且明确适用香港的机会。另核实一条 10 月 5 日发布的香港 AI 开发职位，Randstad 专属申请页仍可访问，但 LinkedIn 镜像已停止收件，需先确认招聘状态；不当作已确认有名额的新岗。",
+      "items": [
+        {
+          "title": "AI Developer – Generative AI & Automation (Hong Kong)",
+          "org": "Randstad Hong Kong（招聘客户未披露）",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "香港本地职位；申请流程会核实香港工作资格，未说明具体签证类别或支持",
+          "location": "香港 · 全职永久；未注明远程",
+          "pay": "HK$35,000–HK$55,000／月，按原页照录",
+          "requirements": [
+            "计算机科学、软件工程或相关定量领域本科以上，至少 2 年后端或全栈开发实操经验",
+            "Python、Java 或 C++，API／Webhook 集成经验",
+            "Agent loop、复杂提示策略，或流程自动化工具／LLM 框架经验，如 LangChain、可视化工作流编排器",
+            "专业工作水平英语；FinTech／资产管理、Node.js／TypeScript 及会话普通话为偏好或加分条件"
+          ],
+          "posted": "2026-10-05（旧帖，非本日新发）",
+          "deadline": "2026-12-03",
+          "note": "Randstad 原职位页及编号 47549099 的专属申请页仍在，可登录或注册并提交 CV 及个人信息继续；但对应 LinkedIn 镜像显示 No longer accepting applications，状态有冲突，宜先向招聘方确认。专属入口存在不代表名额或后续提交成功。客户原文称全球投资与财富管理机构，具体公司未披露。",
+          "url": "https://www.randstad.com.hk/jobs/ai-developer-generative-ai-automation-hong-kong_hong-kong_47549099/",
+          "source": "Randstad 官方原职位页及香港专属申请页；LinkedIn 镜像关闭提示"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "FDM Group AI Engineer（香港）",
+          "reason": "官方原页仍展示，但 Apply 返回通用职位列表；带职位编号的页面只有通用注册表单，未确认岗位专属申请流程。不是已确认关闭，亦不作为已确认可申请机会"
+        },
+        {
+          "title": "已报付费 AI 评估、标注及语言项目",
+          "reason": "本轮未确认重要更新，不重复当作新项目"
+        }
+      ]
+    },
     {
       "date": "2026-10-31",
       "summary": "今天没有核实到 10 月 30–31 日新发布或更新、且明确适用香港的机会。另核实一条仍在列的普通话 AI 评估与本地化合同，原页明确包含香港，但它是 7 月 9 日旧帖，不是今天新发；薪酬币种和实际名额未确认。",
