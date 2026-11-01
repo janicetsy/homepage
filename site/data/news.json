@@ -1,7 +1,68 @@
 {
   "schema": 1,
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "days": [
+    {
+      "date": "2026-11-01",
+      "summary": "Google Gemini API 最近数日推出 Computer Use GA 与 API CLI Beta，并调整新付费项目的请求存储默认值，开发者需留意安全执行和数据记录设置。GitHub 今日热门项目包括跨会话 Agent 控制、桌面多 Agent 团队、自动化浏览器和工程技能库。",
+      "software": [
+        {
+          "title": "Gemini API Computer Use 正式开放",
+          "desc": "Google 于 10 月 30 日将 Computer Use 工具在 Interactions 和 GenerateContent APIs 中正式开放。开发者可将屏幕截图发送给模型，由模型返回点击、滚动或按键等界面操作，再由客户端执行并反馈新画面。",
+          "note": "需自行实现动作执行客户端；Google 建议在隔离的 VM 或容器中运行。模型可能要求用户确认金融交易、通信、账户创建或数据修改等敏感操作，应用须遵循安全决策。",
+          "date": "2026-10-30",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "source": "Google AI for Developers"
+        },
+        {
+          "title": "Google 发布 Gemini API CLI Beta",
+          "desc": "10 月 27 日发布的 gemini-api 是面向编程 Agent、脚本和 CI 的无状态命令行客户端，可从 shell 调用 Gemini 生成文本或媒体、分析文件，也可运行托管 Agent。",
+          "note": "这是 API 客户端，不是交互式编程 Agent；需要 Gemini API Key，Beta 期间小版本间可能有破坏性变更，自动化环境应固定版本。",
+          "date": "2026-10-27",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "source": "Google AI for Developers"
+        },
+        {
+          "title": "Gemini API 新付费项目的请求存储默认值改为开启",
+          "desc": "自 10 月 26 日起，新项目使用付费 GenerateContent API 时，API 请求默认设为 store=true；已有项目保持原设置。",
+          "note": "如不希望储存，可在请求中设 store=false，或在 Logs and Datasets 设置中关闭该 API 的日志记录。上线前应检查项目及请求级数据设置。",
+          "date": "2026-10-26",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "source": "Google AI for Developers"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code",
+          "desc": "Agent 控制界面，可从桌面、网页或手机管理本机上的 Claude Code、Codex、Cursor、Grok Build、OpenCode 等编程 Agent。",
+          "note": "需先在本机安装并登录至少一个支持的 Agent；项目注明仍处于早期阶段，可能有缺陷。MIT 许可。",
+          "stars_today": 1148
+        },
+        {
+          "repo": "Orkas-AI/Orkas",
+          "url": "https://github.com/Orkas-AI/Orkas",
+          "desc": "本地优先的桌面多 Agent 工作团队，可将目标拆成任务，协调内置专家及 Claude Code、Codex、OpenCode 等 Agent。",
+          "note": "macOS 和 Windows 桌面版附带 500 个内置模型点数；后续使用、付费套餐或自备模型 API Key 可能产生费用。MIT 许可。",
+          "stars_today": 1044
+        },
+        {
+          "repo": "lightpanda-io/browser",
+          "url": "https://github.com/lightpanda-io/browser",
+          "desc": "用 Zig 从头构建的无头浏览器，面向 AI Agent 和自动化，并提供 CDP 服务以供 Puppeteer、Playwright 等工具连接。",
+          "note": "非 Chromium/WebKit 项目，网页兼容性需测试；没有图形界面，Windows 需通过 WSL2，Linux 发行版有 glibc 版本要求。AGPL-3.0 许可。",
+          "stars_today": 929
+        },
+        {
+          "repo": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "desc": "一组面向软件工程的可组合 Agent Skills，涵盖测试驱动开发、代码评审、故障定位、架构改进和项目规划。",
+          "note": "支持多种编程 Agent 和模型；安装后会把技能文件加入项目或 Agent 配置，建议先审阅所选技能内容。MIT 许可。",
+          "stars_today": 883
+        }
+      ]
+    },
     {
       "date": "2026-10-31",
       "summary": "ChatGPT 本周新增 iCloud 邮件与日历连接，并开始在美国向部分 Pro 用户测试通过短信联系 dot；Pro 与 Business Premium 也调整了 Work/Codex 使用额度。GitHub 今日热门包括 AI 设计检查、个人 Agent 记忆、学习助手和 Agent 聊天平台。",
