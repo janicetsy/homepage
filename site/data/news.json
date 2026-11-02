@@ -1,7 +1,43 @@
 {
   "schema": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "days": [
+    {
+      "date": "2026-11-02",
+      "summary": "截至 11 月 2 日，未检索到 11 月 1–2 日可由官方发布记录确认的新增 AI 软件功能或上新。最近核实的官方产品动态仍是 Google Gemini API 于 10 月 30 日将 Computer Use 工具正式开放；本日收录重点为 GitHub 热门项目。",
+      "software": [],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code",
+          "desc": "Agent 控制界面，可从桌面、网页或手机管理本机的 Claude Code、Codex、Cursor、Grok Build、OpenCode 等编程 Agent。",
+          "note": "需先在本机安装并登录至少一个支持的 Agent；仓库称项目仍处于早期阶段，可能有缺陷。MIT 许可。",
+          "stars_today": 3094
+        },
+        {
+          "repo": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "desc": "自动记录编程 Agent 的工具使用观察、生成摘要，并在后续会话中检索上下文，主打跨会话记忆。",
+          "note": "可能记录开发过程；默认安装流程可登录并使用托管观察服务，也支持本地观察器及其他模型。云同步需另行开启，敏感内容可用 private 标记排除。",
+          "stars_today": 1526
+        },
+        {
+          "repo": "Donchitos/Claude-Code-Game-Studios",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+          "desc": "把 Claude Code 配置成游戏开发工作室模板，含 49 个专职 Agent、74 个技能、hooks、规则和文档模板。",
+          "note": "仅面向 Claude Code；这是可克隆并定制的流程模板，不是现成游戏。启动需要 Claude Code、Python 3 和 Bash。MIT 许可。",
+          "stars_today": 967
+        },
+        {
+          "repo": "milind-soni/OpenMausBot",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "desc": "本地优先的桌面 AI Agent 聊天应用，可让多个 Agent 使用各自模型、记忆和计算环境，并通过授权流程连接工具。",
+          "note": "需本机安装 Claude、Codex 或 Grok CLI；部分平台控制能力受限，第三方云端电脑或应用连接可能产生费用。",
+          "stars_today": 922
+        }
+      ]
+    },
     {
       "date": "2026-11-01",
       "summary": "Google Gemini API 最近数日推出 Computer Use GA 与 API CLI Beta，并调整新付费项目的请求存储默认值，开发者需留意安全执行和数据记录设置。GitHub 今日热门项目包括跨会话 Agent 控制、桌面多 Agent 团队、自动化浏览器和工程技能库。",
