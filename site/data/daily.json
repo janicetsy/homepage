@@ -1,7 +1,53 @@
 {
   "schema": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "days": [
+    {
+      "date": "2026-11-03",
+      "summary": "今天核实一项香港生产力促进局 AI agents 技术主任旧帖，欢迎符合研究生学历要求的应届毕业生；另有 TSMG 英文 AI 回覆评估远程线索，但香港申请资格未说明。两项薪酬均未披露，不当作今天新发或保证有名额。",
+      "items": [
+        {
+          "title": "Technical Officer, AI Agents & Data Analytics for AI City Brain（Ref: SCD/11109）",
+          "org": "HKPC — 香港生产力促进局",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "香港九龙岗位；未说明香港居留、工作许可或签证支持条件",
+          "location": "香港九龙／九龙塘 · 到场办公 · 24 个月合约",
+          "pay": "未披露金额、币种或计薪单位；官方仅称按学历及经验提供具竞争力待遇",
+          "requirements": [
+            "科学、工程、经济、公共行政或相关学科研究生学位；应届毕业生可申请，学校项目、研究合作、实习或相关自由职业经历可计",
+            "接触过 AI agents、数据分析、统计建模、模拟或社会经济事件定量分析；有 GenAI agent 开发与辅助探索分析基础实操和编码能力",
+            "Python／SQL 为偏好；需具社会经济、工业或商业建模知识，能验证分析结论，并熟悉知识组织和问题解决",
+            "良好英语书写口语、强 PowerPoint 能力，能向非技术人员沟通；可证明的 AI 知识及 GenAI 应用能力为优先条件"
+          ],
+          "posted": "旧帖；CTgoodjobs 标注 2026-10-15，LinkedIn 显示约两周前；非 11 月 2–3 日新发",
+          "deadline": "",
+          "note": "工作包括需求收集、方案文件、AI agent 开发与探索分析、整合测试及概念验证演示。官方建议发布后一周内申请，同时称招聘持续至填满，未给固定日历截止日。官方原页及专属 Apply now 入口仍可到达，登录后流程、实际提交或名额未确认。",
+          "url": "https://careers.hkpc.org/job/Technical-Officer%2C-AI-Agents-&-Data-Analytics-for-AI-City-Brain/1368793866/",
+          "source": "HKPC 官方具体职位及专属申请入口；CTgoodjobs／LinkedIn 补充地点与日期"
+        },
+        {
+          "title": "Evaluators for AI training (English language)",
+          "org": "TSMG",
+          "category": "remote",
+          "hk": "unknown",
+          "hk_note": "官方地点标签为 Lviv，标注 Remote；未列可申请国家或香港资格，不能视为全球或香港已获确认可承接",
+          "location": "Remote；地点标签 Lviv · 可全职或兼职",
+          "pay": "官方职位及申请页未披露金额、币种或计薪单位",
+          "requirements": [
+            "英语 B2+，主要为阅读和少量写作，无显著口语要求",
+            "注重细节、时间管理、积极主动及好奇心；提供完整线上培训",
+            "按指南比较 AI agent 的两种回复、判断优劣与程度，并分别评分"
+          ],
+          "posted": "官方未披露发布日期，不能称为新发",
+          "deadline": "",
+          "note": "官方 Lever 专属申请表仍展示，要求 CV、姓名、邮箱、目前所在地及必填经验／资格说明，有提交按钮。先确认所在地是否获接纳；未提交申请，不保证名额或香港可承接。",
+          "url": "https://jobs.lever.co/tsmg/d7d0e689-ae9a-4b00-8ed7-68c0abe0d8c9",
+          "source": "TSMG 官方 Lever 具体职位与专属申请表"
+        }
+      ],
+      "excluded": []
+    },
     {
       "date": "2026-11-02",
       "summary": "今天核实一项面向香港成长粤语母语者的远程语音 QA 合同、一项明确包含香港居住者的法律 AI 评估项目，以及一项香港机器学习工程职位。分别标明薪酬币种、筛选条件及日期差异；不把所有线索当作今日新发，也不保证派单或名额。",
