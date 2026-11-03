@@ -1,7 +1,52 @@
 {
   "schema": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "days": [
+    {
+      "date": "2026-11-03",
+      "summary": "OpenAI 10 月 30 日发布的 ChatGPT 手机端账户切换功能近期进入官方更新记录：iOS 和 Android 用户可同时保持两个账户登录。未检索到 11 月 1–3 日新增的官方 AI 软件发布；GitHub 今日热榜聚焦 Agent 桌面控制、跨会话记忆与开发工作流。",
+      "software": [
+        {
+          "title": "ChatGPT iOS 与 Android 开始推出账户切换",
+          "desc": "用户最多可同时登录两个 ChatGPT 账户，并在应用内切换，无需先退出再登录。每个账户各自保留聊天记录、记忆、设置和订阅。",
+          "note": "功能正在逐步推出；账户数据和订阅互不合并。",
+          "date": "2026-10-30",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source": "OpenAI Help Center"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code",
+          "desc": "Agent 控制界面，可从手机、网页或桌面管理本机的 Claude Code、Codex、Cursor、Grok Build、OpenCode 等编程 Agent。",
+          "note": "需先在本机安装并登录至少一个支持的 Agent；仓库称项目仍处于早期阶段，可能有缺陷。MIT 许可。",
+          "stars_today": 3229
+        },
+        {
+          "repo": "vercel-labs/agent-desktop",
+          "url": "https://github.com/vercel-labs/agent-desktop",
+          "desc": "面向 AI Agent 的跨平台桌面操作 CLI，通过操作系统无障碍树读取界面并执行控件操作，可在 macOS、Windows 和 Linux 使用。",
+          "note": "桌面快照、剪贴板、截图及命令输出可能含私人信息；macOS 需授予辅助功能权限，Linux 需图形会话。Apache-2.0 许可。",
+          "stars_today": 2275
+        },
+        {
+          "repo": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "desc": "自动记录 Agent 工具使用过程、生成摘要，并在后续会话中检索上下文，主打跨会话记忆。",
+          "note": "可能记录开发过程；可选择托管观察服务、本地观察器或自己的模型密钥。云同步需另行开启，敏感内容可用 private 标记排除。",
+          "stars_today": 1803
+        },
+        {
+          "repo": "Donchitos/Claude-Code-Game-Studios",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+          "desc": "把 Claude Code 配置成游戏开发工作室模板，包含 49 个专职 Agent、74 个技能、hooks、规则和文档模板。",
+          "note": "仅面向 Claude Code；这是可克隆并定制的流程模板，不是现成游戏。需 Claude Code、Python 3 和 Bash。MIT 许可。",
+          "stars_today": 1379
+        }
+      ]
+    },
     {
       "date": "2026-11-02",
       "summary": "截至 11 月 2 日，未检索到 11 月 1–2 日可由官方发布记录确认的新增 AI 软件功能或上新。最近核实的官方产品动态仍是 Google Gemini API 于 10 月 30 日将 Computer Use 工具正式开放；本日收录重点为 GitHub 热门项目。",
