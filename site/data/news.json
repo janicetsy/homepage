@@ -1,7 +1,68 @@
 {
   "schema": 1,
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "days": [
+    {
+      "date": "2026-11-04",
+      "summary": "Google 11 月 2 日的官方月度回顾梳理了 10 月多项 AI 动态：Gemini 4 Carbon 和 Genie 4 仍处受限测试阶段，SynthID Detector 则已扩大为全球英文可用。GitHub 今日趋势偏向桌面 Agent 操作、游戏开发协作与工程技能模板。",
+      "software": [
+        {
+          "title": "Gemini 4 Carbon：长流程编程与网络安全模型，仍在有限测试",
+          "desc": "Google 将 Carbon 定位为其面向复杂长周期工程任务和网络防御的前沿模型，重点包括漏洞发现、验证与修复。",
+          "note": "截至公告时仅向部分网络安全防御者及受信合作伙伴逐步开放，通过 Fairwind 计划测试；尚未向一般开发者、企业和消费者发布。",
+          "date": "2026-10-28",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "source": "Google Blog"
+        },
+        {
+          "title": "Genie 4：用自然语言实时引导互动模拟世界",
+          "desc": "Google DeepMind 的世界模型可实时改变场景、天气或角色，并生成环境音、音乐和互动对白，面向模拟训练和创意场景。",
+          "note": "目前只向一小组受信测试者开放；Google 表示之后将面向 Google AI Ultra 用户及 Gemini API / AI Studio 早期合作伙伴推出。",
+          "date": "2026-10-27",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+          "source": "Google DeepMind"
+        },
+        {
+          "title": "SynthID Detector 扩展为全球英文可用",
+          "desc": "网页工具可检查图片、视频或音频中是否带有 Google 或合作方 AI 内容的 SynthID 水印；合作方包括 OpenAI、NVIDIA、Kakao 和 Apple。",
+          "note": "面向全球英文用户开放；页面说明依赖 SynthID 水印，不应把它理解为可识别所有来源的 AI 内容通用检测器。原公告为 10 月 7 日，10 月 29 日更新。",
+          "date": "2026-10-07",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+          "source": "Google DeepMind"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "vercel-labs/agent-desktop",
+          "url": "https://github.com/vercel-labs/agent-desktop",
+          "desc": "面向 AI Agent 的桌面操作 CLI，通过操作系统无障碍树读取和操作应用界面，支持 macOS、Windows 和 Linux。",
+          "note": "macOS 需辅助功能权限；快照、剪贴板、截图和调试输出可能包含私人桌面内容。Apache-2.0 许可。",
+          "stars_today": 3791
+        },
+        {
+          "repo": "Donchitos/Claude-Code-Game-Studios",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+          "desc": "Claude Code 游戏开发流程模板，包含多类专职 Agent、技能、规则和项目文档模板。",
+          "note": "仅面向 Claude Code，是可定制的流程模板而非现成游戏；需 Claude Code、Python 3 和 Bash。MIT 许可。",
+          "stars_today": 1182
+        },
+        {
+          "repo": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "desc": "面向真实工程工作的可组合 Agent 技能，覆盖需求澄清、架构改进、调试、实现和代码审查等流程。",
+          "note": "支持 Claude Code、Codex、GitHub Copilot、Gemini CLI 等；按项目安装和更新，需先评估技能内容与仓库权限。MIT 许可。",
+          "stars_today": 1164
+        },
+        {
+          "repo": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "desc": "将 Agent 工作过程存为跨会话记忆，并用搜索和分层摘要恢复相关上下文；支持多种 Agent 工具。",
+          "note": "默认可在本地记录会话与工具观察；云同步和截图上传为可选功能。检查敏感内容排除规则以及模型/云服务的数据设置。",
+          "stars_today": 1139
+        }
+      ]
+    },
     {
       "date": "2026-11-03",
       "summary": "OpenAI 10 月 30 日发布的 ChatGPT 手机端账户切换功能近期进入官方更新记录：iOS 和 Android 用户可同时保持两个账户登录。未检索到 11 月 1–3 日新增的官方 AI 软件发布；GitHub 今日热榜聚焦 Agent 桌面控制、跨会话记忆与开发工作流。",
