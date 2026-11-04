@@ -1,7 +1,39 @@
 {
   "schema": 1,
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "days": [
+    {
+      "date": "2026-11-04",
+      "summary": "今天核实一项 Intact 香港 DevSecOps AI 全职岗位，要求约 5 年云／DevOps／DevSecOps 经验，另需 2–3 年相关数据或机器学习平台实操。薪酬与发布日期未披露，不能称为今天新发；粤语营销本地化项目未核实当前可申请，不列为开放机会。",
+      "items": [
+        {
+          "title": "DevSecOps AI – Hong Kong（R154292）",
+          "org": "Intact Financial Corporation / Intact Financial (HK) Limited（Intact Lab, HK）",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "香港本地职位；签证与工作许可条件未说明。原页标签 Hong Kong Island，正文及申请路径指香港科学园，具体办公点需确认",
+          "location": "香港 · 全职",
+          "pay": "官方未披露薪酬金额、币种或计薪单位",
+          "requirements": [
+            "计算机科学／计算机工程学士或同等经验；约 5 年云工程、DevOps 或 DevSecOps 相关经验",
+            "2–3 年 Snowflake 和／或 Databricks 和／或 AWS SageMaker 实操经验",
+            "熟悉 AWS 服务，以及 Terraform、GitHub／GitLab、Kubernetes、Elastic Search、HashiCorp Vault、Dynatrace、DataDog 等工具",
+            "网络安全最佳实践、自驱、问题解决及沟通能力；非初级岗位"
+          ],
+          "posted": "官方 Date Posted 字段为空，无法核实新旧",
+          "deadline": "",
+          "note": "职责涉及云与数据平台、基础设施即代码、CI/CD 及 AI／GenAI 自动化。官方 Apply Now 可进入本岗位专属 Workday Start Your Application，提供简历自动填充、手动申请或沿用上次申请选项。可开始申请不保证提交成功或名额。",
+          "url": "https://careers.intactfc.com/devsecops-ai-hong-kong/job/R154292",
+          "source": "Intact 官方原职位及岗位 R154292 专属 Workday 申请入口"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "Xandro Lab — Cantonese Marketing Translator & Localization Specialist（Upwork）",
+          "reason": "原页显示约两个月前发布，只有通用注册入口，没有确认到专属 Apply；当前可申请状态未核实，不等于已关闭，也不列为已确认开放机会"
+        }
+      ]
+    },
     {
       "date": "2026-11-03",
       "summary": "今天核实一项香港生产力促进局 AI agents 技术主任旧帖，欢迎符合研究生学历要求的应届毕业生；另有 TSMG 英文 AI 回覆评估远程线索，但香港申请资格未说明。两项薪酬均未披露，不当作今天新发或保证有名额。",
