@@ -1,7 +1,60 @@
 {
   "schema": 1,
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "days": [
+    {
+      "date": "2026-11-05",
+      "summary": "Apple 开放 Siri AI App Intents 开发者预览，开发者可在最新系统测试版中把应用操作接入 Siri；消费者功能和正式上架仍需等待后续发布。GitHub 今日趋势中，桌面 Agent 操作、企业语义数据层和网页抓取工具增幅突出。",
+      "software": [
+        {
+          "title": "Siri AI 开放给开发者预览，应用可接入自然语言操作",
+          "desc": "Apple 面向开发者开放 Siri AI App Intents 预览，可将应用内容与自定义操作接入 Siri；复杂请求可组合多项动作。",
+          "note": "目前仅在 iOS/iPadOS/macOS/visionOS 27.3 测试版提供开发者预览；正式面向用户发布尚待后续。当前支持英语、法语、日语、韩语、葡萄牙语和西班牙语，繁体中文列为未来扩展语言；部分功能受地区限制，欧盟目前不可用。",
+          "date": "2026-11-03",
+          "url": "https://developer.apple.com/news/?id=gdk2umrf",
+          "source": "Apple Developer News"
+        },
+        {
+          "title": "ChatGPT 手机应用开始推出双账户切换",
+          "desc": "iOS 与 Android 用户可在应用中保持最多两个 ChatGPT 账户登录并切换，不必反复退出。",
+          "note": "分阶段推出；每个账户的聊天记录、记忆、设置和订阅各自独立。",
+          "date": "2026-10-30",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source": "OpenAI Help Center"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "vercel-labs/agent-desktop",
+          "url": "https://github.com/vercel-labs/agent-desktop",
+          "desc": "面向 AI Agent 的桌面操作工具，通过系统无障碍树读取并操作应用界面，提供 CLI、MCP 和 C 库。",
+          "note": "支持 macOS、Windows、Linux；需按平台授予辅助功能/桌面权限。快照和剪贴板输出可能含私人信息，勿上传公开日志。",
+          "stars_today": 2470
+        },
+        {
+          "repo": "NVIDIA/auto-ontology",
+          "url": "https://github.com/NVIDIA/auto-ontology",
+          "desc": "从企业数据生成语义模型，帮助 Agent 基于业务术语检索数据并生成、校验自然语言转 SQL。",
+          "note": "需自行部署、连接数据库并配置 NVIDIA API/模型端点；需人工审核生成语义模型和 SQL。部分后端端点缺少认证，应置于私有网络并审查数据外发。",
+          "stars_today": 2050
+        },
+        {
+          "repo": "D4Vinci/Scrapling",
+          "url": "https://github.com/D4Vinci/Scrapling",
+          "desc": "Python 网页抓取框架，支持 HTTP、浏览器渲染与交互、页面解析、并发爬取，也提供 MCP/Agent Skill 接口。",
+          "note": "抓取可能接触 Cookie、登录态和敏感页面数据；应遵守目标网站条款、robots.txt 与适用法律。",
+          "stars_today": 2005
+        },
+        {
+          "repo": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "desc": "一组可组合的编码 Agent 工程技能，覆盖需求澄清、规格整理及 issue/triage 等工作流。",
+          "note": "支持 Claude Code、Codex、GitHub Copilot、Gemini CLI 等。技能依赖 Agent 按提示执行；部分流程会访问仓库或修改配置，使用前应审阅内容和权限。MIT 许可。",
+          "stars_today": 1379
+        }
+      ]
+    },
     {
       "date": "2026-11-04",
       "summary": "Google 11 月 2 日的官方月度回顾梳理了 10 月多项 AI 动态：Gemini 4 Carbon 和 Genie 4 仍处受限测试阶段，SynthID Detector 则已扩大为全球英文可用。GitHub 今日趋势偏向桌面 Agent 操作、游戏开发协作与工程技能模板。",
