@@ -1,7 +1,39 @@
 {
   "schema": 1,
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "days": [
+    {
+      "date": "2026-11-05",
+      "summary": "今天没有核实到新增且明确香港可承接的机会。复核 Prolific 繁体中文／粤语 AI 训练专属表单仍可进入，但职位标题带 UK，香港入池资格未确认；原页 $30/hr 是研究者常见报价，未明确币种代码，也不保证任务或工时。",
+      "items": [
+        {
+          "title": "Traditional Chinese/Cantonese – Fluent Speakers – AI Training – UK",
+          "org": "Prolific Academic Ltd",
+          "category": "followup",
+          "hk": "unknown",
+          "hk_note": "职位标题带 UK，表单有指定地区及身份核验要求；REST OF WORLD 可填写所在地，不代表香港已获准入池或接单",
+          "location": "Remote · 专家参与者池 · 按任务付费，非保证工时雇佣",
+          "pay": "原文研究者 tend to pay $30/hr per AI task completed；未明确币种代码，不能当作保证时薪或稳定收入",
+          "requirements": [
+            "高水平繁体中文／粤语及可核实的流利使用经验；愿接受技能验证测试",
+            "能专注复杂任务最多一小时；需快速可靠网络及电脑",
+            "愿按自雇身份自行申报收入，并有 PayPal 收款账户",
+            "满足实际居住地、身份核验及地区准入条件；香港资格待确认"
+          ],
+          "posted": "官方未披露发布日期，不能称为今天新发",
+          "deadline": "",
+          "note": "任务包括繁体中文／粤语分析、编辑、写作及 AI 输出评估。通过专属 Greenhouse 表单提供联系资料与简历、回答居住地和身份核验问题；技能测试通过后才可能获邀进入 Domain Expert 参与者池，不保证录取、派单或收入。表单及提交按钮仍展示，未确认后续提交或实际入池结果。",
+          "url": "https://job-boards.eu.greenhouse.io/prolificacademicltd/jobs/4855117101",
+          "source": "Prolific 官方 Greenhouse 具体职位及专属申请表单"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "FDM Group — AI & Automation Engineering Graduate Programme",
+          "reason": "旧帖，Indeed 提示可能不再接受申请／不再积极招聘或正在审阅；未核实到名称对应的现行官方专属申请入口。其他 FDM 职位不能代替本项目；不列为已确认活跃"
+        }
+      ]
+    },
     {
       "date": "2026-11-04",
       "summary": "今天核实一项 Intact 香港 DevSecOps AI 全职岗位，要求约 5 年云／DevOps／DevSecOps 经验，另需 2–3 年相关数据或机器学习平台实操。薪酬与发布日期未披露，不能称为今天新发；粤语营销本地化项目未核实当前可申请，不列为开放机会。",
