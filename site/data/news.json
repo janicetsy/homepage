@@ -4,12 +4,12 @@
   "days": [
     {
       "date": "2026-11-05",
-      "summary": "Apple 开放 Siri AI App Intents 开发者预览，开发者可在最新系统测试版中把应用操作接入 Siri；消费者功能和正式上架仍需等待后续发布。GitHub 今日趋势中，桌面 Agent 操作、企业语义数据层和网页抓取工具增幅突出。",
+      "summary": "Apple 开放 Siri AI App Intents 开发者预览，开发者可在最新系统测试版中将应用动作接入 Siri；这些第三方集成尚未正式面向消费者发布。GitHub 今日趋势中，桌面 Agent 操作、企业语义数据层和网页抓取工具增幅突出。",
       "software": [
         {
           "title": "Siri AI 开放给开发者预览，应用可接入自然语言操作",
           "desc": "Apple 面向开发者开放 Siri AI App Intents 预览，可将应用内容与自定义操作接入 Siri；复杂请求可组合多项动作。",
-          "note": "目前仅在 iOS/iPadOS/macOS/visionOS 27.3 测试版提供开发者预览；正式面向用户发布尚待后续。当前支持英语、法语、日语、韩语、葡萄牙语和西班牙语，繁体中文列为未来扩展语言；部分功能受地区限制，欧盟目前不可用。",
+          "note": "开发者预览需 iOS/iPadOS/macOS/visionOS 27.3 测试版及支持 Apple Intelligence 的设备；第三方集成尚未正式面向消费者发布。繁体中文列为未来扩展语言；欧盟的 iOS/iPadOS/watchOS 目前不可用，部分功能另有地区或语言限制。",
           "date": "2026-11-03",
           "url": "https://developer.apple.com/news/?id=gdk2umrf",
           "source": "Apple Developer News"
