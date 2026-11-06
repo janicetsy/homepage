@@ -1,7 +1,60 @@
 {
   "schema": 1,
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "days": [
+    {
+      "date": "2026-11-06",
+      "summary": "OpenAI 发布 Images 2.6：官方称图像生成快 50%，并加入 GIF 生成及更细致的编辑控制，已在 ChatGPT 与 Codex 向各订阅层全球推出。GitHub 今日热门项目以企业语义数据层、Agent 桌面操作和工程工作流技能为主。",
+      "software": [
+        {
+          "title": "OpenAI Images 2.6 加快生成并支持 GIF 动效",
+          "desc": "Images 2.6 可生成 GIF、在多轮编辑中更好保持角色和品牌细节；OpenAI 称生成速度提升 50%，API 加入图像标注编辑、SVG 导出及复杂度控制。",
+          "note": "官方称已在 ChatGPT 和 Codex 的桌面、移动端及网页向所有订阅层全球推出；API 提供 GPT-Image-2.6 Flare 与 Sunburst。",
+          "date": "2026-11-04",
+          "url": "https://openai.com/index/introducing-images-2-6/",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Siri AI 开放给开发者预览，应用可接入自然语言操作",
+          "desc": "Apple 面向开发者开放 Siri AI App Intents 预览，可将应用内容与自定义操作接入 Siri；复杂请求可组合多项动作。",
+          "note": "开发者预览需 iOS/iPadOS/macOS/visionOS 27.3 测试版及支持 Apple Intelligence 的设备；第三方集成尚未正式面向消费者发布。繁体中文列为未来扩展语言；欧盟的 iOS/iPadOS/watchOS 目前不可用，部分功能另有地区或语言限制。",
+          "date": "2026-11-03",
+          "url": "https://developer.apple.com/news/?id=gdk2umrf",
+          "source": "Apple Developer News"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "NVIDIA/auto-ontology",
+          "url": "https://github.com/NVIDIA/auto-ontology",
+          "desc": "用企业关系型数据构建语义本体/知识图谱，帮助 Agent 以自然语言检索、生成 SQL 并提供查询来源。",
+          "note": "需自行部署、连接数据库并配置模型端点；托管推理可能传送问题和上下文。应采用最小数据库权限并审查生成的 SQL。",
+          "stars_today": 2679
+        },
+        {
+          "repo": "vercel-labs/agent-desktop",
+          "url": "https://github.com/vercel-labs/agent-desktop",
+          "desc": "供 AI Agent 操作桌面应用的 CLI/C 库，可读取系统辅助功能树并执行点击、输入和状态验证；支持 stdio MCP。",
+          "note": "支持 macOS、Windows、Ubuntu；辅助功能、剪贴板、截图和输入权限可能接触或改变私密桌面数据，需最小授权并保护日志。",
+          "stars_today": 2173
+        },
+        {
+          "repo": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "desc": "面向软件工程的 AI 编码代理技能集合，辅助需求澄清、规格与工单、实现、审查及代码库文档等工作流。",
+          "note": "MIT 许可；技能可能让代理读取或修改项目文件、访问工单系统，使用前应审阅技能来源和代理权限。",
+          "stars_today": 2071
+        },
+        {
+          "repo": "D4Vinci/Scrapling",
+          "url": "https://github.com/D4Vinci/Scrapling",
+          "desc": "Python 网页抓取框架，支持 HTTP 与浏览器抓取、自适应定位、会话管理、并发爬取及可选 MCP/RAG 功能。",
+          "note": "Python 3.10+；浏览器功能需额外依赖。抓取会涉及网站请求、登录态和凭据，须遵守网站条款、robots.txt 及适用法律。",
+          "stars_today": 1655
+        }
+      ]
+    },
     {
       "date": "2026-11-05",
       "summary": "Apple 开放 Siri AI App Intents 开发者预览，开发者可在最新系统测试版中将应用动作接入 Siri；这些第三方集成尚未正式面向消费者发布。GitHub 今日趋势中，桌面 Agent 操作、企业语义数据层和网页抓取工具增幅突出。",
