@@ -1,7 +1,52 @@
 {
   "schema": 1,
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "days": [
+    {
+      "date": "2026-11-07",
+      "summary": "截至 11 月 7 日检索，近几日最新可核实的 AI 软件产品公告仍为 OpenAI Images 2.6（11 月 4 日）：生成速度提升、可制作 GIF 并提供更细致的 API 编辑控制；未发现 11 月 6–7 日更新且能由官方来源核实的更新产品公告。GitHub 今日趋势项目集中在安全审计技能、工程 Agent 技能和 Google 产品技能。",
+      "software": [
+        {
+          "title": "OpenAI Images 2.6 加快生成并支持 GIF 动效",
+          "desc": "Images 2.6 可生成 GIF、在多轮编辑中更好保持角色和品牌细节；OpenAI 称生成速度提升 50%，API 加入图像标注编辑、SVG 导出及复杂度控制。",
+          "note": "这是截至 11 月 7 日核实到的近期最新官方产品公告（发布于 11 月 4 日，并非今日新发布）。已在 ChatGPT 和 Codex 的桌面、移动端及网页向各订阅层全球推出；API 提供 GPT-Image-2.6 Flare 与 Sunburst。",
+          "date": "2026-11-04",
+          "url": "https://openai.com/index/introducing-images-2-6/",
+          "source": "OpenAI"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "desc": "面向编程代理的代码库安全审计技能，覆盖侦察、漏洞搜寻、候选验证、结构化发现和报告。",
+          "note": "MIT 许可。README 要求对目标构建、测试等使用禁外网、净化环境、资源及写入受限的沙箱；运行前应限制代理权限。",
+          "stars_today": 2548
+        },
+        {
+          "repo": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "desc": "面向多种 AI 编程代理的软件工程技能集合，涵盖需求澄清、测试驱动开发、调试、架构和文档工作流。",
+          "note": "MIT 许可。技能/插件可能指导代理使用宿主权限读写项目；使用前审阅内容、来源及文件、命令和网络权限。",
+          "stars_today": 2070
+        },
+        {
+          "repo": "NVIDIA/auto-ontology",
+          "url": "https://github.com/NVIDIA/auto-ontology",
+          "desc": "Python 框架，从企业元数据构建语义层/本体与知识图谱，为 Agent 提供语义化数据查询，并通过 Web、MCP、CLI 和 API 接入。",
+          "note": "Apache-2.0 许可。连接数据库、执行自然语言转 SQL及托管推理涉及权限和敏感数据；限制数据库权限并妥善保护密钥。",
+          "stars_today": 2015
+        },
+        {
+          "repo": "google/skills",
+          "url": "https://github.com/google/skills",
+          "desc": "Google 产品与技术的 Agent Skills 及插件集合，为兼容的 AI Agent 提供任务指引和 MCP 接入。",
+          "note": "Apache-2.0 许可。云端访问取决于 Agent、MCP、凭证和 IAM；安装前审阅指令并采用最小权限。",
+          "stars_today": 534
+        }
+      ]
+    },
     {
       "date": "2026-11-06",
       "summary": "OpenAI 发布 Images 2.6：官方称图像生成快 50%，并加入 GIF 生成及更细致的编辑控制，已在 ChatGPT 与 Codex 向各订阅层全球推出。GitHub 今日热门项目以企业语义数据层、Agent 桌面操作和工程工作流技能为主。",
