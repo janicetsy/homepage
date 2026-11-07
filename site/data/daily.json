@@ -1,7 +1,39 @@
 {
   "schema": 1,
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "days": [
+    {
+      "date": "2026-11-07",
+      "summary": "今天补充核实一项明确将香港列入可申请地点的远程 Python 代码评审 AI 任务，原页报酬为 US$27–50／小时、每周 20+ 小时。职位发布于 7 月 24 日，是旧帖，当前仍列出专属申请链接；不保证名额、录取或派单。",
+      "items": [
+        {
+          "title": "Python Code Reviewer (Chinese)",
+          "org": "OpenTrain AI",
+          "category": "remote",
+          "hk": "yes",
+          "hk_note": "官方原页明确将 Hong Kong 列入可申请地点；具体合同及后续审核仍须满足平台条件",
+          "location": "远程 · 兼职合同工 · 每周 20+ 小时",
+          "pay": "US$27–50／小时；原页正文明确 USD，不保证任务量或稳定工时",
+          "requirements": [
+            "流利普通话和清晰书面英语",
+            "扎实 Python 3.x：数据结构、函数、模块、异常处理；实际调试与代码审查能力",
+            "能判断正确性、边界情况、时间／空间复杂度及惯用代码；细致、一致、自主",
+            "页面标 Entry level；AI 训练、标注或 AI 内容评估经验为 strongly preferred，并非无编程要求"
+          ],
+          "posted": "2026-07-24（旧帖，非今日新发）",
+          "deadline": "",
+          "note": "审核 AI 生成的 Python 答案与中文解释、比较模型回复、写参考解答和反馈、中英文标注错误。原页仍列专属 Apply now，外链返回相关岗位标题 Python Expert (Chinese)。需创建免费 OpenTrain 账户并添加简历后完成申请；登录后的提交未核实，仍列示不保证名额、录取或派单。",
+          "url": "https://www.opentrain.ai/jobs/chinese-speaking-python-code-reviewer--cmryqh5bm00010aj3jgks59ec/",
+          "source": "OpenTrain AI 具体原职位页及岗位 ID 对应申请链接"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "CoinDesk — AI Automation Engineer — Internal Tools & Production",
+          "reason": "SkillUp 的所谓雇主申请链接跳到 JobLeads，未核实 CoinDesk 官方专属申请入口；两页日期相互冲突，聚合页薪酬未获雇主官方确认，不列为确认开放的机会"
+        }
+      ]
+    },
     {
       "date": "2026-11-06",
       "summary": "今天补充核实一项香港初级 AI 工程合约岗位，以及一项全球远程中文 LLM 内容评估合同，两者原页均仍列出且有专属申请入口。它们分别发布于 10 月 20 日和 7 月 17 日，并非今日新发；薪酬金额均未核实，远程项目香港承包资格仍待确认。",
