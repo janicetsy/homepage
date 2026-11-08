@@ -1,7 +1,68 @@
 {
   "schema": 1,
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "days": [
+    {
+      "date": "2026-11-08",
+      "summary": "OpenAI GPT-6 Cyber 面向获批的 Daybreak Red 客户有限开放，重点用于授权网络安全防御并配套强化防护；Perplexity 推出持续型 Teammates，并调整 Agent API 研究等级与成本。GitHub 今日热门包括安全审计 Agent 技能、本地多 Agent 聊天工具及代码编辑器。",
+      "software": [
+        {
+          "title": "OpenAI GPT-6 Cyber 面向获批的防御团队有限开放",
+          "desc": "OpenAI 将 GPT-6 Cyber 定位为网络安全研究与防御模型，可用于发现漏洞、验证修复和受控测试，并为高风险网络安全任务加强了授权监测与滥用防护。",
+          "note": "2026-11-05 发布；目前仅通过 API 和 Codex 向经批准的 Daybreak Red 客户开放，非公众通用版。OpenAI 建议对高风险工作流使用沙箱和人工监督。",
+          "date": "2026-11-05",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Perplexity Teammates 接手持续性工作",
+          "desc": "Teammates 是可持续管理项目的 AI Agent，能记忆项目目标、主动跟进变化、协调其他 Agent，并通过 Slack 与团队协作。",
+          "note": "2026-11-04 发布，先在网页向 Perplexity Max 用户推出，iOS 版计划稍后上线；Free 和 Pro 用户可在设置中升级。连接 Slack、GitHub 或 Gmail 等工具前，应审查授权范围。",
+          "date": "2026-11-04",
+          "url": "https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work",
+          "source": "Perplexity"
+        },
+        {
+          "title": "Perplexity Agent API 降低研究等级成本并新增 ultra",
+          "desc": "Perplexity 称各 effort level 每次查询成本降低、研究质量持平或提高，并新增适合广泛深度研究的 ultra 等级；调用等级名称即可自动获得新配置。",
+          "note": "2026-11-05 公告；文中性能数字及基准结果为 Perplexity 自述，实际成本取决于任务配置和使用量。",
+          "date": "2026-11-05",
+          "url": "https://www.perplexity.ai/hub/blog/improvements-to-every-agent-api-effort-level",
+          "source": "Perplexity"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "desc": "供 coding agent 使用的多阶段安全审计工作流，含并行排查、独立验证及结构化报告；不是独立扫描器。",
+          "note": "MIT 许可。要求对目标代码构建、测试等使用禁外网、限资源和写入范围的隔离沙箱；数据处理取决于所选 Agent/模型。",
+          "stars_today": 2085
+        },
+        {
+          "repo": "milind-soni/OpenMausBot",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "desc": "本地优先的多 Agent 聊天应用，可连接 CLI Agent、模型 API、云端或本地电脑及第三方应用。",
+          "note": "Apache-2.0 许可。Agent 可运行 Shell、改文件并接入 OAuth 应用；远程访问配置需谨慎，勿直接暴露默认控制端口。",
+          "stars_today": 1955
+        },
+        {
+          "repo": "zed-industries/zed",
+          "url": "https://github.com/zed-industries/zed",
+          "desc": "跨平台协作代码编辑器，提供 AI 编辑、Agent 工作流及多种模型接入方式。",
+          "note": "仓库主要 GPL-3.0-or-later，部分组件 Apache-2.0。AI 上下文按配置交由托管服务、供应商或本地服务；工具权限可涉及项目文件和命令。",
+          "stars_today": 1114
+        },
+        {
+          "repo": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "desc": "可组合的编程 Agent 技能集合，涵盖需求拆解、TDD、调试、代码审查及 Issue 处理等工作流。",
+          "note": "MIT 许可。需兼容的 Agent；部分流程可能读写项目或操作 GitHub/GitLab，模型数据处理依所用服务而异。",
+          "stars_today": 1100
+        }
+      ]
+    },
     {
       "date": "2026-11-07",
       "summary": "截至 11 月 7 日检索，近几日最新可核实的 AI 软件产品公告仍为 OpenAI Images 2.6（11 月 4 日）：生成速度提升、可制作 GIF 并提供更细致的 API 编辑控制；未发现 11 月 6–7 日更新且能由官方来源核实的更新产品公告。GitHub 今日趋势项目集中在安全审计技能、工程 Agent 技能和 Google 产品技能。",
