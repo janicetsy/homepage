@@ -1,7 +1,59 @@
 {
   "schema": 1,
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "days": [
+    {
+      "date": "2026-11-08",
+      "summary": "今天补充核实两项仍列专属申请入口的全球远程 AI 合同：多语言代码评估，以及需生命科学研究背景的任务设计。均非今日新发；香港资格未单独确认。代码评估未披露费率，生命科学任务标价 $280／获批任务但币种不明，且每周工时要求存在冲突。",
+      "items": [
+        {
+          "title": "Multilingual Coding AI Evaluation Expert",
+          "org": "OpenTrain AI",
+          "category": "remote",
+          "hk": "unknown",
+          "hk_note": "官方标注 Open worldwide、100% remote，中文为工作语言之一；未单独确认香港资格或后续平台准入",
+          "location": "全球远程 · 4 周兼职合同 · 每周 20+ 小时",
+          "pay": "按任务／label 计酬；未披露具体金额、费率或币种",
+          "requirements": [
+            "英语工作沟通能力，并掌握所列语言至少一种；中文在名单内",
+            "Python、Java、JavaScript、TypeScript、C++ 或 C# 至少一种实操经验；数据结构、算法、调试及软件开发基础",
+            "每周 20+ 小时，并与 Pacific Time 重叠 4 小时；4 周合同",
+            "页面标 Entry level；相关学位或同等实践经验、代码审查、技术写作／本地化、测试用例或 AI 训练／评估经验为加分项"
+          ],
+          "posted": "2026-10-14（旧帖，非今日新发）",
+          "deadline": "",
+          "note": "原页及专属申请路由仍显示对应岗位与申请说明，路由标题为 Coding Multilingual Expert。先创建免费 OpenTrain 账户并提交简历，再完成招聘平台申请。登录后的提交未核实；仍列示不保证名额、录取或派单。",
+          "url": "https://www.opentrain.ai/jobs/multilingual-coding-ai-evaluation-expert--cmv7ytepj000h02lpgri077h0/",
+          "source": "OpenTrain AI 具体职位页及岗位 ID 对应专属申请路由"
+        },
+        {
+          "title": "Computational Life Sciences AI Task Expert",
+          "org": "OpenTrain AI",
+          "category": "remote",
+          "hk": "unknown",
+          "hk_note": "官方标注 Remote、Open worldwide；未单独确认香港资格，不保证承包审核通过",
+          "location": "全球远程 · 5 周专业合同；工时要求冲突待确认",
+          "pay": "$280／获批任务，原页未明确币种；按任务计酬，不保证任务量或收入",
+          "requirements": [
+            "生命科学博士、博士后训练或同等研究经验；流利英语",
+            "强科学编程能力，尤其 Python；多步骤计算分析及计算结果验证经验",
+            "能把真实研究流程设计成边界明确、可客观评分的任务；熟悉科学库、命令行或可复现研究流程",
+            "5 周合同；列明每日至少 6 小时及 Pacific 时区重叠 4 小时。原页每周 20+ 小时，专属 Apply 版至少 40 小时／周，两者冲突，申请前须确认"
+          ],
+          "posted": "2026-10-27（旧帖，非今日新发）",
+          "deadline": "",
+          "note": "生物信息学、计算基因组学、系统生物学、计算神经科学、生物统计、计算药物发现等背景相关。专属 Apply 版标题为 Agentic Life Science Expert, Computational AI。先上传简历并可能创建免费账户，再到招聘平台完成申请。原页与 Apply 仍列，但后续提交、名额及任务量未核实。",
+          "url": "https://www.opentrain.ai/jobs/computational-life-sciences-ai-task-expert--cmvqj6usm001k08lgrre9aoaa/",
+          "source": "OpenTrain AI 具体职位原页、专属 Apply 版本及岗位 ID 对应申请路由"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "New Media Group HK — AI Product Builder",
+          "reason": "官方招聘列表仍列职位，但未核实有效专属申请表；LinkedIn 显示 3 days ago，雇主正文却标 2026-08-12，不认定为近期新发或已确认可投递，不代表已关闭"
+        }
+      ]
+    },
     {
       "date": "2026-11-07",
       "summary": "今天补充核实一项明确将香港列入可申请地点的远程 Python 代码评审 AI 任务，原页报酬为 US$27–50／小时、每周 20+ 小时。职位发布于 7 月 24 日，是旧帖，当前仍列出专属申请链接；不保证名额、录取或派单。",
