@@ -1,7 +1,68 @@
 {
   "schema": 1,
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "days": [
+    {
+      "date": "2026-11-09",
+      "summary": "Claude 近期新增项目成本标签、安全管理能力，以及面向美国付费用户的只读个人财务 Beta。GitHub 日榜热门包括多 Agent 桌面应用、React 设计系统与 Agent 浏览器自动化工具。",
+      "software": [
+        {
+          "title": "Claude Enterprise 项目标签开始 Beta 测试",
+          "desc": "组织可为 Claude 项目设置成本代码、客户事项编号等标签，并按标签查看多数项目支出或通过 API 读取。",
+          "note": "2026-11-06 公告；仅 Enterprise 且符合条件的组织可用。HIPAA、CMEK、零/最小数据保留、数据存于美国境外等配置暂不支持；只统计项目内工作，标签名和值会对组织成员可见。",
+          "date": "2026-11-06",
+          "url": "https://support.claude.com/en/articles/18251257-track-spend-by-project-with-tags",
+          "source": "Claude Help Center"
+        },
+        {
+          "title": "Claude 推出 Personal Finance 个人财务 Beta",
+          "desc": "用户可通过 Plaid 连接银行和卡账户，让 Claude 汇总余额、交易与支出；访问为只读，不能转账、管理或投资资金。",
+          "note": "2026-11-05 开始逐步推出，仅限美国 Pro、Max、Ultra 计划。Claude 可能出错，重要数字应与银行核对；账户连接会共享用户授权的财务数据。",
+          "date": "2026-11-05",
+          "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+          "source": "Claude 产品更新"
+        },
+        {
+          "title": "Claude Enterprise 增加安全中心与管理员控制",
+          "desc": "新增组织安全态势中心、可将提示和工具调用送检的 inference hooks、集中式组织管理及更多访问控制。",
+          "note": "2026-11-05 公告；Inference hooks 已正式开放，安全中心、集中管理、IP 白名单等部分功能仍为 Beta。安全中心提供配置建议，不构成合规认证或保证。",
+          "date": "2026-11-05",
+          "url": "https://claude.com/resources/articles/claude-enterprise-security-updates",
+          "source": "Claude 产品更新"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "milind-soni/OpenMausBot",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "desc": "本地优先的多 Agent 桌面聊天应用，可调用本机 CLI Agent，并连接云端或本地桌面和第三方应用。",
+          "note": "Apache-2.0 主许可不涵盖 enterprise/ 目录（另有企业许可）。Agent 可操作主机、文件和获授权应用；Windows 安装器尚未代码签名。",
+          "stars_today": 1439
+        },
+        {
+          "repo": "meta/astryx",
+          "url": "https://github.com/meta/astryx",
+          "desc": "Meta 的 React 设计系统，提供组件、主题、页面模板及面向编码 Agent 的 CLI。",
+          "note": "MIT 许可，README 标注 Beta。CLI 可写入项目文件或应用升级 codemod，运行前应检查变更。",
+          "stars_today": 875
+        },
+        {
+          "repo": "vercel-labs/agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "desc": "供 AI Agent 使用的浏览器自动化 CLI，可操作 Chrome、读取页面、填写表单、截图及连接 MCP。",
+          "note": "Apache-2.0。导航和操作限制默认未启用；建议配置域名白名单、操作策略和危险操作确认。",
+          "stars_today": 815
+        },
+        {
+          "repo": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "desc": "Anthropic 官方 Agent Skills 示例库，提供开发、办公和文档处理等可复用任务指引。",
+          "note": "许可证按子目录而异，并非全库统一 Apache-2.0；安装第三方技能前应审阅指令与脚本。",
+          "stars_today": 792
+        }
+      ]
+    },
     {
       "date": "2026-11-08",
       "summary": "OpenAI GPT-6 Cyber 面向获批的 Daybreak Red 客户有限开放，重点用于授权网络安全防御并配套强化防护；Perplexity 推出持续型 Teammates，并调整 Agent API 研究等级与成本。GitHub 今日热门包括安全审计 Agent 技能、本地多 Agent 聊天工具及代码编辑器。",
