@@ -1,7 +1,26 @@
 {
   "schema": 1,
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "days": [
+    {
+      "date": "2026-11-09",
+      "summary": "今天未核实到符合筛选条件的新增 AI 招聘、自由职业项目或付费任务。已排除重复旧帖、明确不再接受申请的岗位，以及香港资格未确认且非明确全球开放的项目，不以聚合页或未确认薪酬凑数。历史机会仍可在此前日期查看，但不代表本日重新核实了全部历史岗位。",
+      "items": [],
+      "excluded": [
+        {
+          "title": "First Page — Junior AI Engineer (Contract)",
+          "reason": "LinkedIn 具体职位页明确写 No longer accepting applications，不作为可申请机会推荐"
+        },
+        {
+          "title": "Prolific — Traditional Chinese/Cantonese AI Training — Singapore",
+          "reason": "具体岗位标题限定 Singapore；申请地区选项不足以确认香港可加入，不视为香港明确可申请或明确全球开放的机会"
+        },
+        {
+          "title": "Ambition Junior AI Engineer／OpenTrain Cantonese QA Lead",
+          "reason": "具体原页仍可读取，但此前已报道；本日没有核实到足以再次推荐的重要更新，去重不重复列报"
+        }
+      ]
+    },
     {
       "date": "2026-11-08",
       "summary": "今天补充核实两项仍列专属申请入口的全球远程 AI 合同：多语言代码评估，以及需生命科学研究背景的任务设计。均非今日新发；香港资格未单独确认。代码评估未披露费率，生命科学任务标价 $280／获批任务但币种不明，且每周工时要求存在冲突。",
