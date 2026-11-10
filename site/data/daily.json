@@ -1,7 +1,33 @@
 {
   "schema": 1,
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "days": [
+    {
+      "date": "2026-11-10",
+      "summary": "本輪核實到 1 項 11 月 9 日發佈、明確接受香港申請的遠程 AI 語音採集合同，但需要西班牙語流利及自然的西班牙語影響英語口音，適用範圍較窄。未核實到其他符合篩選條件的新增香港 AI 職位或自由職業項目，不以重複舊帖補數。",
+      "items": [
+        {
+          "title": "Bilingual Audio Contributor (Spanish/English)",
+          "org": "OpenTrain",
+          "category": "remote",
+          "hk": "yes",
+          "hk_note": "官方列明 95 個開放國家／地區，名單包括 Hong Kong；仍需符合語言及口音要求，不保證錄用或名額。",
+          "location": "100% remote · Contract · AI 訓練語音採集",
+          "pay": "$30 per hour／$30/hr；原頁未標明幣種，不自行認定為美元。",
+          "requirements": [
+            "西班牙語流利，且具有自然的西班牙語影響英語口音。",
+            "能按英文書面指引，用有麥克風的手機或電腦朗讀簡短英文腳本並提交清晰錄音。",
+            "過往錄音或旁白經驗有幫助但非必需。"
+          ],
+          "posted": "2026-11-09（原頁標注）",
+          "deadline": "",
+          "note": "原頁稱錄音約 15 分鐘或更短，不據此推算單次收入。未披露截止日期。官方仍列出專屬 Apply now 入口，說明需先帶簡歷在 OpenTrain 申請，再到 hiring site 完成；專屬出口返回同一職位頁，後續表單及最終提交未核實，不保證任務量。",
+          "url": "https://www.opentrain.ai/jobs/spanish-english-audio-recording-contributor--cmw9uwtx000hg08l2a3g88naa/",
+          "source": "OpenTrain 官方職位詳情"
+        }
+      ],
+      "excluded": []
+    },
     {
       "date": "2026-11-09",
       "summary": "今天未核实到符合筛选条件的新增 AI 招聘、自由职业项目或付费任务。已排除重复旧帖、明确不再接受申请的岗位，以及香港资格未确认且非明确全球开放的项目，不以聚合页或未确认薪酬凑数。历史机会仍可在此前日期查看，但不代表本日重新核实了全部历史岗位。",
