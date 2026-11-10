@@ -1,7 +1,68 @@
 {
   "schema": 1,
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "days": [
+    {
+      "date": "2026-11-10",
+      "summary": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2；OpenAI 将 ChatGPT Enterprise 上架 AWS Marketplace，并介绍仅供内部研究基础设施使用的 Control Room。GitHub Trending 今日热门包括 Meta 的 React 设计系统、可自托管的多智能体应用和 Agent 工具。",
+      "software": [
+        {
+          "title": "Claude Fable 5.2 与 Mythos 5.2 发布",
+          "desc": "Anthropic 更新面向复杂技术工作的模型系列，称新版输出速度最高提升 30%，并下调至每百万输入／输出 token 8／40 美元；快速模式为 16／80 美元。",
+          "note": "Fable 5.2 已在 Claude 各平台及 AWS、Google Cloud、Microsoft Azure 等渠道提供；Anthropic 称其加强了网络安全与生物领域防护。Mythos 5.2 仅向通过网络安全或生命科学验证计划的机构开放。速度、能力与基准数据为厂商公布。",
+          "date": "2026-11-09",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "source": "Anthropic"
+        },
+        {
+          "title": "ChatGPT Enterprise 上架 AWS Marketplace",
+          "desc": "组织客户可通过现有 AWS 采购与账单关系购买和管理 ChatGPT Enterprise；符合条件的支出可计入 AWS 承诺额度。",
+          "note": "面向企业采购，不是面向个人用户的新功能或新模型。OpenAI 表示功能和模型与直接向其采购相同；具体资格需联系 OpenAI 或 AWS 客户团队确认。",
+          "date": "2026-11-09",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
+          "source": "OpenAI"
+        },
+        {
+          "title": "OpenAI 介绍 Control Room 模型工作负载控制系统",
+          "desc": "该系统跟踪 OpenAI 研究基础设施中的模型任务；收到停止决定后，推理引擎会拒绝继续输出，厂商称最迟 35 秒内停止。",
+          "note": "这是 OpenAI 内部研究基础设施的安全控制系统，不是对外销售或开放给普通用户的软件产品；官方称其已部署于研究工作负载。",
+          "date": "2026-11-09",
+          "url": "https://openai.com/index/control-room/",
+          "source": "OpenAI"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "meta/astryx",
+          "url": "https://github.com/meta/astryx",
+          "desc": "Meta 开源的 React 19+ 设计系统，提供 150 多个 UI 组件、主题、模板和 CLI，面向开发者及编码助手。",
+          "note": "MIT 许可；项目处于 Beta。CLI 及相关开发工具可能读写项目文件，使用前应审查命令与依赖。",
+          "stars_today": 3278
+        },
+        {
+          "repo": "milind-soni/OpenMausBot",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "desc": "可自托管的多智能体聊天应用，可接入 Claude、Codex、Grok 等模型，并支持浏览器、shell、文件及授权应用操作。",
+          "note": "主仓库为 Apache-2.0，但 enterprise/ 目录有单独许可。具备真实操作能力，需谨慎审批权限并防范提示注入；所选模型供应商会收到相应提示和上下文。",
+          "stars_today": 1587
+        },
+        {
+          "repo": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "desc": "Anthropic 的 Claude Agent Skills 示例与规范仓库，提供可按需加载的指令、脚本和资源，涵盖文档处理及开发等工作流。",
+          "note": "README 称许多技能为 Apache-2.0，但许可需逐目录核对。技能会影响 Agent 行为，脚本只应在审查后、最小权限的环境中运行。",
+          "stars_today": 1038
+        },
+        {
+          "repo": "vercel-labs/agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "desc": "面向 AI Agent 的浏览器自动化 CLI，可导航网页、读取页面、点击、填写表单并处理截图和下载。",
+          "note": "Apache-2.0。可操作登录态浏览器并访问网页、Cookie 与文件；默认安全策略并未全部启用，建议配置域名白名单、动作限制和确认门控。",
+          "stars_today": 916
+        }
+      ]
+    },
     {
       "date": "2026-11-09",
       "summary": "Claude 近期新增项目成本标签、安全管理能力，以及面向美国付费用户的只读个人财务 Beta。GitHub 日榜热门包括多 Agent 桌面应用、React 设计系统与 Agent 浏览器自动化工具。",
