@@ -1,7 +1,94 @@
 {
   "schema": 1,
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "days": [
+    {
+      "date": "2026-11-11",
+      "summary": "今日整理 4 項原頁仍列出且明確涵蓋香港的 AI 評估、資料採集或研究參與項目，其中 1 項涉及大量個人資料，僅作高風險跟進，非優先推薦。頁面列示不保證尚有名額、獲錄取或完成驗收付款；粵語錄音須於 11 月 12 日前完成。",
+      "items": [
+        {
+          "title": "Students Across All Disciplines AI Evaluation Contributor",
+          "org": "OpenTrain",
+          "category": "remote",
+          "hk": "yes",
+          "hk_note": "OpenTrain 原頁開放國家／地區清單包含 Hong Kong；遠端標示不單獨作為香港資格依據。",
+          "location": "遠端合同；適用於原頁開放地區，包括 Hong Kong",
+          "pay": "$100/hour；原頁未標明幣種代碼，不推定幣種。名額、任務量及實際收入未核實。",
+          "requirements": [
+            "必須為研究型大學在讀本科三年級或四年級，學業表現良好並具備所屬學科專業知識。",
+            "須具清晰英語溝通能力及可靠網路。",
+            "評估學科相關 AI 文字、圖像及圖表／圖示的準確性、深度、清晰度與整體品質，並說明判斷。",
+            "研究、視覺資料、標註或 AI 評估經驗屬加分項，非硬性條件。"
+          ],
+          "posted": "2026-11-10（原頁標示發布日期；僅轉述頁面日期）",
+          "deadline": "",
+          "note": "原頁仍列職位並提供專屬 Apply now 入口。原頁說明先提交履歷，再於招聘網站完成申請；入口後續可讀內容仍為職位頁，後續表單能否提交未確認。",
+          "url": "https://www.opentrain.ai/jobs/multidisciplinary-undergraduate-ai-evaluation-contributor--cmwapj44h00b908l6x2odbf06/",
+          "source": "OpenTrain"
+        },
+        {
+          "title": "Take Smartphone Photos in Hong Kong and Earn US$100",
+          "org": "Upwork 項目（雇主原頁列於 Upwork）",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "工作要求人在香港拍攝；Worldwide／Remote 標示不單獨代表香港適用。",
+          "location": "香港現場拍攝；自由職業項目",
+          "pay": "US$100 固定價；須提交 1,000 件合格物件並經最終審核接受，才符合付款條件。",
+          "requirements": [
+            "須人在香港並能接觸允許拍攝的物件。",
+            "須使用至少 12MP 手機相機並開啟 GPS／位置中繼資料。",
+            "依指引拍攝 1,000 件符合要求的香港日常物件，提交原始未編輯檔案並配合回覆意見。",
+            "合同開始後 6 個日曆日內提交；開始大量採集前先在 Upwork 確認合同計畫、付款條款、日期、手機設定及拍攝授權。"
+          ],
+          "posted": "核驗時原頁顯示 Posted 2 days ago；未披露精確日期或時區",
+          "deadline": "",
+          "note": "原頁仍列職位並有專屬 Apply 入口；核驗時頁面顯示招 10 人、少於 5 份提案、客戶昨天查看。申請及合同計畫需在 Upwork 確認；最終審核影響付款資格。",
+          "url": "https://www.upwork.com/freelance-jobs/apply/Take-Smartphone-Photos-Hong-Kong-and-Earn-100_~022119902189776965416/",
+          "source": "Upwork"
+        },
+        {
+          "title": "Native Hong Kong Cantonese speakers: 40-min phone voice recording",
+          "org": "Upwork 項目（實際雇主名稱未披露）",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "原頁稱居住地不限，並明確將 Hong Kong 列為可申請地區。",
+          "location": "居住地不限；手機錄音",
+          "pay": "固定 $30／人，原頁未註明幣種；錄音驗收後付款。",
+          "requirements": [
+            "年滿 18 歲，且從小講香港粵語。",
+            "在安靜房間以手機錄製約 40 分鐘自然、清晰的粵語音訊，可分幾天完成。",
+            "按原頁要求簽署同意並提供一至兩句粵語成長地點說明及性別等資訊。",
+            "須於 2026-11-12 前完成；原頁稱錄音用於 AI 語音辨識研究，不用於克隆聲音。"
+          ],
+          "posted": "2026-11-02（職位結構化發布日期；非今日新發）",
+          "deadline": "2026-11-12",
+          "note": "原頁仍列職位並提供專屬申請入口，可能需註冊或登入；核驗時顯示 20–50 份提案，餘位不確定。",
+          "url": "https://www.upwork.com/freelance-jobs/apply/Native-Hong-Kong-Cantonese-speakers-min-phone-voice-recording_~022117047097088255232/",
+          "source": "Upwork"
+        },
+        {
+          "title": "[Hong Kong] Seeking ID Participants for AI Study",
+          "org": "Upwork 項目（雇主原頁列於 Upwork）",
+          "category": "followup",
+          "hk": "yes",
+          "hk_note": "須為印尼出生並在印尼長大的印尼語母語者，且目前在香港或願赴香港現場參與。Worldwide／Remote 標示不代表香港以外遠端資格。",
+          "location": "香港現場參與；自由職業研究項目",
+          "pay": "原頁報酬細目：分享 80GB 或以上資料固定 HKD 9,600；少於 80GB 按現場 HKD 320／小時、最多 24 小時；問卷另有 HKD 320／小時補助、最多 10 小時。成功核驗提交資料後 5 個工作日內付款。職位卡另顯示 $1,600.00 但未標幣種，不據此判定或換算。",
+          "requirements": [
+            "印尼出生、在印尼長大的印尼語母語者；目前在香港或願赴香港現場參與。",
+            "資料分享門檻：郵件超過 25,000、照片超過 5,000、SMS／訊息超過 2,000、聯絡人超過 40；郵件可跨多個帳戶累計。",
+            "申請時依原頁要求提供位置及符合條件的資料數量；預計參與約 1 至 3 天。",
+            "涉及大量個人資料。分享前須閱讀並確認隱私與保密協議、收集範圍、儲存與刪除安排；原頁聲明未獨立驗證。"
+          ],
+          "posted": "核驗時原頁顯示 Posted 13 hours ago；未獨立推算確切發布時刻",
+          "deadline": "",
+          "note": "高私隱風險，僅作跟進，非優先推薦：原頁涉及大量郵件、相片、訊息及聯絡人；隱私聲明及完整協議未獨立驗證，不應在條款未釐清前交付資料。原頁仍列職位並提供專屬 Apply 流程；核驗時少於 5 份提案，後續表單及提交未確認，不保證名額或錄取。",
+          "url": "https://www.upwork.com/freelance-jobs/apply/Hong-Kong-Seeking-Participants-for-Study_~022117091408247388612/",
+          "source": "Upwork"
+        }
+      ],
+      "excluded": []
+    },
     {
       "date": "2026-11-10",
       "summary": "本輪核實到 1 項 11 月 9 日發佈、明確接受香港申請的遠程 AI 語音採集合同，但需要西班牙語流利及自然的西班牙語影響英語口音，適用範圍較窄。未核實到其他符合篩選條件的新增香港 AI 職位或自由職業項目，不以重複舊帖補數。",
