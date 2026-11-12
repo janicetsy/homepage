@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "days": [
+    {
+      "date": "2026-11-12",
+      "summary": "本輪新發現 4 項合格機會：3 項 11 月 11 日發布、明確開放香港的 OpenTrain 專業遠程合同，以及 1 項香港 HKT 全職舊帖。另跟進 1 項昨日已報、今日須完成錄音的粵語項目。Caravel 專屬申請入口未確認，不計入合格清單；原頁仍列不保證名額或收入。",
+      "items": [
+        {
+          "title": "Process & Chemical Plant Engineer",
+          "org": "OpenTrain AI",
+          "category": "remote",
+          "hk": "yes",
+          "hk_note": "開放國家名單明確包含 Hong Kong；遠程獨立承包項目。",
+          "location": "遠程；開放地區包含香港",
+          "pay": "$50/hour（原頁未說明幣種；工時與任務量不保證）",
+          "requirements": [
+            "必需：流利英語、工廠或試驗裝置真實數據實操經驗、Python 或類似工具的工作知識及技術寫作能力。",
+            "必需：可作無需簽證贊助的獨立承包商。",
+            "加分：三年以上工廠／試驗裝置運行經驗、化工工程學位、性能測試或故障排查經驗。"
+          ],
+          "posted": "2026-11-11",
+          "deadline": "",
+          "note": "原頁指示先在 OpenTrain 以簡歷申請，再完成招聘平台後續步驟；後續表單及實際名額未確認。原頁仍列出不代表名額或收入有保證。",
+          "url": "https://www.opentrain.ai/jobs/process-and-chemical-plant-engineer--cmwckmwpk005j08lcgq9jibzt/",
+          "source": "OpenTrain AI 職位原頁"
+        },
+        {
+          "title": "Power Systems & Protection Engineer (English)",
+          "org": "OpenTrain AI",
+          "category": "remote",
+          "hk": "yes",
+          "hk_note": "開放國家名單明確包含 Hong Kong；遠程獨立承包項目。",
+          "location": "遠程；開放地區包含香港",
+          "pay": "$50/hour（原頁未說明幣種；任務量不保證）",
+          "requirements": [
+            "必需：專業英語、真實繼電器／保護或電力系統測試資料經驗、Python 資料分析能力及技術寫作能力。",
+            "必需：可作無需簽證贊助的獨立承包商。",
+            "偏好：三年以上電力相關經驗及電氣工程學位；繼電保護、調試測試或故障記錄經驗有幫助。"
+          ],
+          "posted": "2026-11-11",
+          "deadline": "",
+          "note": "先在 OpenTrain 以簡歷申請，再完成招聘平台後續步驟；後續表單及實際名額未確認。",
+          "url": "https://www.opentrain.ai/jobs/power-systems-and-protection-engineer-ai-problem-writer--cmwckmwkj005h08lcesrkcy7s/",
+          "source": "OpenTrain AI 職位原頁"
+        },
+        {
+          "title": "Materials Characterisation Scientist, AI Evaluation",
+          "org": "OpenTrain AI",
+          "category": "remote",
+          "hk": "yes",
+          "hk_note": "開放國家名單明確包含 Hong Kong；遠程任務制承包項目。",
+          "location": "遠程；開放地區包含香港",
+          "pay": "$50/hour（原頁未說明幣種；沒有固定每週工時）",
+          "requirements": [
+            "必需：材料／冶金等實驗表徵經驗及真實材料資料實操、Python 或類似工具、流利英語與技術寫作能力。",
+            "相關碩士或博士為加分而非硬性要求；Rietveld、Oliver–Pharr、EIS 擬合或 ASTM 測試經驗有幫助。"
+          ],
+          "posted": "2026-11-11",
+          "deadline": "",
+          "note": "先在 OpenTrain 以簡歷申請，再完成招聘平台後續步驟；後續表單及實際名額未確認。",
+          "url": "https://www.opentrain.ai/jobs/materials-characterisation-scientist--cmwckmvzx005908lc4y4pccx9/",
+          "source": "OpenTrain AI 職位原頁"
+        },
+        {
+          "title": "AI Automation Engineer",
+          "org": "HKT",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "職位地點明確為 Hong Kong, Hong Kong SAR。",
+          "location": "香港 · 全職",
+          "pay": "未披露",
+          "requirements": [
+            "必需：相關學位、3–5 年開發／自動化／系統整合經驗，Python 和／或 JavaScript/TypeScript、REST API/JSON、Power Automate/Power Apps，流利粵語及英語。",
+            "優先／加分：Copilot Studio、AI agents、Azure 或 Microsoft 365 經驗。"
+          ],
+          "posted": "查看時顯示 1 week ago",
+          "deadline": "",
+          "note": "LinkedIn 原頁仍列職位及 Apply；後續申請流程未確認。舊帖，非今日新發。",
+          "url": "https://hk.linkedin.com/jobs/view/ai-automation-engineer-at-hkt-4484664163",
+          "source": "LinkedIn 職位原頁"
+        },
+        {
+          "title": "Native Hong Kong Cantonese speakers: 40-min phone voice recording",
+          "org": "Upwork（雇主未披露）",
+          "category": "followup",
+          "hk": "yes",
+          "hk_note": "職位明確接受香港申請者；遠程。",
+          "location": "遠程；香港申請者符合地區條件",
+          "pay": "$30 固定價／人（原頁未說明幣種；錄音獲接受後支付）",
+          "requirements": [
+            "必需：年滿 18 歲、從小講香港粵語，以手機在安靜環境錄製約 40 分鐘音訊，並簽署同意書。",
+            "男性尤其歡迎是招募偏好，非限定條件。"
+          ],
+          "posted": "2026-11-02",
+          "deadline": "2026-11-12",
+          "note": "昨日已報的限時跟進，非新發布。今日為完成錄音截止日，不是只要今日申請即可；具體截止時刻、時區與餘位未確認。原頁仍有申請上下文，後續提交未核實，請先確認能否及時完成。",
+          "url": "https://www.upwork.com/freelance-jobs/apply/Native-Hong-Kong-Cantonese-speakers-min-phone-voice-recording_~022117047097088255232/",
+          "source": "Upwork 職位原頁"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "The Caravel Group — AI Solutions Engineer, Office of the Group CEO",
+          "reason": "職位頁仍列出，但官方專屬申請連結落地僅呈現通用職缺／人才入口，未能確認專屬申請表；不等於已確認關閉。LinkedIn 相對日期與官方 2026-10-04 日期不一致，不視為今日新發。"
+        }
+      ]
+    },
     {
       "date": "2026-11-11",
       "summary": "今日整理 4 項原頁仍列出且明確涵蓋香港的 AI 評估、資料採集或研究參與項目，其中 1 項涉及大量個人資料，僅作高風險跟進，非優先推薦。頁面列示不保證尚有名額、獲錄取或完成驗收付款；粵語錄音須於 11 月 12 日前完成。",
