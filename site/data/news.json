@@ -1,7 +1,76 @@
 {
   "schema": 1,
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "days": [
+    {
+      "date": "2026-11-12",
+      "summary": "OpenAI 开始测试 ChatGPT 商家主页与商家智能体；Google 的 Pixel November Drop 带来更多 Gemini Intelligence 功能，但按设备和地区逐步开放。GitHub 今日热榜中，Meta 的 Astryx 设计系统和多个 AI 编程 Agent 工具受关注。",
+      "software": [
+        {
+          "title": "ChatGPT 开始测试商家主页与 Business Agents",
+          "desc": "OpenAI 推出 Businesses in ChatGPT beta：企业可在 Business Hub 认领并维护商家资料、商品价格与库存，也可查看汇总的提及、点击和发现主题数据。符合资格的商家可创建 Business Agent，让顾客在 ChatGPT 中了解其商品与服务。",
+          "note": "Business Agents 目前仅向美国符合资格的电商和线上服务企业开放；其他地区符合条件的商家可认领资料。商家不会看到用户对话，智能体对话会与 ChatGPT 原回答明确区分。",
+          "date": "2026-11-10",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Google Pixel November Drop 扩展 Gemini Intelligence",
+          "desc": "Pixel 10 系列开始分阶段获得 Rambler 语音整理、以提示词制作个性化小组件和主动建议等能力；Gemini 跨应用多步任务也扩至更多国家。",
+          "note": "功能按机型、国家和语言分批开放；跨应用多步任务目前扩至日本、英国和印度。小组件未来数周逐步推出，不代表所有地区与设备已可用。",
+          "date": "2026-11-10",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/",
+          "source": "Google The Keyword"
+        },
+        {
+          "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2",
+          "desc": "Anthropic 发布面向复杂技术工作的模型系列，称新版在相关任务中最高提速 30%；Fable 5.2 标准 API 输入／输出价格为每百万 token 8／40 美元，快速模式为 16／80 美元。",
+          "note": "Fable 5.2 已通过 Claude 平台及多个云平台提供；Mythos 5.2 仅供通过网络安全或生命科学验证计划的机构使用。性能数据为厂商公布。",
+          "date": "2026-11-09",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "source": "Anthropic"
+        },
+        {
+          "title": "ChatGPT Enterprise 上架 AWS Marketplace",
+          "desc": "企业可通过现有 AWS 采购和账单体系购买、管理 ChatGPT Enterprise；符合条件的支出可计入 AWS 承诺额度。",
+          "note": "企业采购渠道更新，不是面向个人用户的新功能；具体资格需向 OpenAI 或 AWS 客户团队确认。",
+          "date": "2026-11-09",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
+          "source": "OpenAI"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "meta/astryx",
+          "url": "https://github.com/meta/astryx",
+          "desc": "Meta 开源的 React 设计系统，提供 150 多个 UI 组件、主题、模板和 CLI，并为开发者与 AI 编码助手设计。",
+          "note": "MIT 许可；目前为 Beta，需 React 19+。",
+          "stars_today": 2776
+        },
+        {
+          "repo": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "desc": "包含 25 个软件工程工作流技能，支持多种 AI 编码 Agent，可用于需求梳理、规划、测试与代码审查。",
+          "note": "MIT 许可。单独安装某个技能时可能缺少仓库共享 references 文件；使用前审查技能指令，并按需安装完整仓库。",
+          "stars_today": 787
+        },
+        {
+          "repo": "vercel-labs/agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "desc": "为 AI Agent 提供浏览器自动化 CLI，可读取网页可访问性树并通过命令操作页面。",
+          "note": "Apache-2.0 许可；安装需下载 Chrome for Testing。自动化可接触登录会话、网页和表单，使用时应审查安全策略与权限。",
+          "stars_today": 708
+        },
+        {
+          "repo": "homeassistant-ai/ha-mcp",
+          "url": "https://github.com/homeassistant-ai/ha-mcp",
+          "desc": "将 Home Assistant 接入兼容 MCP 的 AI 助手，以查询状态、管理自动化和控制智能家居。",
+          "note": "MIT 许可；要求 Home Assistant 2026.8+。服务可获智能家居管理权限，建议使用专用受限账户、保护令牌，并只开放必要的远程访问。",
+          "stars_today": 645
+        }
+      ]
+    },
     {
       "date": "2026-11-11",
       "summary": "Google 的 November Pixel Drop 将 Gemini Intelligence 扩展到 Pixel 10，带来语音整理、个性化小组件等功能，但多步代办目前扩至日本、英国和印度。GitHub 日榜上，Meta 的 Astryx 设计系统与 Anthropic 的 Claude Agent Skills 等项目热度靠前。",
