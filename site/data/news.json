@@ -1,7 +1,76 @@
 {
   "schema": 1,
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "days": [
+    {
+      "date": "2026-11-13",
+      "summary": "Anthropic 开放申请自托管 Claude Managed Agents，将智能体服务与会话数据部署在自有基础设施；OpenAI 和 Google 近期也分别推出 ChatGPT 商家工具与 Pixel Gemini 功能更新。GitHub 热榜聚焦 AI 编程助手、现代 Web 指引和安全扫描工具。",
+      "software": [
+        {
+          "title": "Claude Managed Agents 支持完整自托管",
+          "desc": "Anthropic 推出 self-hosted Claude Managed Agents，企业可在自己的基础设施运行完整智能体服务，并自行保存 agents、sessions 与会话历史；模型请求发送至所选模型供应方，默认是 Anthropic。",
+          "note": "目前需联系 Anthropic 客户团队申请访问；与此前仅自托管沙箱不同，此次覆盖整套 Managed Agents 服务。",
+          "date": "2026-11-12",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "source": "Anthropic Claude Platform"
+        },
+        {
+          "title": "ChatGPT 开始测试商家主页与 Business Agents",
+          "desc": "OpenAI 推出 Businesses in ChatGPT beta：企业可在 Business Hub 认领并维护商家资料、商品价格与库存，也可查看汇总的提及、点击和发现主题数据。符合资格的商家可创建 Business Agent，让顾客在 ChatGPT 中了解其商品与服务。",
+          "note": "Business Agents 目前仅向美国符合资格的电商和线上服务企业开放；其他地区符合条件的商家可认领资料。商家不会看到用户对话，智能体对话会与 ChatGPT 原回答明确区分。",
+          "date": "2026-11-10",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Google Pixel November Drop 扩展 Gemini Intelligence",
+          "desc": "Pixel 10 系列开始分阶段获得 Rambler 语音整理、以提示词制作个性化小组件和主动建议等能力；Gemini 跨应用多步任务也扩至更多国家。",
+          "note": "功能按机型、国家和语言分批开放；跨应用多步任务目前扩至日本、英国和印度。小组件未来数周逐步推出，不代表所有地区与设备已可用。",
+          "date": "2026-11-10",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/",
+          "source": "Google The Keyword"
+        },
+        {
+          "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2",
+          "desc": "Anthropic 发布面向复杂技术工作的模型系列；Fable 5.2 标准 API 输入／输出价格为每百万 token 8／40 美元。",
+          "note": "Mythos 5.2 仅供通过网络安全或生命科学验证计划的机构使用；两款模型要求 30 天数据保留，除非 Anthropic 特别授权，否则不可使用零数据保留。",
+          "date": "2026-11-09",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview",
+          "source": "Anthropic Claude Platform"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "meta/astryx",
+          "url": "https://github.com/meta/astryx",
+          "desc": "Meta 开源的 React 设计系统，提供 150 多个 UI 组件、主题、模板和 CLI，并为开发者与 AI 编码助手共同设计。",
+          "note": "MIT 许可；目前为 Beta，需 React 19+。",
+          "stars_today": 1830
+        },
+        {
+          "repo": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "desc": "包含 25 个软件工程工作流技能，支持多种 AI 编码 Agent，可用于需求梳理、规划、测试与代码审查。",
+          "note": "MIT 许可。单独安装某个技能时可能缺少仓库共享 references 文件；使用前审查技能指令，并按需安装完整仓库。",
+          "stars_today": 816
+        },
+        {
+          "repo": "GoogleChrome/modern-web-guidance-src",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+          "desc": "把现代浏览器 API、性能、无障碍与兼容性实践整理成可检索指南，供 AI 编码助手减少使用过时 Web 模式。",
+          "note": "代码采用 Apache-2.0，guides 文档采用 CC-BY 4.0；CLI 默认收集匿名使用数据，可通过 DISABLE_TELEMETRY=1 关闭。",
+          "stars_today": 739
+        },
+        {
+          "repo": "openai/codex-security",
+          "url": "https://github.com/openai/codex-security",
+          "desc": "Codex Security CLI 与 TypeScript SDK 可扫描代码库、验证漏洞发现、生成修复补丁并检查修复结果，也支持 CI 自动化。",
+          "note": "Apache-2.0；需要 Node.js 22.13+ 或 24/26.x 及 Python 3.10+。扫描需要登录或 API 密钥，可能产生费用；应审查报告中的覆盖范围和排除项。",
+          "stars_today": 643
+        }
+      ]
+    },
     {
       "date": "2026-11-12",
       "summary": "OpenAI 开始测试 ChatGPT 商家主页与商家智能体；Google 的 Pixel November Drop 带来更多 Gemini Intelligence 功能，但按设备和地区逐步开放。GitHub 今日热榜中，Meta 的 Astryx 设计系统和多个 AI 编程 Agent 工具受关注。",
