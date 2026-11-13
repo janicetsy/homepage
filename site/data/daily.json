@@ -1,7 +1,116 @@
 {
   "schema": 1,
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "days": [
+    {
+      "date": "2026-11-13",
+      "summary": "本輪整理並核實 5 項香港相關或明確接受香港申請者的 AI 機會，包括 4 個職位及 1 個自由職業項目。這是本輪新發現／核實，不代表均於今日發布；MTR 職位原頁標示 2026-11-12 發布，Upwork 項目標示 2026-11-10。",
+      "items": [
+        {
+          "title": "Assistant Manager – AI & Digital Solutions (Ref: 2600013F)",
+          "org": "MTR Corporation Limited",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "職位頁明確列香港特別行政區。",
+          "location": "香港｜全職",
+          "pay": "未披露",
+          "requirements": [
+            "必需：計算機科學、人工智能、數據科學、軟件工程、資訊科技或相關學位。",
+            "必需：至少 5 年軟件開發或 AI 應用工程實作經驗，包含編碼及 AI 解決方案實施。",
+            "必需：AI 軟件工程、應用開發與部署的實作技能；具溝通協作能力，英語及中文書寫與口語熟練。",
+            "加分：相關專業認證（原頁列為 preferred）。"
+          ],
+          "posted": "原頁標示 2026-11-12（核驗日 2026-11-13；昨日發布，非今日新發）",
+          "deadline": "2026-11-26",
+          "note": "本輪新發現並核實。LinkedIn 職位頁顯示 Apply，正文列明可在線申請至 MTR 官方招聘入口，亦可郵寄註明職位及編號的 CV 至香港 G.P.O. Box 9916、Human Resource Management Department。官方入口為通用招聘頁，未能確認職位專屬申請 URL；後續申請頁狀態未確認。",
+          "url": "https://hk.linkedin.com/jobs/view/assistant-manager-%E2%80%93-ai-digital-solutions-ref-2600013f-at-mtr-corporation-limited-%E9%A6%99%E6%B8%AF%E9%90%B5%E8%B7%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4488524314",
+          "source": "LinkedIn；MTR 官方招聘入口"
+        },
+        {
+          "title": "AI Developer II（官方職位正文稱 AI Developer I；R155263）",
+          "org": "Intact",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "LinkedIn 標示香港；官方地點為 Hong Kong, Hong Kong Island，並標示 hybrid。",
+          "location": "香港｜全職、Hybrid",
+          "pay": "未披露",
+          "requirements": [
+            "必需：計算機科學、軟件工程、AI 或相關學士學位；熟悉 Python 或其他程式語言；有軟件開發實習或全職經驗。",
+            "必需：了解設計模式、開發生命週期及 Git、Jira、Confluence 等工程實踐；具協作、溝通、時間管理、組織能力及處理模糊問題的能力。若無 AI 經驗，須有強烈學習動機。",
+            "加分：React、TypeScript、非同步處理及狀態管理；scikit-learn、NumPy、SciPy、TensorFlow；Docker、Kubernetes、ELK、MongoDB、Kafka，以及數據或機器學習流水線經驗。"
+          ],
+          "posted": "LinkedIn 原頁顯示 1 week ago；官方頁 Date Posted 欄未提供日期，未據此稱為今日新發",
+          "deadline": "",
+          "note": "本輪新核實官方職位頁及專屬 Workday 申請入口，非本日新發布。官方申請頁提供 Autofill with Resume、Apply Manually 或 Use My Last Application；後續表單未核實。職位標題與官方正文職級名稱不一致，申請前宜確認。 Workday 入口標示科學園，其他頁面地點元數據有不同標示，應確認實際辦公位置。",
+          "url": "https://careers.intactfc.com/ai-developer-ii/job/R155263",
+          "source": "LinkedIn；Intact Careers；Workday"
+        },
+        {
+          "title": "AI Engineer (from Junior to Lead)",
+          "org": "ConnectedGroup",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "職位頁明確列 Hong Kong, Hong Kong SAR。",
+          "location": "香港",
+          "pay": "HK$50,000.00/mo - HK$90,000.00/mo（職位頁所列基本月薪）",
+          "requirements": [
+            "必需：計算機科學、軟件工程、AI、數據科學相關本科或以上學歷，或同等實務經驗；至少 1 年軟件工程或 AI 工程經驗。",
+            "必需：高級 Python 能力，並了解 Java、TypeScript／JavaScript、Go 等企業語言之一。",
+            "必需：LLM 應用、提示編排、函數呼叫、記憶機制及評估框架實作經驗；具 LangChain、LangGraph 或同類框架經驗，以及企業 RAG、向量資料庫或 GraphRAG 經驗。",
+            "必需：了解微服務、REST API、資料庫設計、分散式系統及安全／私隱控制。",
+            "加分：原頁未單獨列出加分項。"
+          ],
+          "posted": "原頁顯示 3 weeks ago（核驗日 2026-11-13；未確認為今日新發）",
+          "deadline": "",
+          "note": "本輪新核實 LinkedIn 職位頁及薪酬資料。頁面有 Apply 按鈕，但按鈕後申請頁及流程未核實。ConnectedGroup 公開職位列表未顯示此職位，不能據此判定已關閉；最終雇主未核實。標題、正文及 LinkedIn 級別對年資定位有差異。",
+          "url": "https://hk.linkedin.com/jobs/view/ai-engineer-from-junior-to-lead-at-connectedgroup-4480788729",
+          "source": "LinkedIn"
+        },
+        {
+          "title": "Cantonese Audio Transcriptionist – Long-Term, Remote, Freelance (廣東話)",
+          "org": "Deepgram（Upwork 項目）",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "結構化申請地區明確包括 Hong Kong，但頁面另標美國遠程地點，應向招聘方確認香港資格。",
+          "location": "遠程；申請地區清單包括香港｜長期自由職業",
+          "pay": "正文：US$30／音訊小時，非實際工作時薪；卡片另顯示 $5.00 固定價，計價口徑不一致，未推定卡片幣種。",
+          "requirements": [
+            "必需：母語或近母語粵語；長期承諾並滿足每週配額，穩定產出、清晰溝通、及時回應、準時交付及細心。",
+            "必需設備：帶 Chrome 的電腦、耳機或可靠揚聲器、穩定網絡。",
+            "必需：遵循項目風格指南，簽署 Deepgram Best Practices 及 NDA；不得把音訊或文字上傳至第三方 AI／ASR 服務。",
+            "必需：提交提案後完成技能評估；建議預留約 45 分鐘，頁面稱目前不能保存進度，需一次完成。",
+            "加分：頁面未列明獨立加分條件；轉錄經驗非必需，語言、翻譯、本地化、校對、寫作、教學、字幕、音訊／媒體或研究背景可能有幫助。"
+          ],
+          "posted": "結構化資料標示 2026-11-10（非今日新發）",
+          "deadline": "",
+          "note": "本輪新發現。Upwork 專屬 Apply 入口轉往註冊／登入流程；申請表單後續未核實。報酬正文按音訊時長計，卡片另列固定價，須以招聘方或申請頁說明為準。 地點標示亦有差異，申請前須確認香港資格、按音訊時長計酬方式及正式合同金額。",
+          "url": "https://www.upwork.com/freelance-jobs/apply/Cantonese-Audio-Transcriptionist-Long-Term-Remote-Freelance_~022119953222880399183/",
+          "source": "Upwork"
+        },
+        {
+          "title": "AI Agent Developer",
+          "org": "IntelliPro",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "職位頁明確所在地為 Hong Kong, Hong Kong SAR。",
+          "location": "香港",
+          "pay": "未披露",
+          "requirements": [
+            "必需：至少 3 年生產或近生產 AI Agent 系統實作經驗；理解 Multi-Agent orchestration、Planning & Reasoning、Tool Use、Memory、Context Engineering。",
+            "必需：至少一種 Agent 框架經驗（LangGraph、AutoGen、Dify、Coze 或同類）；熟悉 Python 及 Agent 工作流非同步／並行執行。",
+            "必需：透過 API 整合 LLM，管理提示策略、token 預算及模型路由；具 RAG、向量資料庫、embedding 及檢索增強 Agent 工作流經驗。",
+            "必需：安全、可稽核地整合外部工具、API 及資料庫；設計 Agent 評估指標並以系統化實驗改善效能，並能說明行為、故障模式及取捨。",
+            "加分：頁面未單列 preferred 或 nice-to-have 條件。"
+          ],
+          "posted": "原頁顯示 3 days ago（核驗日 2026-11-13；非今日新發）",
+          "deadline": "",
+          "note": "本輪新核實 LinkedIn 職位頁。頁面顯示 Apply；登入後申請頁及後續狀態未確認。",
+          "url": "https://hk.linkedin.com/jobs/view/ai-agent-developer-at-intellipro-4489401147",
+          "source": "LinkedIn"
+        }
+      ],
+      "excluded": []
+    },
     {
       "date": "2026-11-12",
       "summary": "本輪新發現 4 項合格機會：3 項 11 月 11 日發布、明確開放香港的 OpenTrain 專業遠程合同，以及 1 項香港 HKT 全職舊帖。另跟進 1 項昨日已報、今日須完成錄音的粵語項目。Caravel 專屬申請入口未確認，不計入合格清單；原頁仍列不保證名額或收入。",
