@@ -1,7 +1,35 @@
 {
   "schema": 1,
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "days": [
+    {
+      "date": "2026-11-14",
+      "summary": "本輪新核實 1 項香港生產力促進局 AI 與先進產業技術主任職位，為 24 個月固定期合約。薪酬及確切截止日未披露，官方要求發布後一週內申請並招聘至填滿；不是已確認於今日發布的新職位。本輪未核實到其他未重複且符合地區條件的新機會。",
+      "items": [
+        {
+          "title": "Technical Officer, AI & Advanced Industry (Ref: NID/11105)",
+          "org": "HKPC – Hong Kong Productivity Council",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "職位卡及正文標明 Kowloon, Hong Kong SAR；不以頁首搜尋區的其他地名判斷職位所在地。",
+          "location": "香港九龍｜24 個月固定期合約",
+          "pay": "未披露金額；按學歷及經驗提供具競爭力待遇。",
+          "requirements": [
+            "計算機科學、數據分析、深度學習、人工智能相關學士或以上學歷。",
+            "應用研發、產品開發，或新型工業化／智能製造相關經驗；頁面未列年限，亦未明確其硬性篩選程度。",
+            "理解 AI 及數碼化趨勢，並有應用技術改善業務流程或營運效率的實操經驗；需具分析、解難、結構化思考、溝通、時間／項目管理、獨立工作、抗壓及演示能力。",
+            "加分：AI 技術項目實操經驗（例如 Physical AI）。",
+            "優先：能展示 AI 知識或在工作中應用生成式 AI 工具的經驗／能力。"
+          ],
+          "posted": "查看時顯示 3 days ago（LinkedIn 原頁相對時間；核驗日 2026-11-14，未換算為具體日期）",
+          "deadline": "",
+          "note": "官方稱自發布日起一週內申請，並招聘至職位填滿；未披露發布日或確切截止日期。職位為 24 個月固定期。官方 e-Recruitment 專屬 Apply now 連結：https://careers.hkpc.org/talentcommunity/apply/1368808166/?locale=en_GB。官方職位專頁仍公開且有專屬申請連結，LinkedIn 原頁亦顯示 Apply；後續是否要求登入、能否完成提交及最終受理狀態未確認。",
+          "url": "https://careers.hkpc.org/job/Technical-Officer%2C-AI-&-Advanced-Industry/1368808166/",
+          "source": "HKPC 官方職位詳情；LinkedIn 原職位頁：https://hk.linkedin.com/jobs/view/technical-officer-ai-advanced-industry-ref-nid-11105-at-hkpc-hong-kong-productivity-council-4478197850"
+        }
+      ],
+      "excluded": []
+    },
     {
       "date": "2026-11-13",
       "summary": "本輪整理並核實 5 項香港相關或明確接受香港申請者的 AI 機會，包括 4 個職位及 1 個自由職業項目。這是本輪新發現／核實，不代表均於今日發布；MTR 職位原頁標示 2026-11-12 發布，Upwork 項目標示 2026-11-10。",
