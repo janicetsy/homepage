@@ -1,7 +1,52 @@
 {
   "schema": 1,
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "days": [
+    {
+      "date": "2026-11-14",
+      "summary": "OpenAI 推出 ChatGPT Wallet，让智能体在用户逐笔确认后代为完成付款，但首轮仅面向美国符合条件的 Pro 用户。GitHub 热榜集中在现代 Web 指引、AI 安全扫描与代码审查工具。",
+      "software": [
+        {
+          "title": "OpenAI 推出 ChatGPT Wallet 智能体支付钱包",
+          "desc": "用户可保存付款卡，并在每次结账前查看商家、商品、总额和所用卡，再通过生物识别安全验证批准。支付网络会生成代替真实卡号的令牌，实际卡资料不会提供给智能体或商家。",
+          "note": "首轮仅向居住在美国、年满18岁的 ChatGPT Pro 用户开放，需符合资格的美国发行卡及美国账单地址；目前仅支持与 dot 的对话，不支持 Chat、Work 或独立 Codex 对话。每笔交易都须单独审查和批准。",
+          "date": "2026-11-13",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+          "source": "OpenAI"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "GoogleChrome/modern-web-guidance-src",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+          "desc": "把现代浏览器 API、性能、无障碍与兼容性实践整理成可检索指南，供 AI 编码助手减少使用过时 Web 模式。",
+          "note": "代码采用 Apache-2.0，guides 文档采用 CC-BY 4.0；CLI 默认收集匿名使用数据，可通过 DISABLE_TELEMETRY=1 关闭。",
+          "stars_today": 1925
+        },
+        {
+          "repo": "openai/codex-security",
+          "url": "https://github.com/openai/codex-security",
+          "desc": "Codex Security CLI 与 TypeScript SDK 可扫描代码库、验证漏洞发现、生成修复补丁并检查修复结果，也支持 CI 自动化。",
+          "note": "Apache-2.0；需要 Node.js 22.13+ 或 24/26.x 及 Python 3.10+。扫描需要登录或 API 密钥，可能产生费用；应审查报告中的覆盖范围和排除项。",
+          "stars_today": 751
+        },
+        {
+          "repo": "ZhuLinsen/daily_stock_analysis",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "desc": "LLM 驱动的多市场股票分析系统，支持 A 股、港股、美股等市场，生成分析看板并自动推送。",
+          "note": "MIT 许可；项目仅供研究，不构成投资建议。模型 API 或更稳定行情数据源可能产生费用，免费数据源受限流和接口变更影响。",
+          "stars_today": 256
+        },
+        {
+          "repo": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "desc": "开源 AI 代码审查 CLI，将确定性规则流程与 LLM Agent 结合，可对代码变更给出逐行审查意见。",
+          "note": "Apache-2.0；需配置 LLM 服务。审查会将变更文件交给所选模型，使用前应确认代码隐私政策；其基准强调精确率，召回率低于通用 Agent。",
+          "stars_today": 215
+        }
+      ]
+    },
     {
       "date": "2026-11-13",
       "summary": "Anthropic 开放申请自托管 Claude Managed Agents，将智能体服务与会话数据部署在自有基础设施；OpenAI 和 Google 近期也分别推出 ChatGPT 商家工具与 Pixel Gemini 功能更新。GitHub 热榜聚焦 AI 编程助手、现代 Web 指引和安全扫描工具。",
