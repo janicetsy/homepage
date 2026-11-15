@@ -1,7 +1,52 @@
 {
   "schema": 1,
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "days": [
+    {
+      "date": "2026-11-15",
+      "summary": "Oracle 宣布 OCI Enterprise AI Agent Sandbox 正式可用，为 AI Agent 提供可配置的临时 Linux 执行环境；GitHub 热榜上的现代 Web 指引、代码审查与浏览器调试工具持续升温。",
+      "software": [
+        {
+          "title": "Oracle OCI Enterprise AI Agent Sandbox 正式可用",
+          "desc": "Oracle 将 Agent Sandbox 推向正式可用：企业可为 AI Agent 创建受管理的临时 Linux 工作区，用于测试生成代码、分析数据或运行诊断脚本，并按任务设置算力、网络访问和有效时长。",
+          "note": "这是 OCI Enterprise AI 的云端企业功能，不是面向个人用户的独立应用；需在 OCI 项目中启用，并配置项目级网络与权限。沙箱会到期终止，需另行保存要保留的输出。Oracle 的 11 月产品汇总称现已正式可用；技术说明见 https://docs.oracle.com/en-us/iaas/Content/generative-ai/sandboxes.htm 。",
+          "date": "2026-11-13",
+          "url": "https://blogs.oracle.com/ai-and-datascience/whats-new-in-ai-november-2026",
+          "source": "Oracle AI & Data Science Blog"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "GoogleChrome/modern-web-guidance-src",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+          "desc": "为 AI 编码助手提供现代浏览器 API、兼容性和 Web 最佳实践，可搜索与提取指南，也可扫描旧式代码模式。",
+          "note": "代码采用 Apache-2.0，guides 文档为 CC-BY 4.0；CLI 默认收集匿名使用统计，可通过 DISABLE_TELEMETRY=1 关闭。",
+          "stars_today": 1231
+        },
+        {
+          "repo": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "desc": "AI 代码审查 CLI 将确定性规则流程与 LLM Agent 结合，针对代码变更生成逐行审查意见，也支持整文件扫描。",
+          "note": "Apache-2.0；需配置 LLM 服务，审查文件内容会发送至所选模型服务商。项目自述的基准偏重精确率，召回率低于通用 Agent。",
+          "stars_today": 893
+        },
+        {
+          "repo": "ChromeDevTools/chrome-devtools-mcp",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "desc": "让 AI 编码助手通过 MCP 或 CLI 控制并检查 Chrome，支持页面自动化、性能分析、调试和网络检查。",
+          "note": "Apache-2.0；需 Node.js LTS 与 Chrome。工具可读取或修改浏览器中的数据，使用时避免暴露敏感内容；匿名使用统计默认开启，可显式关闭。",
+          "stars_today": 664
+        },
+        {
+          "repo": "tradermonty/claude-trading-skills",
+          "url": "https://github.com/tradermonty/claude-trading-skills",
+          "desc": "面向 Claude 的投资研究与交易流程技能包，涵盖市场环境、风险管理、候选筛选、交易日志和复盘。",
+          "note": "MIT；作者声明仅用于教育、研究和流程改进，不是投资建议、交易信号或自动下单平台。部分工作流依赖可选的付费数据/API，亦提供无需付费数据 API 的入门路径。",
+          "stars_today": 553
+        }
+      ]
+    },
     {
       "date": "2026-11-14",
       "summary": "OpenAI 推出 ChatGPT Wallet，让智能体在用户逐笔确认后代为完成付款，但首轮仅面向美国符合条件的 Pro 用户。GitHub 热榜集中在现代 Web 指引、AI 安全扫描与代码审查工具。",
