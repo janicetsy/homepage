@@ -1,7 +1,48 @@
 {
   "schema": 1,
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "days": [
+    {
+      "date": "2026-11-15",
+      "summary": "本輪沒有核實到新的香港可申請機會。復核1項先前已報的OpenTrain AI香港限定遠程QA Lead舊職缺仍公開，時薪US$40；另新發現AfterQuery寫作評估線索，但香港資格及薪酬幣種待確認，未列入合格機會。舊職缺不是今日新發布，頁面仍列出不保證名額或派單。",
+      "items": [
+        {
+          "title": "Quality Assurance Lead",
+          "org": "OpenTrain AI",
+          "category": "followup",
+          "hk": "yes",
+          "hk_note": "官方頁明確標示 Hong Kong only，並寫明 Open to applicants in Hong Kong。",
+          "location": "Remote · 香港申請者限定 · 合約兼職 · Expert",
+          "pay": "$40 USD/hr；contract, part-time",
+          "requirements": [
+            "必需：每週 20 小時以上。",
+            "必需：流利繁體中文及粵語，並具良好英語溝通能力。",
+            "必需：繁體中文寫作、翻譯、本地化、內容品質保證、AI 訓練或相關審閱流程經驗。",
+            "必需：支援遠端訓練員、審閱者、編輯、標註員或 QA 貢獻者團隊的經驗；注重細節、組織及結構化溝通。",
+            "官方頁未列另行分類的加分條件。"
+          ],
+          "posted": "2026-07-08（官方頁所列）；本輪為舊職缺狀態跟進，非今日新發布。",
+          "deadline": "",
+          "note": "2026-10-25 已報，本輪只復核仍公開，並非新發現或新發布。官方職位頁仍公開，並提供此職位專屬 Apply now 連結；頁面說明需建立免費 OpenTrain 帳戶並加入履歷，再完成職位申請。後續表單步驟、實際提交、可用名額及工作派發均未確認；不保證收入。",
+          "url": "https://www.opentrain.ai/jobs/cantonese-quality-assurance-lead--cmrcm4csd0004pw3l2gdu5l7t/",
+          "source": "OpenTrain AI"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "Prolific 繁體中文／粵語訓練職缺",
+          "reason": "原頁註明不再接受申請。"
+        },
+        {
+          "title": "OpenTrain AI 粵語轉錄專家",
+          "reason": "列出的開放國家不含香港。"
+        },
+        {
+          "title": "AfterQuery — Content Writer and Evaluator - Global - AI Trainer（新發現線索，香港資格待確認）",
+          "reason": "Handshake 標示 Global、Remote，LinkedIn 對應頁地點欄為 United States；香港承包資格未確認，不列作已核實香港機會。原頁 $12–15/hr 未註明幣種；11月22日上午7:59截止，未註明時區。來源：https://app.joinhandshake.com/public/jobs/11759372"
+        }
+      ]
+    },
     {
       "date": "2026-11-14",
       "summary": "本輪新核實 1 項香港生產力促進局 AI 與先進產業技術主任職位，為 24 個月固定期合約。薪酬及確切截止日未披露，官方要求發布後一週內申請並招聘至填滿；不是已確認於今日發布的新職位。本輪未核實到其他未重複且符合地區條件的新機會。",
