@@ -1,7 +1,52 @@
 {
   "schema": 1,
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "days": [
+    {
+      "date": "2026-11-16",
+      "summary": "官方产品页未见 11 月 15–16 日的新 AI 软件发布；补录 Google 于 11 月 10 日开放的 Gemini 4 Carbon，注明其实际可用计划与价格。GitHub 今日热榜集中在 Web 开发、Office SDK 与 Agent 审阅工具。",
+      "software": [
+        {
+          "title": "Google 扩大 Gemini 4 Carbon 开放范围",
+          "desc": "Gemini 4 Carbon 于 11 月 10 日向开发者、企业、科学研究者与消费者开放，定位于复杂多步编码、长程 Agent 工作流和科研推理；Google Antigravity 还预览了可协同多 Agent 的 /swarm。",
+          "note": "这不是 11 月 15–16 日新发布；官方产品页近期未见这两天的新软件公告。开发者经 Gemini API 付费层使用；介绍价为每百万输入/输出 token 各 US$2/US$10，11 月 30 日后转为 US$4/US$20。Gemini 应用和 Search AI Mode 的开放范围为 Google AI Ultra 订阅者；科研免费访问需申请并受资格与名额限制。",
+          "date": "2026-11-10",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "source": "Google Blog / Google DeepMind"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "GoogleChrome/modern-web-guidance-src",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+          "desc": "为 Claude、Codex、Gemini 等编码 Agent 提供现代浏览器 API 与 Web 最佳实践，可搜索指南并扫描旧式代码模式。",
+          "note": "Apache-2.0 代码、CC-BY 4.0 指南；匿名使用数据（含 Agent 名称、检索 ID 和生成的 CLI 查询）默认收集，可设 DISABLE_TELEMETRY=1 退出。",
+          "stars_today": 1219
+        },
+        {
+          "repo": "dream-num/univer",
+          "url": "https://github.com/dream-num/univer",
+          "desc": "可嵌入产品的开源表格与文档 SDK，提供编辑、公式计算、渲染和 Headless 内容处理，并能连接现有 Agent 工作流。",
+          "note": "开源 Web SDK 核心为 Apache-2.0；Server SDK、商业插件及超出开源基础的 AI SDK 扩展另行授权，部分评估版带水印或功能限制。",
+          "stars_today": 988
+        },
+        {
+          "repo": "backnotprop/plannotator",
+          "url": "https://github.com/backnotprop/plannotator",
+          "desc": "在本地浏览器审阅并批注 AI 编码 Agent 的计划、文档、HTML 和代码差异，可将反馈直接送回 Agent。",
+          "note": "Apache-2.0 或 MIT 双许可；项目称不收集遥测。使用 AI 审阅时会把所选内容发给配置的模型服务；URL 批注默认经 Jina Reader 获取网页。",
+          "stars_today": 866
+        },
+        {
+          "repo": "ChromeDevTools/chrome-devtools-mcp",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "desc": "通过 MCP 或 CLI 让编码 Agent 控制和检查 Chrome，用于网页自动化、网络与控制台调试、性能分析。",
+          "note": "Apache-2.0；需 Node.js LTS 和 Chrome。MCP 客户端可读取或修改浏览器数据，应避免在该浏览器暴露敏感信息；匿名使用统计默认开启，可用 --no-usage-statistics 关闭。",
+          "stars_today": 717
+        }
+      ]
+    },
     {
       "date": "2026-11-15",
       "summary": "Oracle 宣布 OCI Enterprise AI Agent Sandbox 正式可用，为 AI Agent 提供可配置的临时 Linux 执行环境；GitHub 热榜上的现代 Web 指引、代码审查与浏览器调试工具持续升温。",
