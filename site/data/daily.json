@@ -1,7 +1,134 @@
 {
   "schema": 1,
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "days": [
+    {
+      "date": "2026-11-16",
+      "summary": "今天核實到6個此前未列報的香港AI相關職位，並非全部今天新發布；薪酬金額均未披露。Cathay Subsidiary Services自動化分析師11月18日截止，Swire Properties AI應用專員12月9日截止。職位頁提供Apply不保證名額；Fano只有LinkedIn列示，未獲官網獨立在招佐證。",
+      "items": [
+        {
+          "title": "AI Applications Specialist",
+          "org": "Swire Properties",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "Hong Kong；Quarry Bay。",
+          "location": "Quarry Bay, Hong Kong · Permanent · Digital & IT",
+          "pay": "未披露",
+          "requirements": [
+            "相關學科本科；5–8 年 IT、數碼應用交付或技術項目實施經驗。",
+            "2–3 年支援 AI 應用、AI 平台、自動化方案或業務應用 AI 能力整合經驗。",
+            "具 Python、SQL 或低程式碼平台等實作能力，以及培訓或支援非技術用戶經驗；熟悉敏捷交付。",
+            "相關碩士、雲端知識／認證及指定 AI 或 Power Platform 認證屬加分。"
+          ],
+          "posted": "官方職位頁未標註發布日期",
+          "deadline": "2026-12-09",
+          "note": "官方招聘列表仍列職位，詳細頁提供專屬 Apply Now。申請入口可開啟，但讀取內容未顯示表格欄位，後續步驟未確認。",
+          "url": "https://careers.swireproperties.com/en-hk/job-detail/?region=Hong+Kong&postingTargetId=9326",
+          "source": "Swire Properties 官方招聘頁"
+        },
+        {
+          "title": "Digital Solution & Automation Analyst",
+          "org": "Cathay Subsidiary Services",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "職位頁明確列 Islands District, Hong Kong SAR。",
+          "location": "Islands District, Hong Kong SAR · 全職；LinkedIn 級別標示 Entry level",
+          "pay": "未披露金額；頁面僅稱具競爭力薪酬及完整福利。",
+          "requirements": [
+            "商業、管理、電腦、資訊管理、數據分析、工程或相關學士；其他教育背景如有技術知識及相關經驗亦考慮。",
+            "3–5 年數碼轉型、流程分析、自動化、應用開發或相關經驗；低／無程式碼應用、工作流或儀表板實作經驗。",
+            "具流程改善、需求收集、UAT 及敏捷方法經驗；Python、API、Agentic AI、Copilot 等經驗或興趣屬加分。"
+          ],
+          "posted": "查看時顯示 5 days ago（核驗日 2026-11-16；非精確日期）",
+          "deadline": "2026-11-18",
+          "note": "LinkedIn 職位頁顯示 Apply；公開內容未顯示按鈕目標，後續表格及登入要求未確認。",
+          "url": "https://hk.linkedin.com/jobs/view/digital-solution-automation-analyst-at-cathay-subsidiary-services-4489423017",
+          "source": "LinkedIn 原始職位頁"
+        },
+        {
+          "title": "AI Business Analyst – Copilot & Automation",
+          "org": "Protiviti Hong Kong",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "職位頁明確列 Hong Kong, Hong Kong SAR。",
+          "location": "Hong Kong, Hong Kong SAR",
+          "pay": "未披露",
+          "requirements": [
+            "具 Business Analyst、Digital Business Analyst 或 Technology Business Analyst 工作經驗；須能收集需求並把業務問題轉化為技術方案。",
+            "須有 Microsoft Power Automate、Microsoft Copilot Studio 實作經驗及流程分析能力，並能協作及支援測試、UAT 和實施；原頁未列年限。",
+            "Microsoft 365 Copilot、Power Apps、Power BI、Dataverse、Azure AI、API／系統整合、生成式 AI 或企業轉型背景屬加分。"
+          ],
+          "posted": "查看時顯示 1 week ago（原頁相對日期）",
+          "deadline": "",
+          "note": "原始 LinkedIn 職位頁仍展示詳情及 Apply 按鈕；後續申請步驟未確認。",
+          "url": "https://hk.linkedin.com/jobs/view/ai-business-analyst-%E2%80%93-copilot-automation-at-protiviti-hong-kong-4486972132",
+          "source": "LinkedIn 原始職位頁"
+        },
+        {
+          "title": "AI Solution, Analyst",
+          "org": "AIA Hong Kong and Macau",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "職位頁明確列 Hong Kong, Hong Kong SAR。",
+          "location": "Hong Kong, Hong Kong SAR · 全職 · Entry level",
+          "pay": "未披露",
+          "requirements": [
+            "電腦、工程、科學或相關本科以上，或具同等經驗及可證明能力；須有相關 AI 專案經驗。",
+            "具客戶導向及團隊協作能力，能以英語、普通話或粵語溝通。",
+            "生成式 AI、DevOps／MLOps／LLMOps、Docker、Kubernetes、OpenShift、Redis、Kafka 或 Agile/Scrum 經驗屬加分。"
+          ],
+          "posted": "查看時顯示 5 days ago（原頁相對日期）",
+          "deadline": "",
+          "note": "原始 LinkedIn 職位頁仍顯示 Apply；申請後續步驟未確認。職責包括 AI 用例研究、方案設計、PoC／原型、測試部署、治理文件及跨團隊協作。",
+          "url": "https://hk.linkedin.com/jobs/view/ai-solution-analyst-at-aia-hong-kong-and-macau-4462271946",
+          "source": "LinkedIn 原始職位頁"
+        },
+        {
+          "title": "Solution Specialist – Solution Design, Automation & AI",
+          "org": "TOPPAN Information Solution (Hong Kong) Limited",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "職位正文明確列 Kowloon, Hong Kong SAR；不採搜尋欄其他地名。",
+          "location": "Kowloon, Hong Kong SAR",
+          "pay": "未披露金額；僅稱 excellent compensation package。",
+          "requirements": [
+            "相關學位／高級文憑；2–3年方案開發、系統整合、售前、自動化或應用開發經驗。",
+            "職位所列技術領域至少兩項有實作能力，涵蓋Python、Power Automate／UiPath、實用AI／LLM、REST API、JSON、SQL及系統整合。",
+            "具分析、解難及溝通能力，中英文良好；粵語優先。Azure或同類雲端及Git經驗屬加分。"
+          ],
+          "posted": "查看時顯示6 days ago（原頁相對日期）",
+          "deadline": "",
+          "note": "原始LinkedIn頁仍有詳情及Apply。正文要求詳細履歷、現薪及期望薪酬；公開提取未顯示專屬電郵或按鈕後的表格，後續申請步驟未確認。工作含方案設計、PoC、原型、自動化與AI整合及交付移交。",
+          "url": "https://hk.linkedin.com/jobs/view/solution-specialist-solution-design-automation-ai-at-toppan-information-solution-hong-kong-limited-4487925778",
+          "source": "LinkedIn 原始職位頁"
+        },
+        {
+          "title": "Forward Deployed Engineer",
+          "org": "Fano (Fano Labs)",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "職位正文明確列 Hong Kong, Hong Kong SAR。",
+          "location": "Hong Kong, Hong Kong SAR；未說明遠程",
+          "pay": "未披露",
+          "requirements": [
+            "3–6年技術交付結合需求發掘／業務分析、解決方案工程或客戶技術工作經驗。",
+            "須有對話式AI、語音分析或NLP產品經驗；Python、Golang、REST API、webhooks、JSON／CSV／XML整合經驗。",
+            "SQL及至少一種AWS／GCP／Azure雲平台；熟悉Kubernetes、Linux及基礎Docker，具客戶溝通和端到端交付能力。銀行金融背景屬加分。"
+          ],
+          "posted": "查看時顯示2 days ago（原頁相對日期）",
+          "deadline": "",
+          "note": "LinkedIn原始頁仍公開詳情及Apply；但本輪讀取的Fano官方Careers／Jobs目錄未列此職，未獲官網獨立在招佐證。官網未列不等於關閉；後續表格、提交和實際名額未確認。工作含AI產品配置、客戶培訓、UAT及生產整合。",
+          "url": "https://hk.linkedin.com/jobs/view/forward-deployed-engineer-at-fano-fano-labs-4490588167",
+          "source": "LinkedIn 原始職位頁；Fano 官方職位目錄對照"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "不符合地區條件或涉及敏感資料採集的評估項目",
+          "reason": "地區不合資格，或要求提供真實短信內容、電話號碼及截圖等敏感資料。"
+        }
+      ]
+    },
     {
       "date": "2026-11-15",
       "summary": "本輪沒有核實到新的香港可申請機會。復核1項先前已報的OpenTrain AI香港限定遠程QA Lead舊職缺仍公開，時薪US$40；另新發現AfterQuery寫作評估線索，但香港資格及薪酬幣種待確認，未列入合格機會。舊職缺不是今日新發布，頁面仍列出不保證名額或派單。",
