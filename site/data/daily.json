@@ -1,7 +1,13 @@
 {
   "schema": 1,
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "days": [
+    {
+      "date": "2026-11-17",
+      "summary": "今日未找到符合未曾報過、仍有效且明確開放香港或全球不限地區，並經原頁核實的新機會；合格機會為零。",
+      "items": [],
+      "excluded": []
+    },
     {
       "date": "2026-11-16",
       "summary": "今天核實到6個此前未列報的香港AI相關職位，並非全部今天新發布；薪酬金額均未披露。Cathay Subsidiary Services自動化分析師11月18日截止，Swire Properties AI應用專員12月9日截止。職位頁提供Apply不保證名額；Fano只有LinkedIn列示，未獲官網獨立在招佐證。",
