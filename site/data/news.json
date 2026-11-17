@@ -1,7 +1,52 @@
 {
   "schema": 1,
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "days": [
+    {
+      "date": "2026-11-17",
+      "summary": "OpenAI 为医疗团队扩展 ChatGPT for Healthcare：临床搜索升级、新增 20 多个医疗插件，并推出跨医疗软件的电脑操作 Agent。GitHub 今日热榜聚焦 Office SDK、AI 代码审查和 Agent 技能评测。",
+      "software": [
+        {
+          "title": "OpenAI 扩展 ChatGPT for Healthcare：临床搜索、医疗插件与电脑操作 Agent",
+          "desc": "医疗团队可用升级后的临床搜索获取带引用的医学证据，并通过 20 多个新插件连接临床、协调护理及运营工具；电脑操作 Agent 可在现有 EHR、保险门户等软件间处理多步工作。",
+          "note": "11 月 16 日公告。面向 ChatGPT for Healthcare 客户（插件须管理员启用）及美国经验证临床人员；个人临床人员可免费使用 ChatGPT for Clinicians，部分插件可用。涉及受保护健康信息的 HIPAA 工作流须使用受 BAA 覆盖的合格服务并配置安全与保留策略；应设置访问权限、审计记录和人工复核，临床决定仍由专业人员负责。",
+          "date": "2026-11-16",
+          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/",
+          "source": "OpenAI"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "dream-num/univer",
+          "url": "https://github.com/dream-num/univer",
+          "desc": "可嵌入自有产品的 Office SDK，提供表格、文档编辑、公式计算、协作和文件处理，也可连接现有 Agent。",
+          "note": "本仓库 Web SDK 核心为 Apache-2.0；商业 Web 插件、Server SDK 和商业 AI SDK 扩展另行授权，演示内容可能包含商业功能。",
+          "stars_today": 1828
+        },
+        {
+          "repo": "elementalsouls/Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "desc": "面向 Claude Code 的安全测试技能包，覆盖外部攻击面侦察、漏洞检查、验证和报告，并带有命令行编排工具。",
+          "note": "仅适用于自有资产或获得书面授权、且明确处于测试范围内的目标；项目排除未授权攻击和恶意软件开发。代码为 MIT，技能内容与文档为 CC BY 4.0。",
+          "stars_today": 1094
+        },
+        {
+          "repo": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "desc": "结合确定性检查与 LLM Agent 的代码审查 CLI，可对 Git 差异生成逐行评论，也能扫描整份代码文件。",
+          "note": "Apache-2.0。会把变更文件发送给用户配置的模型，并可读取完整文件及相关代码库上下文；接入前应检查模型端点的数据处理方式，并避免将密钥等敏感内容送入不可信端点。",
+          "stars_today": 951
+        },
+        {
+          "repo": "NVIDIA/SkillEvaluator",
+          "url": "https://github.com/NVIDIA/SkillEvaluator",
+          "desc": "评测 AI Agent 技能与插件的质量、兼容性、重复内容和实际效果，可从命令行或 CI 运行。",
+          "note": "Apache-2.0。基础静态检查可不调用 LLM；更深入的模型评分和实时 Agent 评测需要相应模型/API 或运行环境，可能产生服务费用。",
+          "stars_today": 873
+        }
+      ]
+    },
     {
       "date": "2026-11-16",
       "summary": "官方产品页未见 11 月 15–16 日的新 AI 软件发布；补录 Google 于 11 月 10 日开放的 Gemini 4 Carbon，注明其实际可用计划与价格。GitHub 今日热榜集中在 Web 开发、Office SDK 与 Agent 审阅工具。",
