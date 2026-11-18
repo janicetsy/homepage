@@ -1,7 +1,76 @@
 {
   "schema": 1,
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "days": [
+    {
+      "date": "2026-11-18",
+      "summary": "Databricks 的 Genie Code CLI 正式开放，并为编码 Agent 增加外部模型路由测试版；Microsoft 与 Salesforce 发布 Copilotforce 企业集成。GitHub 热榜聚焦 Agent 开发流程、Office SDK、前端交互协议和多 Agent 论文写作。",
+      "software": [
+        {
+          "title": "Databricks Genie Code CLI 正式开放",
+          "desc": "本地终端中的数据与 AI 编码 Agent，可读写本地文件、运行命令，并连接 Databricks 数据、管道、模型和应用；可在 IDE 集成终端中使用。",
+          "note": "11 月 18 日 GA。需位于支持区域的 Databricks workspace，启用 partner-powered AI 和 Unity Catalog，并安装 Databricks CLI 1.0.0+；地区和跨区域数据处理设置会影响可用性。按 Genie 按量计费，共享每月 Genie 免费用量和预算。",
+          "date": "2026-11-18",
+          "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+          "source": "Databricks"
+        },
+        {
+          "title": "Databricks Smart Routing 支持为编码 Agent 路由外部模型（Beta）",
+          "desc": "在 Unity Gateway Managed Configuration 测试版中，可将编码 Agent 的子 Agent 路由到模型服务商提供的外部模型。",
+          "note": "11 月 18 日 Beta；这是 Databricks 工作区的开发者功能，不是独立模型或通用聊天应用。",
+          "date": "2026-11-18",
+          "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+          "source": "Databricks"
+        },
+        {
+          "title": "Microsoft 与 Salesforce 推出 Copilotforce 企业集成",
+          "desc": "Salesforce in Copilot 插件把 Salesforce 客户信息和销售工作流带入 Microsoft Copilot，含 38 多项预置销售技能；另有 Teams 与 Fabric 的数据集成。",
+          "note": "11 月 17 日公告。Salesforce in Copilot 处于公开预览；Sales Cloud in Teams 为企业试点。CRM 写回需用户确认并遵循 Salesforce 权限；地区和访问受客户协议约束。",
+          "date": "2026-11-17",
+          "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
+          "source": "Microsoft"
+        },
+        {
+          "title": "Anthropic 推出 Claude API Linked billing 测试版",
+          "desc": "开发者可让用户连接自己的 Claude Platform 组织，并为该应用发起的 Claude API 请求付费；用户可设月度消费上限或解除连接。",
+          "note": "11 月 17 日 Beta。仅支持直接向 Anthropic 结算 API 用量的组织，不包括云市场代付或只有 Claude 订阅的组织。请求适用应用开发者组织的数据保留和加密设置，用户自己的 ZDR、BAA、CMEK 不适用；不适合需要 HIPAA 等保护的用量。",
+          "date": "2026-11-17",
+          "url": "https://platform.claude.com/docs/en/manage-claude/oauth-apps/organization-billing-connections",
+          "source": "Anthropic"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "desc": "面向多种编码 Agent 的可组合技能和软件开发方法，涵盖需求梳理、计划、测试驱动开发、子 Agent 实现与代码审查。",
+          "note": "MIT。不同编码 Agent/Harness 需要分别安装；流程鼓励在实现前澄清需求并制定计划。",
+          "stars_today": 1917
+        },
+        {
+          "repo": "dream-num/univer",
+          "url": "https://github.com/dream-num/univer",
+          "desc": "可嵌入自有产品的 Office SDK，支持表格与文档编辑、计算、协作及文件处理，并可连接现有 Agent。",
+          "note": "本仓库 Web SDK 核心为 Apache-2.0；商业 Web 插件、Server SDK 和商业 AI SDK 扩展另行授权。",
+          "stars_today": 1774
+        },
+        {
+          "repo": "ag-ui-protocol/ag-ui",
+          "url": "https://github.com/ag-ui-protocol/ag-ui",
+          "desc": "以双向事件流连接 AI Agent 与 Web、移动端及其他用户界面，支持流式输出、工具调用、共享状态和人工介入。",
+          "note": "MIT；AG-UI 1.0 规范已稳定，属于集成协议与 SDK，不是开箱即用的聊天产品。",
+          "stars_today": 1445
+        },
+        {
+          "repo": "google-research/paper-orchestra",
+          "url": "https://github.com/google-research/paper-orchestra",
+          "desc": "多 Agent 研究论文写作框架，可从研究想法和实验记录生成文献综述、章节、图表及 LaTeX 稿件。",
+          "note": "Apache-2.0；需 Python 3.11，调用模型需相应 API 凭证；数据集不随代码仓库提供，且项目声明并非 Google 官方支持产品。",
+          "stars_today": 1072
+        }
+      ]
+    },
     {
       "date": "2026-11-17",
       "summary": "OpenAI 为医疗团队扩展 ChatGPT for Healthcare：临床搜索升级、新增 20 多个医疗插件，并推出跨医疗软件的电脑操作 Agent。GitHub 今日热榜聚焦 Office SDK、AI 代码审查和 Agent 技能评测。",
