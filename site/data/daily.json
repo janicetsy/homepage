@@ -1,7 +1,56 @@
 {
   "schema": 1,
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "days": [
+    {
+      "date": "2026-11-18",
+      "summary": "本輪新增核實 2 項原頁明確開放全球（包括香港）的遠程 AI 合約機會；原頁發布日期均標示為 2026-11-17。均按標籤付費但未披露單價或幣種，後續雇主表單、名額及實際任務量未確認。",
+      "items": [
+        {
+          "title": "BA Generalist (English, Creative Data Annotation)",
+          "org": "OpenTrain AI（原頁未披露具體招聘公司）",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "原頁明確標示 Worldwide / open worldwide，涵蓋香港。",
+          "location": "Remote · Worldwide · 兼職合約",
+          "pay": "按標籤付費（pay per label）；未披露單價或幣種。每項任務約 60 分鐘，不是工作時薪。",
+          "requirements": [
+            "必需：每週承諾 20 小時以上；項目約 2–3 週。",
+            "必需：較強書面英語及清晰溝通能力。",
+            "必需：商業分析、英語、文學、新聞、創意寫作、劇本寫作、內容寫作、影視字幕或相關教育／職業背景。",
+            "必需：理解細微人際情境並客觀評估 AI 生成答覆。",
+            "不要求既往 AI 訓練經驗。",
+            "加分（非必需）：資料標註、人機互動、內容評估或類似分析項目經驗 3 年以上。"
+          ],
+          "posted": "2026-11-17（原頁標示，未另作香港時區換算）",
+          "deadline": "",
+          "note": "原頁提供專屬 Apply now；說明需先在 OpenTrain 建立免費帳戶並添加履歷，再到招聘公司網站完成獨立申請。公開入口落地仍顯示同一職位頁，最終雇主表單、申請完成、名額、錄用與任務量未確認。",
+          "url": "https://www.opentrain.ai/jobs/ba-generalist-english-and-creative-data-annotation--cmwl4wavs005l07l6kkla23oe/",
+          "source": "OpenTrain AI 職位原頁"
+        },
+        {
+          "title": "3D Motion Evaluator (Human Motion & Physical Plausibility)",
+          "org": "OpenTrain",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "原頁明確標示 Remote 及 Worldwide，涵蓋香港。",
+          "location": "Remote · Worldwide · 兼職合約",
+          "pay": "按標籤付費（pay per label）；未披露單價或幣種，未折算時薪。",
+          "requirements": [
+            "必需：兼職合同，每週投入 20 小時以上。",
+            "必需：專業英語流利；具良好視覺觀察、細節關注和分析能力，能一致遵循評估指南。",
+            "必需：理解基礎人體解剖、關節運動與物理動作。",
+            "加分：動畫、動作捕捉、生物力學、遊戲測試、視覺標註或動作質量評估等經驗。"
+          ],
+          "posted": "2026-11-17（原頁標示，未另作香港時區換算）",
+          "deadline": "",
+          "note": "原頁提供專屬 Apply now；說明需先在 OpenTrain 建立帳戶並添加履歷，再到招聘公司網站完成申請。申請後續表單、名額、錄用、任務量及實際收入未確認。",
+          "url": "https://www.opentrain.ai/jobs/3d-motion-evaluator-human-motion-and-physical-plausibility--cmwl4wal5005h07l6lhv34hzs/",
+          "source": "OpenTrain 職位原頁"
+        }
+      ],
+      "excluded": []
+    },
     {
       "date": "2026-11-17",
       "summary": "今日未找到符合未曾報過、仍有效且明確開放香港或全球不限地區，並經原頁核實的新機會；合格機會為零。",
