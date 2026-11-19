@@ -1,7 +1,76 @@
 {
   "schema": 1,
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "days": [
+    {
+      "date": "2026-11-19",
+      "summary": "OpenAI 推出 GPT-6.2 Astra/Sol 和面向销售团队的 ChatGPT for Sales；Codex 也有可将 Mac 工作流程录制为复用技能的功能。Databricks 按计划退役 Gemini 3.6 Flash 并将请求转至 3.8 Flash。GitHub 热榜聚焦 Agent 工程工具、跨平台研究技能、软件 CLI 化和 Stitch 设计 Agent 技能。",
+      "software": [
+        {
+          "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol",
+          "desc": "Astra 面向复杂专业工作，重点提升文档、表格、代码和科学任务表现；Sol 是日常工作模型。两者也可通过 API 使用。",
+          "note": "11 月 17 日发布。ChatGPT Work 与 Codex 面向 Plus、Pro、Enterprise、Edu 用户；API 按 token 计费。Astra 的 API 输入/输出价格比 GPT-6 Astra 低 20%，缓存输入低 60%；地区、计划与工作区权限可能影响使用。",
+          "date": "2026-11-17",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "source": "OpenAI"
+        },
+        {
+          "title": "ChatGPT for Sales 上线销售工作流与插件",
+          "desc": "新增销售专用插件，并扩展 30 多项合作方插件，可把 CRM、客户会谈、外联和报价等上下文带入 ChatGPT，用于账户研究、通话准备及跟进草稿。",
+          "note": "11 月 17 日发布。Business 和 Enterprise 管理员可在工作区启用；插件与功能可用性依计划、地区和工作区设置而异，连接第三方账户及写入 CRM 前应检查权限与拟执行操作。",
+          "date": "2026-11-17",
+          "url": "https://openai.com/index/introducing-chatgpt-for-sales/",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Codex 加入 Record & Replay 工作流录制",
+          "desc": "在 Mac 上演示一次重复流程，ChatGPT 或 Codex 可将它整理成可复用技能，例如生成配置好的工单或下载定期报告。",
+          "note": "官方文档确认此功能可用，但文档未标发布日期。仅 macOS，且需启用 Computer Use；官方发布说明称初始开放不含欧盟、英国和瑞士。录制时会观察完成任务所需的操作与窗口内容，应避免在录制中暴露秘密或敏感信息。",
+          "date": "",
+          "url": "https://developers.openai.com/codex/record-and-replay",
+          "source": "OpenAI Codex 文档"
+        },
+        {
+          "title": "Databricks 退役 Gemini 3.6 Flash 并自动迁移",
+          "desc": "自 11 月 19 日起，Databricks 对 Gemini 3.6 Flash 的 API 调用自动转至推荐替代模型 Gemini 3.8 Flash，价格不变。",
+          "note": "这是模型退役/兼容迁移，不是新功能发布；依赖旧模型行为的工作流仍应检查输出差异。",
+          "date": "2026-11-19",
+          "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+          "source": "Databricks"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "desc": "面向 Claude Code、Codex 等编码 Agent 的工程工具箱，提供规划、测试、审查、记忆、钩子和安全扫描等能力。",
+          "note": "MIT；Claude Code 支持最完整，其他 Agent 的功能覆盖不同；Claude Code 插件需 v2.1.0+，通用包需 Node.js 18+。多 Agent 和 MCP 会增加 token/上下文消耗。",
+          "stars_today": 1108
+        },
+        {
+          "repo": "mvanhorn/last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "desc": "可供编码 Agent 调用的研究技能，汇总近 30 天 Reddit、X、YouTube、Hacker News 等来源并生成有来源的主题报告。",
+          "note": "MIT；需要 Python 3.12+。部分平台需自行配置 API key；默认本地处理，联网搜索内容会发送到所用数据/API 服务。",
+          "stars_today": 1059
+        },
+        {
+          "repo": "HKUDS/CLI-Anything",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "desc": "为桌面软件和项目生成结构化 CLI，使 Agent 可通过命令行操作常见应用并处理工作流。",
+          "note": "Apache-2.0；生成器需 Python 3.10+ 和较强的编码模型，产物可能要多轮完善；部分 CLI 仍依赖本机安装对应软件，运行前应审查其命令与权限。",
+          "stars_today": 389
+        },
+        {
+          "repo": "google-labs-code/stitch-skills",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "desc": "Google Stitch MCP 的 Agent Skills 集合，可帮助编码 Agent 生成和管理设计稿、提取设计系统并生成前端组件。",
+          "note": "Apache-2.0；使用需要配置 Stitch MCP 和相应凭证。仓库声明这不是 Google 官方支持产品。",
+          "stars_today": 365
+        }
+      ]
+    },
     {
       "date": "2026-11-18",
       "summary": "Databricks 的 Genie Code CLI 正式开放，并为编码 Agent 增加外部模型路由测试版；Microsoft 与 Salesforce 发布 Copilotforce 企业集成。GitHub 热榜聚焦 Agent 开发流程、Office SDK、前端交互协议和多 Agent 论文写作。",
