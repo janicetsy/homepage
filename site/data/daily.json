@@ -1,7 +1,127 @@
 {
   "schema": 1,
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "days": [
+    {
+      "date": "2026-11-19",
+      "summary": "共列 5 項香港可申請的機會：包括遠端 AI 評估合約、香港全職 AI 職位，以及要求較高資歷的 AI／技術職位。兩項 OpenTrain 新增機會未披露報酬，不能保證收入；其他報酬依原頁照錄。原頁日期逐項列示，不據此推斷今日發布；申請入口公開可見不代表名額、錄取、派單或收入有保證。",
+      "items": [
+        {
+          "title": "Content Writer and Evaluator (Global)",
+          "org": "OpenTrain AI（最終招聘公司未披露）",
+          "category": "remote",
+          "hk": "yes",
+          "hk_note": "職位原頁及專屬申請跳轉頁均將 Hong Kong 列入申請地區名單。",
+          "location": "遠端合約；每週 10–20 小時",
+          "pay": "US$15/小時；合同工。實際可獲工時或派單量未確認。",
+          "requirements": [
+            "必需：英語流利、優秀書面溝通能力。",
+            "必需：注重細節、寫作編輯準確、具備資訊核查能力，能獨立工作。",
+            "工作安排：每週 10–20 小時，時間靈活。",
+            "加分：體育統計／表現分析、金融分析／市場研究、專利／知識產權、學術規劃、商業情報或競爭分析經驗。"
+          ],
+          "posted": "Nov 5, 2026（原頁標註）",
+          "deadline": "",
+          "note": "原頁顯示 Apply now。申請流程先建立 OpenTrain 免費帳戶並上傳履歷，再到招聘公司網站完成申請；最終招聘公司未披露。專屬申請跳轉頁仍可達，後續表單、名額及申請結果未確認。",
+          "url": "https://www.opentrain.ai/jobs/ai-evaluation-content-writer-and-evaluator--cmw3pwc9w007e07jpuxdts8bl/",
+          "source": "OpenTrain 職位原頁及專屬 Apply 跳轉頁"
+        },
+        {
+          "title": "Principal AI Solutions Engineer – Agentic AI & LLM Architect",
+          "org": "雇主未披露（Randstad 招聘）",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "職位地點明確為 Hong Kong，描述為在香港加入客戶企業並與香港業務團隊協作。",
+          "location": "香港｜全職、永久職位",
+          "pay": "未披露",
+          "requirements": [
+            "至少 7 年全週期軟件工程經驗，且至少 3 年在複雜企業環境構建並交付生產級 LLM／生成式 AI 系統。",
+            "計算機科學、軟件工程、數據科學或相關定量學科本科及以上學歷。",
+            "熟悉智能體編排框架、智能體到工具協議、REST/gRPC API、向量資料庫及混合搜尋架構。",
+            "具備將 AI 自動化、自助入口或智能工作流程推進至企業級生產應用的經驗。",
+            "粵語和英語母語或商務流利。"
+          ],
+          "posted": "posted 1 day ago（原頁相對日期，照錄）",
+          "deadline": "2027-01-15",
+          "note": "Randstad 原頁提供專屬 Apply 連結；專屬申請頁顯示此職位，要求登入或建立帳戶並提交申請資料。後續表單及申請結果未確認。",
+          "url": "https://www.randstad.com/jobs/principal-ai-solutions-engineer-agentic-ai-llm-architect_hong-kong_47771435/",
+          "source": "Randstad 職位原頁及專屬 Aplitrak 申請頁"
+        },
+        {
+          "title": "Team Management AI Evaluator",
+          "org": "OpenTrain AI（原頁未披露實際招聘公司）",
+          "category": "remote",
+          "hk": "yes",
+          "hk_note": "原頁明確標示 Open worldwide，未見國家限制衝突；涵蓋香港。",
+          "location": "Remote · Worldwide · 兼職合約",
+          "pay": "未披露（原頁注明 Details are not specified；金額及幣種未知）。未披露報酬，不能保證收入。",
+          "requirements": [
+            "必需：每週投入 20 小時以上；兼職承包崗位。",
+            "必需：相關領域碩士或更高學歷。",
+            "必需：至少 3 年專業工作、研究或教學經驗。",
+            "必需：優秀書面英語能力。",
+            "必需：團隊領導、人員管理、績效管理、勞動力規劃及營運執行相關經驗。",
+            "必需：分析與批判性思維、注重細節，能質疑假設並發現細微事實或推理錯誤。",
+            "加分：大型語言模型／生成式 AI、提示工程、AI 評估、模型測試、挑戰性提示、邊緣案例或壓力測試經驗。"
+          ],
+          "posted": "Oct 23, 2026（原頁原文；未強行換算為香港日期）",
+          "deadline": "",
+          "note": "本輪新發現（歷史記錄按崗位／雇主／ID 排重未發現既往報告），不表示剛發布。核驗日原職位頁仍列出崗位及專屬 Apply now；申請出口公開落地仍顯示同一職位頁，說明需先在 OpenTrain 建立免費帳戶並添加履歷，再到招聘公司網站完成申請。後續招聘公司表單、能否提交、名額、錄用與實際工作量均未確認。",
+          "url": "https://www.opentrain.ai/jobs/team-management-ai-evaluator--cmvktqxp3003i08jucak4b1zj/",
+          "source": "OpenTrain AI 職位原頁及該崗位專屬 Apply now 出口"
+        },
+        {
+          "title": "Real Estate Sales Agent AI Evaluator (English)",
+          "org": "OpenTrain AI（原頁招聘組織；實際招聘公司名稱未披露）",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "原頁明確寫明 Open worldwide / Worldwide；未見與香港資格衝突的國家限制，故按原頁全球開放範圍涵蓋香港。",
+          "location": "Remote · Worldwide · 兼職合同",
+          "pay": "未披露；原頁未列報酬金額或幣種。未披露報酬，不能保證收入。",
+          "requirements": [
+            "兼職承包合同，每週至少投入 20 小時。",
+            "英語達到專業流利程度；具較強溝通、批判思考、推理及解決問題能力。",
+            "至少 4 年房地產銷售代理或經紀業務助理經驗。",
+            "熟悉房地產經紀、交易談判、估值、交易管理及客戶溝通。",
+            "須保護機密、專有、客戶及受 NDA 保護的資訊，只使用適當的非機密專業知識。",
+            "美國房地產市場經驗及有效房地產執照為優先條件（preferred），不是頁面列出的硬性要求。",
+            "既往 AI 訓練經驗非必需。"
+          ],
+          "posted": "Nov 18, 2026（原頁原文；未作時區換算）",
+          "deadline": "",
+          "note": "本輪新發現；不聲稱剛發布。原頁目前仍公開列出職位及 Job ID cmwmk8874001o07jpyzui0y3a，並提供對應專屬 Apply now：https://app.opentrain.ai/api/out/cmwmk8874001o07jpyzui0y3a?ch=www_seo。公開讀取該專屬入口仍返回同一職位詳情；原頁說明先建立 OpenTrain 免費帳戶並添加履歷，再到招聘公司網站完成申請。最終招聘方表單、名額、錄用及實際工作量均未確認。",
+          "url": "https://www.opentrain.ai/jobs/real-estate-brokerage-ai-evaluator--cmwmk8874001o07jpyzui0y3a/",
+          "source": "OpenTrain AI 職位原頁及該職位專屬 Apply now 公開入口"
+        },
+        {
+          "title": "Technical Business Analyst – AI Transformation",
+          "org": "Randstad Hong Kong（招聘客戶未披露）",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "Randstad 原頁明確列 Hong Kong；專屬申請頁顯示 999077 Hong Kong，未見與香港資格衝突的國家限制。",
+          "location": "Hong Kong · 全職合約",
+          "pay": "HK$75,000–HK$90,000／月",
+          "requirements": [
+            "金融服務、保險或風險管理領域，商業分析師、項目經理或 AI 產品經理經驗至少 8 年。",
+            "具敏捷項目管理、待辦事項優先排序、用戶故事撰寫及跨職能迭代交付經驗。",
+            "熟練使用 Python 和 SQL 進行數據探索、原型製作及分析；理解機器學習、LLM／生成式 AI 與數據科學生命週期。",
+            "了解 AWS、Azure 或 GCP 雲架構；具 PoC 評估、流程梳理及高層利益相關方管理經驗。",
+            "計算機科學、定量金融、數據科學或相關定量領域學士或碩士；粵語及英語溝通能力為必需。"
+          ],
+          "posted": "23 october 2026（原頁原文；未作香港時區換算）",
+          "deadline": "2026-12-21",
+          "note": "截至核驗日，Randstad 原職位頁仍公開列出該崗位及 closes 21 December 2026，並有本職位專屬 Apply 連結。專屬 Aplitrak 入口確認申請對象為同一崗位，並提供登入或註冊申請表，要求 CV、姓名、電話及居住國家／地區等資料。客戶身份、名額及最終申請受理情況未確認。",
+          "url": "https://www.randstad.com/jobs/technical-business-analyst-ai-transformation_hong-kong_47647169/",
+          "source": "Randstad 原職位頁；職位專屬 Aplitrak 申請頁：https://www.aplitrak.com/?adid=YWR5c29uLnlhdS4wMTE4Ni41MjY1QHJhbmRzdGFkYXBhYy5hcGxpdHJhay5jb20"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "Upwork Hong Kong SMS data collection",
+          "reason": "要求交付真實私人短信、電話號碼及逐條截圖，涉及敏感私人通信資料採集。"
+        }
+      ]
+    },
     {
       "date": "2026-11-18",
       "summary": "本輪新增核實 2 項原頁明確開放全球（包括香港）的遠程 AI 合約機會；原頁發布日期均標示為 2026-11-17。均按標籤付費但未披露單價或幣種，後續雇主表單、名額及實際任務量未確認。",
