@@ -1,7 +1,84 @@
 {
   "schema": 1,
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "days": [
+    {
+      "date": "2026-11-20",
+      "summary": "11 月 19–20 日主流官方渠道未见新的同日 AI 软件发布；最近的产品更新包括 Gemini Mac 电脑操作、ChatGPT Health 扩展与实时听写。GitHub 日榜关注安全测试技能、网页数据基础设施及应用商店合规和图表设计工具。",
+      "software": [
+        {
+          "title": "Gemini Mac 应用新增 Computer use",
+          "desc": "Gemini 可在独立窗口中跨 Mac 应用和网站完成多步点击、输入与表单操作；用户可实时查看、停止任务，并选择可访问的应用。",
+          "note": "11 月 19 日开始推出；仅英语、美国地区、18 岁以上个人 Google 账号的 Google AI Plus、Pro、Ultra 订阅者可用。遇到登录或付款时会暂停，敏感操作可能要求确认。",
+          "date": "2026-11-19",
+          "url": "https://gemini.google/release-notes/",
+          "source": "Google Gemini 发布说明"
+        },
+        {
+          "title": "ChatGPT Health 扩展至 Android 与桌面端",
+          "desc": "Health 开始扩展到 Android、桌面应用、dots 和 Sites；Android 用户可连接 Health Connect，查看睡眠、活动等数据并获得相关建议。",
+          "note": "11 月 19 日起逐步推出。Health 面向美国 Free、Go、Plus、Pro 用户；dots 目前仅 Pro 可用。连接的医疗记录与 Apple Health 信息及相关对话不会用于训练基础模型或定向广告；仍应谨慎选择要连接的数据。",
+          "date": "2026-11-19",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source": "OpenAI ChatGPT 发布说明"
+        },
+        {
+          "title": "ChatGPT 实时听写取消 10 分钟录音上限",
+          "desc": "Live Dictation 会在用户说话时逐步显示转写文本，并支持切换显示或隐藏文字；录音不再受 10 分钟上限限制。",
+          "note": "11 月 18 日开始向全球所有 ChatGPT 计划推出，覆盖 iOS、Android、网页和桌面应用；逐步开放，账户可能尚未收到。",
+          "date": "2026-11-18",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source": "OpenAI ChatGPT 发布说明"
+        },
+        {
+          "title": "ChatGPT Accounting 插件支持会计工作流",
+          "desc": "可协助核对交易、起草发票分录，并根据记录和模板准备月结报告。",
+          "note": "11 月 18 日更新。需在 macOS 或 Windows 桌面应用中设置 Computer Use 并安装插件；可用性受计划和工作区权限影响，Enterprise 工作区需管理员先批准。",
+          "date": "2026-11-18",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source": "OpenAI ChatGPT 发布说明"
+        },
+        {
+          "title": "Gemini Tasks 在六个国家和地区开始免费开放",
+          "desc": "Tasks 可在后台执行多步骤任务与重复例程，例如整理日程或自动化研究，并在完成时通知用户；该版本运行在 Hydrogen 4 模型上。",
+          "note": "11 月 17 日公布，免费推出地区为美国、印度、加拿大、澳大利亚、日本和韩国，不包括香港；地区、语言和账户可用性以 Google 实际开放为准。",
+          "date": "2026-11-17",
+          "url": "https://gemini.google/release-notes/",
+          "source": "Google Gemini 发布说明"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "elementalsouls/Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "desc": "面向 Claude Code 的漏洞搜寻与外部红队技能包，提供漏洞研究、验证和报告工作流。",
+          "note": "MIT 代码许可；技能内容采用 CC BY 4.0。仅用于自有资产、明确书面授权的测试、漏洞赏金范围或 CTF；不要对未授权目标测试。",
+          "stars_today": 1349
+        },
+        {
+          "repo": "firecrawl/firecrawl",
+          "url": "https://github.com/firecrawl/firecrawl",
+          "desc": "为 AI Agent 提供网页搜索、抓取与转为适合模型读取的内容；支持本地运行和托管云服务。",
+          "note": "主体代码为 AGPL-3.0，部分 SDK/UI 采用 MIT；本地模式需 Rust 和 C 编译器，云搜索等功能会访问外部服务并受额度限制。抓取网站时须遵守 robots.txt、隐私规则和网站条款。",
+          "stars_today": 825
+        },
+        {
+          "repo": "mjmirza/app-store-compliance",
+          "url": "https://github.com/mjmirza/app-store-compliance",
+          "desc": "提供 iOS/Android 应用商店审核清单、拒审问题排查及可接入多种编码 Agent 的提交前检查钩子。",
+          "note": "当前版本使用 OpenRoots Agent License 2.3（ORA 2.3），不是 MIT：个人、非营利、学校、政府及年营收不超过 2,000 万美元的公司可免费使用；超出门槛的公司需按条款付费。",
+          "stars_today": 377
+        },
+        {
+          "repo": "cathrynlavery/diagram-design",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "desc": "适用于多种编码 Agent 的设计技能，可生成架构图、流程图、时间线等 51 种图表的独立 HTML/SVG 文件。",
+          "note": "MIT；可通过 npx skills 安装。项目称无自有服务器或遥测，但提示词由所用 Agent 服务商处理，模板字体可能从 Google Fonts 加载。",
+          "stars_today": 271
+        }
+      ]
+    },
     {
       "date": "2026-11-19",
       "summary": "OpenAI 推出 GPT-6.2 Astra/Sol 和面向销售团队的 ChatGPT for Sales；Codex 也有可将 Mac 工作流程录制为复用技能的功能。Databricks 按计划退役 Gemini 3.6 Flash 并将请求转至 3.8 Flash。GitHub 热榜聚焦 Agent 工程工具、跨平台研究技能、软件 CLI 化和 Stitch 设计 Agent 技能。",
