@@ -1,7 +1,101 @@
 {
   "schema": 1,
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "days": [
+    {
+      "date": "2026-11-20",
+      "summary": "本轮核实到 3 项此前未报告且符合香港地区条件的 AI 相关机会：两项 OpenTrain 全球远端合约及一项 AWS 香港职位。原页发布日期分别为 Nov 19, 2026、Jul 17, 2026，AWS 未披露发布日期；未披露薪酬不视为无偿。",
+      "items": [
+        {
+          "title": "AI Content Writer for Remote AI Training",
+          "org": "OpenTrain AI（最终用工方未披露）",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "原职位页标示 Worldwide，专属申请入口标示 Global - Any Location，包含香港。",
+          "location": "远端；Worldwide",
+          "pay": "US$15–US$16/小時；實際可獲工時與收入未確認。",
+          "requirements": [
+            "入门级，无需既往经验。",
+            "必需：基本智能手机及互联网知识；对 AI 感兴趣并愿意学习新 AI 工具。",
+            "加分/有用：AI 工具、内容写作、在线研究。"
+          ],
+          "posted": "Nov 19, 2026",
+          "deadline": "",
+          "note": "原页专属 Apply now 入口显示 Free to apply / Sign up to apply，需注册或登录后继续；后续表单未核实。最终用工方未披露；录用、派单及实际工时不保证。",
+          "url": "https://www.opentrain.ai/jobs/ai-content-writer-remote-work--cmwn1cahg000008l55ntaq9ou/",
+          "source": "OpenTrain AI"
+        },
+        {
+          "title": "AI Training Content Writer and Analyst",
+          "org": "OpenTrain AI（最终招聘公司未披露）",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "原职位页明确 Worldwide，包含香港。",
+          "location": "远端；Worldwide；兼职合约",
+          "pay": "未披露",
+          "requirements": [
+            "必需：流利英语理解及优秀书面沟通能力。",
+            "必需：分析、研究与批判思维，关注细节和质量。",
+            "必需：能独立工作并遵循详细项目指引；每周20小时以上。",
+            "加分/有帮助：文案、新闻、技术写作、编辑、翻译等专业写作经历。",
+            "欢迎相关学科教育或相关实践经验；LLM训练内容审阅经验与工作相关。"
+          ],
+          "posted": "Jul 17, 2026",
+          "deadline": "",
+          "note": "原页说明先经 OpenTrain 专属 Apply now 创建免费账号并添加简历，再到招聘公司站点完成申请。入口可见；后续招聘方表单未核实。最终招聘公司与任务量未披露。",
+          "url": "https://www.opentrain.ai/jobs/llm-training-content-writer--cmroshm01000009kkd3x98w6b/",
+          "source": "OpenTrain AI"
+        },
+        {
+          "title": "AI Innovation Specialist, Business Development Team",
+          "org": "Amazon Web Services Hong Kong Limited",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "职位原页地点明确为 HKG, Hong Kong。",
+          "location": "HKG, Hong Kong",
+          "pay": "未披露",
+          "requirements": [
+            "必需：学士学位或同等学历。",
+            "必需：制定能够影响组织层级领导决策的策略经验。",
+            "必需：跨职能项目管理、建设流程及协调发布计划经验。",
+            "必需：向业务和技术受众解释复杂技术概念的经验。",
+            "必需：向技术及非技术高管演示的经验。",
+            "优先：6年以上GTM、业务拓展、销售或咨询经验。"
+          ],
+          "posted": "原页未披露发布日期",
+          "deadline": "",
+          "note": "雇主原页提供专属 Apply now；申请页需登录或建立账户，后续表单未核实。",
+          "url": "https://www.amazon.jobs/en/jobs/10574304/ai-innovation-specialist-business-development-team",
+          "source": "Amazon Jobs"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "Enterprise Client Partner, Frontier AI",
+          "reason": "原页列出的52个可申请国家不含香港。https://www.opentrain.ai/jobs/enterprise-client-partner-frontier-ai--cmwmwqqx7005i08jmyn9sg7sg/"
+        },
+        {
+          "title": "Referral Partnerships Lead",
+          "reason": "原页列出的52个可申请国家不含香港。https://www.opentrain.ai/jobs/referral-partnerships-lead--cmwntggad00a408jstpmraqaq/"
+        },
+        {
+          "title": "Strategic Project Lead, MD/Health",
+          "reason": "原页52国名单不含香港，且岗位要求医学学位及相关经验。https://www.opentrain.ai/jobs/health-and-medicine-strategic-project-lead--cmwo7e2bq000g08lfsphrbzae/"
+        },
+        {
+          "title": "AI Trainer / Data Annotator",
+          "reason": "页面虽称223国，具体申请国家名单未见香港，不能推定符合。https://www.opentrain.ai/jobs/ai-trainer-data-annotator--cmwj8izsh000007l57qmr0nht/"
+        },
+        {
+          "title": "OpenTrain Video Annotation Specialist",
+          "reason": "分类页只有搜索列表摘要，未能对应并核实唯一具体职位原页及香港资格。https://www.opentrain.ai/jobs/data-annotation/"
+        },
+        {
+          "title": "OpenTrain PDF Document Annotation",
+          "reason": "分类页卡片标示 Philippines、India，未显示香港。https://www.opentrain.ai/jobs/data-annotation/"
+        }
+      ]
+    },
     {
       "date": "2026-11-19",
       "summary": "共列 5 項香港可申請的機會：包括遠端 AI 評估合約、香港全職 AI 職位，以及要求較高資歷的 AI／技術職位。兩項 OpenTrain 新增機會未披露報酬，不能保證收入；其他報酬依原頁照錄。原頁日期逐項列示，不據此推斷今日發布；申請入口公開可見不代表名額、錄取、派單或收入有保證。",
