@@ -1,7 +1,129 @@
 {
   "schema": 1,
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "days": [
+    {
+      "date": "2026-11-21",
+      "summary": "本輪核實到 5 項涵蓋香港的 AI 相關職位／合約：4 項 OpenTrain 全球遠端合約及 1 項香港 AI 自動化銷售職位。日期按原頁照錄；薪酬未披露不代表無償。",
+      "items": [
+        {
+          "title": "Project Manager, AI Evaluation",
+          "org": "OpenTrain AI（最終招聘公司未披露）",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "原頁明確標示 Remote · Worldwide，涵蓋香港。",
+          "location": "Remote · Worldwide；兼職合約，每週 20 小時以上",
+          "pay": "原頁未披露；不代表無償。",
+          "requirements": [
+            "英語專業流利。",
+            "至少 4 年 Project Manager、Program Coordinator 或 Project Management Specialist 經驗，並具項目管理、工商管理或相關背景。",
+            "熟悉 Jira、Asana、MS Project 及 Agile、Scrum 或 Waterfall 等交付框架。",
+            "具英語溝通、文件撰寫、批判思考及流程解說能力；既往 AI 經驗非必需。",
+            "跨職能團隊領導或複雜技術／科學項目經驗為加分。"
+          ],
+          "posted": "Nov 20, 2026（原頁原文）；結構化時間 2026-11-20T20:14:35.219Z",
+          "deadline": "",
+          "note": "原頁提供專屬 Apply now；頁面說明須先建立免費 OpenTrain 帳戶並加入履歷，再到招聘公司的網站完成申請。申請頁需登入，後續招聘方表單未核實。",
+          "url": "https://www.opentrain.ai/jobs/project-manager-ai-evaluation--cmwpf3w7n001w07jplttgqphd/",
+          "source": "OpenTrain AI"
+        },
+        {
+          "title": "Philosophical Logic Annotator",
+          "org": "OpenTrain AI（最終招聘公司未披露）",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "原頁明確標示 Remote · Worldwide，涵蓋香港。",
+          "location": "Remote · Worldwide；兼職合約約 1 週，每週 20 小時以上、最多 40 小時，須與 Pacific Standard Time 重疊 4 小時",
+          "pay": "原頁未披露；不代表無償。",
+          "requirements": [
+            "哲學、邏輯、形式語義學或密切相關領域博士，或至少 5 年相關專業／研究經驗。",
+            "熟悉形式邏輯、分析哲學、語言哲學或認識論，理解矛盾、一致性、真值條件及不相容性。",
+            "能辨析細微措辭差異並簡明解釋判斷；英文書寫能力佳且注重細節。"
+          ],
+          "posted": "Nov 20, 2026（原頁原文）；結構化時間 2026-11-20T20:14:35.048Z",
+          "deadline": "",
+          "note": "原頁提供專屬 Apply now；須先建立免費 OpenTrain 帳戶並加入履歷，再到招聘方網站完成申請。申請頁需登入，後續招聘方表單未核實。",
+          "url": "https://www.opentrain.ai/jobs/philosophical-logic-annotator--cmwpf3w2w001u07jp1h4gecet/",
+          "source": "OpenTrain AI"
+        },
+        {
+          "title": "Cybersecurity Expert (English) for AI Data Evaluation",
+          "org": "OpenTrain AI（最終招聘公司未披露）",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "原頁明確標示 Remote · Worldwide，涵蓋香港。",
+          "location": "Remote · Worldwide；兼職合約，每週 20 小時以上",
+          "pay": "原頁未披露；不代表無償。",
+          "requirements": [
+            "網絡安全、電腦科學、資訊安全或相關領域學士／碩士。",
+            "具網絡、作業系統、Web 安全、OWASP Top 10、記憶體破壞基礎及認證缺陷知識。",
+            "有使用 LLM 處理技術工作的實務經驗；能讀寫 Python 並熟悉另一種程式語言。",
+            "具技術英文寫作及審慎一致判斷能力；相關經驗可包括實習、研究助理、SOC／IT 安全、CTF 或漏洞賞金等。",
+            "預期熟悉 Burp Suite、Wireshark、Nmap、Ghidra 或 SIEM 等工具。"
+          ],
+          "posted": "Nov 20, 2026（原頁原文）",
+          "deadline": "",
+          "note": "原頁有此職位專屬 Apply now；頁面說明先註冊 OpenTrain 並加入履歷，再前往招聘方網站申請。申請頁需登入，後續招聘方表單未核實。",
+          "url": "https://www.opentrain.ai/jobs/cybersecurity-expert-ai-data-evaluation--cmwpf3vnb001o07jpawbl6vpc/",
+          "source": "OpenTrain AI"
+        },
+        {
+          "title": "Senior Cybersecurity Expert (English)",
+          "org": "OpenTrain AI（最終招聘公司未披露）",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "原頁明確標示 Remote · Worldwide，涵蓋香港。",
+          "location": "Remote · Worldwide；兼職合約，預計 6–12 個月，每週 20 小時以上",
+          "pay": "原頁未披露；不代表無償。",
+          "requirements": [
+            "英語專業流利並具清晰技術寫作能力。",
+            "5–8 年網絡安全實務經驗，可涵蓋安全營運、事件應變、威脅搜尋、應用程式安全、滲透測試、惡意程式分析或雲端安全。",
+            "曾在安全工作中使用 LLM，或參與測試、評估或 AI 訓練。",
+            "能閱讀至少一種程式語言；具技術工作審閱、指導或帶隊經驗。"
+          ],
+          "posted": "Nov 20, 2026（原頁原文）",
+          "deadline": "",
+          "note": "原頁有專屬 Apply now；須先建立免費 OpenTrain 帳戶並加入履歷，再完成未披露招聘方的申請。申請頁需登入，後續招聘方表單未核實。",
+          "url": "https://www.opentrain.ai/jobs/senior-cybersecurity-data-labeling-expert--cmwpf3vgp001m07jp7f2krt5t/",
+          "source": "OpenTrain AI"
+        },
+        {
+          "title": "Tech Sales (AI Automation Tool) – 80k",
+          "org": "Robert Walters 招聘（最終僱主未披露）",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "職位原頁明確標示 Hong Kong。",
+          "location": "香港；Hybrid；全職永久職位",
+          "pay": "HKD 60,000–80,000 per month（原頁單位）",
+          "requirements": [
+            "商業、資訊科技、工程或相關學科本科。",
+            "至少 8 年向香港大型機構銷售企業軟件、IT 方案、AI 平台、自動化方案或顧問服務經驗。",
+            "具持續達成銷售目標、完成複雜企業交易及高階持份者關係經驗；能管理涉及招標、採購、RFP 的多方銷售週期。",
+            "理解 AI、流程自動化、雲端技術及企業系統整合；英語及粵語流利。",
+            "AI、Agentic AI、RPA、Low-Code、BPM 或 IDP 銷售經驗為優先；普通話、香港政府採購招標知識及渠道合作經驗為加分。"
+          ],
+          "posted": "17 November 2026（原頁原文）",
+          "deadline": "2027-01-16",
+          "note": "原頁有職位專屬 Apply 入口，並列出招聘顧問聯絡資料。後續表單及登入要求未核實。",
+          "url": "https://www.robertwalters.com.hk/techtransformation/jobs/aidataanalytics/1921191-tech-sales-ai-automation-tool---80k.html",
+          "source": "Robert Walters"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "AI Model Response Evaluator（OpenTrain）",
+          "reason": "已讀原頁僅稱開放於列出的國家，未確認香港或 Worldwide；不推測符合香港條件。頁面報酬標示 $3 to $6 per hour，但未明示幣種。https://www.opentrain.ai/jobs/ai-model-response-evaluator--cmwp414zt000007jt97l8l06q/"
+        },
+        {
+          "title": "Data Analytics & Strategy Lead（Robert Walters）",
+          "reason": "已讀分類頁雖列日期及香港，但未取得具體職位詳情原頁，未能核實職責、AI 關聯及申請資料。https://www.robertwalters.com.hk/expertise/technology-and-transformation/ai-data-jobs.html"
+        },
+        {
+          "title": "Robert Walters AI/Data 職位分類頁其他線索",
+          "reason": "已讀分類頁中的 Head of Enterprise Data Management & Analytics 未證實屬 AI 機會；AM/Manager Data Governance & Analytics 頁面摘要日期為 3 November；RAD Developer (AI, Python, SQL) 顯示 30 October。未有足夠的本輪具體職位原頁核驗，不列入。https://www.robertwalters.com.hk/expertise/technology-and-transformation/ai-data-jobs.html"
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "summary": "本轮核实到 3 项此前未报告且符合香港地区条件的 AI 相关机会：两项 OpenTrain 全球远端合约及一项 AWS 香港职位。原页发布日期分别为 Nov 19, 2026、Jul 17, 2026，AWS 未披露发布日期；未披露薪酬不视为无偿。",
