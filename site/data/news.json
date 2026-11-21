@@ -1,7 +1,68 @@
 {
   "schema": 1,
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "days": [
+    {
+      "date": "2026-11-21",
+      "summary": "ChatGPT Space 向年满 18 岁的 Plus 用户全球逐步开放，可协作制作互动页面与演示并结合已连接应用更新；Lovable 为应用内 AI 功能增加 GPT-6.2 Astra/Sol。GitHub 今日榜单关注 AutoClip、MiniMind、AFFiNE 与 OpenSRE。",
+      "software": [
+        {
+          "title": "ChatGPT Space 开始向 Plus 用户开放",
+          "desc": "Space 可用 ChatGPT 创建互动页面和演示文稿，并邀请有访问权限的人协作；页面和幻灯片还可根据已连接的应用与工具自动更新。",
+          "note": "11 月 20 日开始全球逐步向年满 18 岁的 Plus 用户推出。查看共享内容需要相应权限及具备 Space 访问权的 Plus、Pro、Business 或 Enterprise 账号；Free 用户不能打开共享页面，且暂不支持公开链接。",
+          "date": "2026-11-20",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source": "OpenAI ChatGPT 发布说明"
+        },
+        {
+          "title": "Lovable 为应用内 AI 增加 GPT-6.2 Astra 与 Sol",
+          "desc": "在 Lovable 构建的应用中，AI 功能可选择 GPT-6.2 Astra（复杂推理、编程、研究与文档）或 GPT-6.2 Sol（日常推理、编程及专业工作）；两者均接受文字和图片输入并以文字回复。",
+          "note": "11 月 20 日更新，指的是 Lovable 所建应用内的 AI 功能模型选项，不是 Lovable 建站 Agent 本身换模；Astra 定位为较 GPT-6 Astra 更低成本的复杂任务模型。",
+          "date": "2026-11-20",
+          "url": "https://docs.lovable.dev/changelog",
+          "source": "Lovable 官方更新日志"
+        },
+        {
+          "title": "ChatGPT 手机端推出新版导航体验",
+          "desc": "新版 iOS/Android 应用将 Home 与 Explore 分开；用户可把 Codex、Projects、Images 等常用工具固定到标签栏，dot 也有独立标签页。",
+          "note": "11 月 19 日开始逐步开放，首批面向 dot 已开放地区的 18 岁以上 Pro 用户，少量符合条件的 Plus 用户也可见；不包括欧洲经济区、英国、瑞士和韩国，设备与账号是否获批仍取决于分阶段推出。",
+          "date": "2026-11-19",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source": "OpenAI ChatGPT 发布说明"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "zhouxiaoka/autoclip",
+          "url": "https://github.com/zhouxiaoka/autoclip",
+          "desc": "开源 AI 视频剪辑工具，可把播客、访谈或课程等长视频剪成适配短视频平台的片段，并生成字幕、封面和发布文案。",
+          "note": "MIT；macOS Apple Silicon 与 Windows x64 提供桌面版，Linux 可用 Docker/CLI。剪辑和渲染在本机完成；云端分析、转写或生图可能按所选服务商计费并发送相应内容。",
+          "stars_today": 979
+        },
+        {
+          "repo": "jingyaogong/minimind",
+          "url": "https://github.com/jingyaogong/minimind",
+          "desc": "从零训练约 64M 参数小语言模型的教学项目，提供预训练、微调、偏好优化和 Agent 训练等完整代码。",
+          "note": "Apache-2.0；README 所称约 2 小时仅指单张 NVIDIA 3090 上完成一个 epoch 的 SFT 阶段，不代表完整训练过程。",
+          "stars_today": 847
+        },
+        {
+          "repo": "toeverything/AFFiNE",
+          "url": "https://github.com/toeverything/AFFiNE",
+          "desc": "可自托管的本地优先知识工作空间，把文档、白板、表格和演示等整合在同一画布，并提供 AI 辅助能力。",
+          "note": "当前可用的社区版为 MIT 许可；项目还提到尚未发布的企业版。",
+          "stars_today": 676
+        },
+        {
+          "repo": "Tracer-Cloud/opensre",
+          "url": "https://github.com/Tracer-Cloud/opensre",
+          "desc": "面向 CI/CD 的开源 SRE 命令行 Agent，可分析失败运行和日志、追查原因，并提出供团队审阅的修复。",
+          "note": "Apache-2.0；目前处于 Public Alpha，接口和集成仍可能变化。初次启动需登录；自托管部署需自行配置模型服务。",
+          "stars_today": 466
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "summary": "11 月 19–20 日主流官方渠道未见新的同日 AI 软件发布；最近的产品更新包括 Gemini Mac 电脑操作、ChatGPT Health 扩展与实时听写。GitHub 日榜关注安全测试技能、网页数据基础设施及应用商店合规和图表设计工具。",
