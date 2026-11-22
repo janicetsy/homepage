@@ -37,7 +37,7 @@
           "repo": "elementalsouls/Claude-BugHunter",
           "url": "https://github.com/elementalsouls/Claude-BugHunter",
           "desc": "面向 Claude Code 等编码 Agent 的安全测试技能包，整理漏洞赏金与外部红队工作流，涵盖侦察、漏洞验证、分级与报告。",
-          "note": "MIT；README 还提供多种 Agent harness 的安装方式。只应在明确授权的资产或训练环境中测试；自动化发现不等于已确认漏洞。",
+          "note": "代码采用 MIT；技能内容另见 CC BY 4.0 内容许可，转载需按许可署名。README 提供多种 Agent harness 的安装方式；只应在明确授权的资产或训练环境中测试。",
           "stars_today": 1803
         },
         {
