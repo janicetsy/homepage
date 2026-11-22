@@ -1,7 +1,68 @@
 {
   "schema": 1,
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "days": [
+    {
+      "date": "2026-11-22",
+      "summary": "所核对的官方发布页中，11 月 21—22 日未见明确的新产品发布；最近的 Claude 更新为 11 月 20 日的 Computer use（Team/Enterprise beta）及 iOS 移动端改版，微软 Copilot 最新发布说明批次更新至 11 月 17 日。GitHub 今日热门项目包括 Claude-BugHunter、Firecrawl、superpowers 与 Ghost Downloader。",
+      "software": [
+        {
+          "title": "Claude Computer use Beta 向 Team 与 Enterprise 推出",
+          "desc": "Claude 可查看屏幕，并在用户允许的桌面应用中点击和输入；管理员可按组织、角色及应用启用或限制访问。适用于新的 Claude 桌面体验，也可在开启 Computer access 后从 Web 或移动端使用。",
+          "note": "11 月 20 日更新，分批开放且默认关闭；仅 Team/Enterprise，需开启 Chat and Cowork unified。桌面端要求 macOS 14+ 或 Windows；Web/移动端还需一台已打开 Claude Desktop 的电脑。截图会保存在对话中，且此功能与应用之间没有沙箱隔离，可能接触或修改允许应用中的敏感内容；启用前应检查管理员的应用访问范围。",
+          "date": "2026-11-20",
+          "url": "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans",
+          "source": "Claude 官方帮助中心"
+        },
+        {
+          "title": "Claude Mobile 开始更新 iOS 版外观",
+          "desc": "Claude 手机应用开始推出新版界面；聊天、Projects 和订阅方案维持不变，无需手动设置。",
+          "note": "11 月 20 日开始分批推出，先从 iOS 开始，要求 iOS 26 或更高版本；Android 是否及何时推出未在该更新中说明。",
+          "date": "2026-11-20",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes",
+          "source": "Claude 官方应用发布说明"
+        },
+        {
+          "title": "Microsoft 365 Copilot Agent Builder 可引用 SharePoint 列表",
+          "desc": "创建的 Copilot Agent 现在可把一个 SharePoint 列表作为知识来源，与其他来源一起用于回答结构化数据问题；每个 Agent 的列表最多可含 20,000 个项目。",
+          "note": "微软 11 月 17 日发布说明批次涵盖 11 月 3—17 日，未单独标明此功能的具体上线日；附件和 lookup 列暂不支持，实际可用性取决于组织部署与权限。",
+          "date": "2026-11-17",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes",
+          "source": "Microsoft 365 Copilot 官方发布说明"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "elementalsouls/Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "desc": "面向 Claude Code 等编码 Agent 的安全测试技能包，整理漏洞赏金与外部红队工作流，涵盖侦察、漏洞验证、分级与报告。",
+          "note": "MIT；README 还提供多种 Agent harness 的安装方式。只应在明确授权的资产或训练环境中测试；自动化发现不等于已确认漏洞。",
+          "stars_today": 1803
+        },
+        {
+          "repo": "firecrawl/firecrawl",
+          "url": "https://github.com/firecrawl/firecrawl",
+          "desc": "将网站抓取、爬取和映射成适合 LLM 使用的 Markdown/结构化数据，并提供本地工具、API 与 Agent/MCP 集成。",
+          "note": "核心项目为 AGPL-3.0，部分 SDK/UI 组件另用 MIT。部分功能会调用 Firecrawl Cloud，可能受账号与用量限制；遵守网站 robots.txt、服务条款及隐私要求。",
+          "stars_today": 1006
+        },
+        {
+          "repo": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "desc": "为多种编码 Agent 提供软件开发工作流技能，包括先澄清需求、设计与计划、测试驱动开发、并行执行和代码审查。",
+          "note": "MIT；可接入多个 Agent 环境，安装后会影响 Agent 的工作方式。建议先审阅所安装的技能，并在受控分支中验证自动化改动。",
+          "stars_today": 883
+        },
+        {
+          "repo": "XiaoYouChR/Ghost-Downloader-3",
+          "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+          "desc": "跨平台下载器，支持 HTTP、BT、FTP、M3U8/DASH 等协议，并整合 YouTube、Bilibili 等来源的下载与浏览器扩展功能。",
+          "note": "GPL-3.0；提供 Windows 10+、macOS 13+、Linux 和 Android 9+ 版本，较新 Qt 版本要求 CPU 支持 AVX。下载内容前应确认版权与来源网站规则。",
+          "stars_today": 779
+        }
+      ]
+    },
     {
       "date": "2026-11-21",
       "summary": "ChatGPT Space 向年满 18 岁的 Plus 用户全球逐步开放，可协作制作互动页面与演示并结合已连接应用更新；Lovable 为应用内 AI 功能增加 GPT-6.2 Astra/Sol。GitHub 今日榜单关注 AutoClip、MiniMind、AFFiNE 与 OpenSRE。",
