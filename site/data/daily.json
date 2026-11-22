@@ -1,7 +1,90 @@
 {
   "schema": 1,
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "days": [
+    {
+      "date": "2026-11-22",
+      "summary": "本輪核實到 4 項香港可申請或明確全球開放的 AI 職位／項目：OpenTrain 全球遠程評估合約、Siemens 與 Zeal Group 香港職位，以及 Freelancer 全球遠程建置項目。薪酬未披露的職位仍列出；申請後續流程未核實之處已註明。",
+      "items": [
+        {
+          "title": "Question Answer Evaluation Contributor",
+          "org": "OpenTrain AI（最終招聘方未披露）",
+          "category": "remote",
+          "hk": "yes",
+          "hk_note": "原頁標示 Remote · Worldwide，專案頁要求地點為 Global - Any Location，包含香港。",
+          "location": "遠程 · 全球；合約",
+          "pay": "USD $7–$20／小時；工作時數與任務派發不保證",
+          "requirements": [
+            "Intermediate 經驗程度；原頁未披露更具體資格要求。",
+            "評閱問題及可選答案，選擇認為正確的回答並提供依據／推理，評定答案正確性與品質。"
+          ],
+          "posted": "Nov 21, 2026（原頁文字）",
+          "deadline": "2026-12-21",
+          "note": "專屬 Apply now 連結導向匹配的 OpenTrain 專案頁。OpenTrain 說明申請者需建立免費帳戶、加入履歷，再完成職位申請；專案頁顯示「Sign up to apply」。後續表單步驟及提交狀態未核實。有效期限取自原頁 JobPosting 結構化資料。",
+          "url": "https://www.opentrain.ai/jobs/question-answer-evaluation-contributor--cmwq31i9j000008jpqs54o4dr/",
+          "source": "OpenTrain"
+        },
+        {
+          "title": "AI Engineer - Digital Development Centre",
+          "org": "Siemens",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "職位卡片及詳情標示 Hong Kong, Hong Kong SAR；頁首另出現 Florence, MS，地點資訊有衝突。",
+          "location": "香港；全職",
+          "pay": "未披露",
+          "requirements": [
+            "電腦科學、人工智慧、數據科學、工程或相關領域學士／碩士；軟體、數據或 AI 開發最多 3 年經驗，應屆畢業生可憑相關專案、實習、研究或作品集申請。",
+            "需具 Python、物件導向程式設計、除錯及基礎軟體測試能力；了解 LLM、API、提示工程、嵌入與 RAG；具 Git 經驗及英文溝通能力。",
+            "加分項包括 AI 框架、向量資料庫、雲端平台、Docker、模型評估／監控，以及粵語和／或普通話等。"
+          ],
+          "posted": "查看時顯示 1 day ago",
+          "deadline": "",
+          "note": "LinkedIn 原頁顯示職位專屬 Apply 按鈕；按鈕目標連結及後續申請表單／流程未核實。",
+          "url": "https://hk.linkedin.com/jobs/view/ai-engineer-digital-development-centre-at-siemens-4484552051",
+          "source": "LinkedIn"
+        },
+        {
+          "title": "AI Client Experience Manager",
+          "org": "Zeal Group",
+          "category": "job",
+          "hk": "yes",
+          "hk_note": "原始 LinkedIn 職位詳情標示 Hong Kong, Hong Kong SAR。",
+          "location": "香港；全職；Mid-Senior",
+          "pay": "未披露",
+          "requirements": [
+            "至少 4 年客戶體驗、服務營運、對話式 AI、聊天機器人管理、CX 技術或客服自動化相關經驗。",
+            "需有 AI 聊天機器人、虛擬助理或 LLM 客服方案實作經驗，理解客服流程、自助服務及升級路徑。",
+            "熟悉 Zendesk、Intercom、Freshdesk、Salesforce Service Cloud 等客服平台之一；能把業務需求轉化為 AI 用例及可衡量的服務改善。",
+            "SQL、Python 或自動化工具經驗為加分。"
+          ],
+          "posted": "查看時顯示 1 day ago",
+          "deadline": "",
+          "note": "LinkedIn 原頁顯示職位專屬 Apply 按鈕；按鈕目標連結及後續申請流程未核實。",
+          "url": "https://hk.linkedin.com/jobs/view/ai-client-experience-manager-at-zeal-group-4432228780",
+          "source": "LinkedIn"
+        },
+        {
+          "title": "Founding Engineer for AI Construction SaaS",
+          "org": "Freelancer 專案（客戶及最終雇主未披露）",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "原頁明確寫 Remote contract, open worldwide；需至少 4 小時與澳洲 AEST 工作時段重疊。",
+          "location": "遠程合約 · 全球開放；需與澳洲工作時段重疊至少 4 小時",
+          "pay": "AUD 10,000–20,000；按約定里程碑付款，原頁標示 Paid on delivery；非時薪，不保證獲選或收入",
+          "requirements": [
+            "需具圖紙／PDF／CAD 電腦視覺測量與標註、企業級多租戶 SaaS、Document AI 及 AI agents／助理相關經驗。",
+            "需能交付可離線 iOS／Android 應用、Microsoft 365／Graph 與其他 API 整合、PDF 產生與標註，以及 Azure 或 AWS 雲端權限與安全部署。",
+            "申請材料包括測量軟體示範及準確度、相關 SaaS／應用作品與個人貢獻說明、作品集（如有）及兩位經理或客戶推薦人；入圍後需簽保密協議並現場示範。"
+          ],
+          "posted": "原頁文字：Posted 4 days ago",
+          "deadline": "",
+          "note": "原頁顯示 Open、191 proposals 及 Place your bid／Bid on the project 表單，含 AUD 報價與電子郵件欄位；頁面寫 Ends in 3 days，但未提供可核實的絕對日期，這不是交付期限。後續表單／客戶流程未核實。",
+          "url": "https://www.freelancer.com/projects/ai-development/founding-engineer-for-construction-saas",
+          "source": "Freelancer"
+        }
+      ],
+      "excluded": []
+    },
     {
       "date": "2026-11-21",
       "summary": "本輪核實到 5 項涵蓋香港的 AI 相關職位／合約：4 項 OpenTrain 全球遠端合約及 1 項香港 AI 自動化銷售職位。日期按原頁照錄；薪酬未披露不代表無償。",
