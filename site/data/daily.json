@@ -1,7 +1,64 @@
 {
   "schema": 1,
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "days": [
+    {
+      "date": "2026-11-23",
+      "summary": "本輪新發現並核實 2 項 OpenTrain 全球遠端 AI 合約，原頁明確開放 Worldwide；最終招聘方和後續申請表尚未確認。",
+      "items": [
+        {
+          "title": "AI Task Contributor",
+          "org": "OpenTrain AI（最終招聘方未披露）",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "原始職位頁標示 Worldwide，專屬申請頁標示 Global - Any Location，涵蓋香港。",
+          "location": "Remote · Worldwide；兼職承包，每週少於 20 小時",
+          "pay": "$15–$25 USD/hr，按完成任務付費；任務量、工時及收入不保證。",
+          "requirements": [
+            "Entry level，無需以往經驗；需有手機或電腦及互聯網。",
+            "工作包括數據錄入、圖像標註、文本檢查、基礎內容審閱及分類、評價 AI 回答和撰寫提示回覆。"
+          ],
+          "posted": "Nov 22, 2026（原頁原始文字）",
+          "deadline": "",
+          "note": "職位專屬 Apply now 入口顯示 Sign up to apply；原頁說明需建立免費帳號並添加履歷。職位與入口仍在公開展示，後續申請表單與實際招聘流程未核實；原頁未明確列出申請截止日。",
+          "url": "https://www.opentrain.ai/jobs/remote-ai-task-contributor--cmws9q70w000008jo3v49l1yj/",
+          "source": "OpenTrain AI"
+        },
+        {
+          "title": "AI Content Creator",
+          "org": "OpenTrain AI（最終招聘方未披露）",
+          "category": "freelance",
+          "hk": "yes",
+          "hk_note": "原始職位頁明確標示 Worldwide／open worldwide；專屬申請頁標示 Global - Any Location，香港符合公開地區條件。",
+          "location": "Remote · Worldwide · 兼職承包，每週少於 20 小時",
+          "pay": "$40 USD fixed price；原頁未披露交付範圍，不折算時薪或估算收入。",
+          "requirements": [
+            "Entry level，歡迎初學者。",
+            "要求基礎 AI 工具知識、影片剪輯能力、創意和細心。",
+            "工作包括製作短影片、使用 AI 工具生成圖像／影片／腳本／創意、剪輯、研究熱門話題並維持穩定內容產出。"
+          ],
+          "posted": "Nov 22, 2026（原頁原始文字）",
+          "deadline": "",
+          "note": "職位專屬 Apply now 入口前往 OpenTrain 申請頁，頁面顯示 Sign up to apply，並說明建立免費帳號、添加履歷後完成申請。職位及入口仍在公開展示；後續表單與實際招聘流程未核實。原頁未明確列出申請截止日期。",
+          "url": "https://www.opentrain.ai/jobs/ai-content-creator--cmwrcio56000008l1358fpsp3/",
+          "source": "OpenTrain AI"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "Community Manager",
+          "reason": "已讀原頁列出 52 個國家，名單不含 Hong Kong，不能據 Remote 推斷香港適用。https://www.opentrain.ai/jobs/community-manager--cmwsh4w5x003708l0w7dzxj3w/"
+        },
+        {
+          "title": "Sales Operations and Business Analytics Specialist",
+          "reason": "已讀原頁列出 52 個國家，名單不含 Hong Kong；不列為香港可申請機會。https://www.opentrain.ai/jobs/sales-operations-and-business-analytics-specialist--cmwr3uy3u003208lajrsvqa4q/"
+        },
+        {
+          "title": "Psychiatrist (Mental Health AI Evaluation)",
+          "reason": "已讀原頁明示 United States only，不符合香港地區條件。https://www.opentrain.ai/jobs/psychiatric-ai-evaluation-expert--cmwskwsjt007b08jytjfmqmk1/"
+        }
+      ]
+    },
     {
       "date": "2026-11-22",
       "summary": "本輪核實到 4 項香港可申請或明確全球開放的 AI 職位／項目：OpenTrain 全球遠程評估合約、Siemens 與 Zeal Group 香港職位，以及 Freelancer 全球遠程建置項目。薪酬未披露的職位仍列出；申請後續流程未核實之處已註明。",
