@@ -1,7 +1,68 @@
 {
   "schema": 1,
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "days": [
+    {
+      "date": "2026-11-23",
+      "summary": "11 月 21—23 日核对的 OpenAI、Claude、Gemini 与 Microsoft 365 Copilot 官方发布说明中未见更新日期落在这三天的新条目；近期值得留意的是 Google Gemini 4 Neon 与 Mac 版 Computer use，以及 Microsoft Ignite 发布的 MAI 模型系列。GitHub Trending 今日较受关注的新项目包括 CLI-Anything、last30days-skill、App Store Compliance 与 diagram-design。",
+      "software": [
+        {
+          "title": "Google 推出 Gemini 4 Neon，主打高频复杂任务",
+          "desc": "Gemini 4 Neon 面向复杂编程、分析、知识工作和科学任务，支持多模态输入与 100 万 token 上下文。Google 表示它兼顾推理能力、响应速度和成本；Gemini API 已可用，面向消费者的 Gemini App 则向 Pro/Ultra 订阅者开放。",
+          "note": "Google 于 11 月 18 日发布。API 按量计费，公布价格为每百万输入 token 3 美元、输出 token 15 美元；Gemini App 需 Google AI Pro 或 Ultra。所引性能比较为 Google 公布的基准测试结果。",
+          "date": "2026-11-18",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "source": "Google 官方博客"
+        },
+        {
+          "title": "Gemini Mac 应用加入 Computer use",
+          "desc": "Gemini 可以在独立窗口中跨 Mac 应用和网页执行多步点击、输入与填写表单；用户可查看实时预览、随时停止并选择允许访问的应用。遇到登录或付款时会暂停。",
+          "note": "11 月 19 日开始推出；目前限美国、英语、18 岁以上的个人 Google 账号，并要求 Google AI Plus、Pro 或 Ultra 订阅。敏感操作可能要求确认。",
+          "date": "2026-11-19",
+          "url": "https://gemini.google/release-notes/",
+          "source": "Google Gemini 官方发布说明"
+        },
+        {
+          "title": "Microsoft Ignite 发布七款 MAI 模型",
+          "desc": "微软公布涵盖编码、图像编辑、实时语音、网络安全、决策与转录的 MAI 模型系列。其中 MAI Code 2 面向日常企业编程，Code 2 Flash 面向高频代码解释、定点修改和常规修复。",
+          "note": "11 月 17 日发布。MAI Code 2 与 Code 2 Flash 可在 GitHub Copilot 使用；Code 2 Flash 在 Microsoft Foundry 为有限访问预览。微软公布的性能/价格比较依赖其测试配置，部分价格比较使用促销价；不同模型的可用渠道各异。",
+          "date": "2026-11-17",
+          "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+          "source": "Microsoft AI 官方博客"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "HKUDS/CLI-Anything",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "desc": "为桌面及专业软件生成命令行适配层，让 AI 编码 Agent 能通过结构化命令调用 Blender、GIMP、LibreOffice 等真实应用；也提供社区 CLI 安装与管理工具。",
+          "note": "Apache-2.0；生成新适配层需 Python 3.10+ 和兼容的 AI 编码 Agent，所调用的软件可能需另行安装。生成的命令会操作实际应用，使用前应审阅并验证。",
+          "stars_today": 699
+        },
+        {
+          "repo": "mvanhorn/last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "desc": "为 AI Agent 提供近 30 天主题研究，可汇总 Reddit、X、YouTube、Hacker News、GitHub 等来源并生成带来源的简报。",
+          "note": "MIT；README 称 Reddit、Hacker News、GitHub 等可零配置使用；X、YouTube、TikTok 等其他来源可能需要 API 密钥、登录会话或额外配置。",
+          "stars_today": 668
+        },
+        {
+          "repo": "mjmirza/app-store-compliance",
+          "url": "https://github.com/mjmirza/app-store-compliance",
+          "desc": "面向 iOS 与 Android 上架前检查的开源手册与本地扫描器，整理拒审模式，并检查隐私清单、Google Play Data safety 等项目。",
+          "note": "作者称含 124 种拒审模式；扫描器不会改动项目文件，也不保证审核通过，部分账户和商店页面检查仍需人工完成。当前许可为 OpenRoots Agent License 2.3，含按营收分层的条款及 AI 训练限制，使用前请阅读许可。",
+          "stars_today": 621
+        },
+        {
+          "repo": "cathrynlavery/diagram-design",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "desc": "适用于多种编码 Agent 的图表设计技能，可按品牌样式生成独立 HTML+SVG 图，覆盖架构图、流程图、时序图和矩阵等类型。",
+          "note": "MIT；需安装兼容 Agent Skills 的宿主，或使用对应插件。README 说明其网络访问和隐私行为，安装前可先查阅 PRIVACY.md。",
+          "stars_today": 518
+        }
+      ]
+    },
     {
       "date": "2026-11-22",
       "summary": "所核对的官方发布页中，11 月 21—22 日未见明确的新产品发布；最近的 Claude 更新为 11 月 20 日的 Computer use（Team/Enterprise beta）及 iOS 移动端改版，微软 Copilot 最新发布说明批次更新至 11 月 17 日。GitHub 今日热门项目包括 Claude-BugHunter、Firecrawl、superpowers 与 Ghost Downloader。",
