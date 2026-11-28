@@ -1,7 +1,61 @@
 {
   "schema": 1,
-  "updated": "2026-11-23",
+  "updated": "2026-11-28",
   "days": [
+    {
+      "date": "2026-11-28",
+      "summary": "今日核实到 3 项 11 月 24 日的 AI 软件更新：Codex CLI 0.172.0 增强终端导航与审批设置；Claude 月度回顾结束 Beta 并增加 Claude Code/Cowork 活动；Claude Artifact 可安装为桌面应用（Beta）。GitHub Trending 去重后收录 Cursor 插件仓库、OpenVINO 与 NGINX。",
+      "software": [
+        {
+          "title": "Codex CLI 0.172.0 增加终端导航与工具审批选项",
+          "desc": "可从搜索结果和转录记录打开已保存对话或嵌套 Agent；支持 Tab 补全部分斜杠命令参数、在 Agent command center 切换任务组，并为已连接应用工具指定审批审查者。",
+          "note": "官方日志标注版本日期为 2026-11-24，可通过 npm install -g @openai/codex@0.172.0 安装。可选 stdio MCP 服务器若缓存工具列表，默认在首次工具调用时启动；app-server 客户端可在设置或登录时选择 Amazon Bedrock Runtime。模型/API 费用及 Bedrock 可用性取决于对应服务商与账户条件。",
+          "date": "2026-11-24",
+          "url": "https://developers.openai.com/codex/changelog/",
+          "source": "OpenAI 官方 Codex 更新日志"
+        },
+        {
+          "title": "Claude 月度回顾结束 Beta，支持纳入 Claude Code 与 Cowork 活动",
+          "desc": "Settings 中的 Reflect 月度回顾结束测试版，可汇总用户与 Claude 的月度互动；现可参考 Claude Code 会话及云端 Claude Cowork 任务，也可从回顾页面删除已存储回顾。",
+          "note": "官方发布说明日期为 2026-11-24。适用于 Free、Pro、Max、Ultra 计划及 Claude 网页版、桌面版和 iOS/Android 应用；公告未列地区限制或额外费用。",
+          "date": "2026-11-24",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes",
+          "source": "Claude 官方发布说明"
+        },
+        {
+          "title": "Claude 生成的 Artifact 可安装为桌面应用（Beta）",
+          "desc": "用户可将 Claude 创建的 Artifact 安装到 Mac 或 Windows 电脑，以独立窗口和图标启动。",
+          "note": "官方发布说明日期为 2026-11-24，功能仍为 Beta。公告未注明具体计划、地区或收费条件；安装后的 Artifact 可能与操作系统交互，安装前应了解其所需权限及行为。",
+          "date": "2026-11-24",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes",
+          "source": "Claude 官方发布说明"
+        }
+      ],
+      "github_source": "https://github.com/trending?since=daily",
+      "github": [
+        {
+          "repo": "cursor/plugins",
+          "url": "https://github.com/cursor/plugins",
+          "desc": "Cursor 官方插件仓库，提供面向开发工具、框架和 SaaS 的独立插件，包含技能、规则与 MCP 集成。",
+          "note": "README 标注 MIT。插件的功能、依赖和权限各不相同；启用前应逐项查看说明、MCP 配置和所需凭据，仓库没有对所有插件作统一的只读或隐私保证。",
+          "stars_today": 243
+        },
+        {
+          "repo": "openvinotoolkit/openvino",
+          "url": "https://github.com/openvinotoolkit/openvino",
+          "desc": "用于优化和部署 AI 推理的开源工具包，可转换、编译多种框架训练的模型，并在兼容设备上运行。",
+          "note": "Apache-2.0；提供 pip 安装方式。README列出 CPU、Intel GPU 与 NPU 等目标设备；具体支持取决于系统、硬件、模型和框架兼容性。",
+          "stars_today": 151
+        },
+        {
+          "repo": "nginx/nginx",
+          "url": "https://github.com/nginx/nginx",
+          "desc": "开源 Web 服务器、高性能负载均衡器、反向代理、API 网关和内容缓存。",
+          "note": "BSD-2-Clause。源码构建需按功能安装依赖；启用 TLS 还需 OpenSSL 开发库。部署时应遵循官方 HTTPS 安全配置指南并及时安装安全修复。",
+          "stars_today": 146
+        }
+      ]
+    },
     {
       "date": "2026-11-23",
       "summary": "11 月 21—23 日核对的 OpenAI、Claude、Gemini 与 Microsoft 365 Copilot 官方发布说明中未见更新日期落在这三天的新条目；近期值得留意的是 Google Gemini 4 Neon 与 Mac 版 Computer use，以及 Microsoft Ignite 发布的 MAI 模型系列。GitHub Trending 今日较受关注的新项目包括 CLI-Anything、last30days-skill、App Store Compliance 与 diagram-design。",
